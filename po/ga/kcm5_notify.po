@@ -1,0 +1,99 @@
+# translation of kcmnotify.po to Irish
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002
+# Kevin Scannell <kscanne@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0beta1\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#: knotify.cpp:57
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Notifications</h1>KDE allows for a great deal of control over "
+#| "how you will be notified when certain events occur. There are several "
+#| "choices as to how you are notified:<ul><li>As the application was "
+#| "originally designed.</li><li>With a beep or other noise.</li><li>Via a "
+#| "popup dialog box with additional information.</li><li>By recording the "
+#| "event in a logfile without any additional visual or audible alert.</li></"
+#| "ul>"
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>Fógairt an Chórais</h1>Cuireann KDE thú i gceannas ar conas a chuirfear "
+"in iúl duit nuair a tharlaíonn teagmhais áirithe.  Tá na roghanna seo a "
+"leanas agat:<ul><li>Trí scéim fhógartha an fheidhmchláir féin.</li><li>Trí "
+"bíp nó torann eile a sheinm.</li><li>Trí preabfhuinneog ina bhfuil faisnéis "
+"bhreise a thaispeáint.</li><li>Trí an teagmhas a thaifeadadh i logchomhad "
+"gan aon fhógairt infheicthe nó inchloiste eile.</li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "Foinse an teagmhais:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr ""
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "Modúl Rialaithe um Fhógairt an Chórais"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "© 2002-2006 KDE Team"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "Bunfheidhmiú"

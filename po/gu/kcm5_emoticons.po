@@ -1,0 +1,259 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pragnesh Radadiya <pg.radadia@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_emoticons\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-04 03:29+0100\n"
+"PO-Revision-Date: 2009-05-10 10:50+0530\n"
+"Last-Translator: Kartik Mistry <kartik.mistry@gmail.com>\n"
+"Language-Team: Gujarati <kde-i18n-doc@lists.kde.org>\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Pragnesh Radadiya, કાર્તિક મિસ્ત્રી"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pg.radadia@gmail.com, kartik.mistry@gmail.com"
+
+#: emoticonslist.cpp:71
+#, kde-format
+msgid ""
+"Insert the string for the emoticon.  If you want multiple strings, separate "
+"them by spaces."
+msgstr ""
+"લાગણીચિહ્નો માટે વાક્ય દાખલ કરો.  જો તમારે અનેક વાક્યો જોઇતા હોય તો, તેને ખાલી જગ્યાઓ "
+"વડે જુદા પાડો."
+
+#: emoticonslist.cpp:111
+#, kde-format
+msgid "Emoticons"
+msgstr "લાગણીચિહ્નો"
+
+#: emoticonslist.cpp:255
+#, kde-format
+msgid "Drag or Type Emoticon Theme URL"
+msgstr "લાગણીચિહ્ન થીમ URL મૂકો અથવા લખો"
+
+#: emoticonslist.cpp:260
+#, kde-format
+msgid "Emoticon themes must be installed from local files."
+msgstr "લાગણીચિહ્ન થીંમો સ્થાનિક ફાઇલોમાંથી જ સ્થાપિત કરો"
+
+#: emoticonslist.cpp:261
+#, kde-format
+msgid "Could Not Install Emoticon Theme"
+msgstr "લાગણીચિહ્ન થીમ સ્થાપિત કરી શકયા નથી"
+
+#: emoticonslist.cpp:279
+#, kde-format
+msgid "Do you want to remove %1 too?"
+msgstr "શું તમે %1 ને પણ દૂર કરવા માંગો છો?"
+
+#: emoticonslist.cpp:279
+#, kde-format
+msgid "Delete emoticon"
+msgstr "લાગણીચિહ્ન કાઢી નાખો"
+
+#: emoticonslist.cpp:295
+#, kde-format
+msgid "Add Emoticon"
+msgstr "લાગણીચિહ્ન ઉમેરો"
+
+#: emoticonslist.cpp:319
+#, kde-format
+msgid "Edit Emoticon"
+msgstr "લાગણીચિહ્ન ફેરફાર કરો"
+
+#: emoticonslist.cpp:365 emoticonslist.cpp:389
+#, kde-format
+msgid "New Emoticon Theme"
+msgstr "નવી લાગણીચિહ્ન થીમ"
+
+#: emoticonslist.cpp:365
+#, kde-format
+msgid "Enter the name of the new emoticon theme:"
+msgstr "નવી લાગણીચિહ્ન થીમનુ નામ દાખલ કરો:"
+
+#: emoticonslist.cpp:371
+#, kde-format
+msgid "%1 theme already exists"
+msgstr "%1 થીમ પહેલેથી હાજર છે"
+
+#: emoticonslist.cpp:389
+#, kde-format
+msgid "Choose the type of emoticon theme to create"
+msgstr "બનાવવાની લાગણીચિહ્ન થીમનું નામ પસંદ કરો"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
+#: emoticonslist.ui:14
+#, kde-format
+msgid "Emoticons Manager"
+msgstr "લાગણીચિહ્નો વ્યવસ્થાપક"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:20
+#, kde-format
+msgid "Modify the selected emoticon icon or text "
+msgstr "પસંદ કરેલ લાગણીચિહ્ન પ્રતિક કે લખાણમાં ફેરફાર કરો"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:23
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr "પસંદ કરેલ લાગણીચિહ્ન પ્રતિક કે લખાણમાં ફેરફાર કરવા માટે સંપાદન કરો"
+
+#. i18n: ectx: property (text), widget (QPushButton, btEdit)
+#: emoticonslist.ui:26
+#, kde-format
+msgid "Edit..."
+msgstr "ફેરફાર..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:33
+#, kde-format
+msgid "Create a new emoticon"
+msgstr "નવી લાગણીચિહ્ન બનાવો"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:36
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "નવા પ્રતિકો અને પાઠયો આપીને નવી લાગણીચિહ્ન બનાવો"
+
+#. i18n: ectx: property (text), widget (QPushButton, btAdd)
+#: emoticonslist.ui:39
+#, kde-format
+msgid "Add..."
+msgstr "ઉમેરો..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:66
+#, fuzzy, kde-format
+#| msgid "Get new themes from the Internet"
+msgid "Get new icon themes from the Internet"
+msgstr "ઇન્ટરનેટ પરથી નવી થીમો મેળવો"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:69
+#, fuzzy, kde-format
+#| msgid ""
+#| "You need to be connected to the Internet to use this action. A dialog "
+#| "will display a list of emoticon themes from the http://www.kde.org "
+#| "website. Clicking the Install button associated with a theme will install "
+#| "this theme locally."
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the http://www.kde-look.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+"જો તમારે આ ક્રિયાનો ઉપયોગ કરવો હોય તો તમારે ઇન્ટરનેટ સાથે જોડાવુ પડશે. સંવાદ તમને "
+"http://kde.org વેબસાઇટ પરથી મેળવેલી લાગણીચિહ્ન થીમો બતાવશે. થીમ સાથે સંકળાયેલ સ્થાપિત "
+"બટન પર કલીક કરવાથી તે થીમ સ્થાનિક રીતે સ્થાપિત કરશે."
+
+#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:72
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get new Theme"
+msgstr "નવી થીમ્સ મેળવો..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
+#: emoticonslist.ui:79
+#, kde-format
+msgid "Install a theme archive file you already have locally"
+msgstr "તમારી પાસે રહેલી સ્થાનિક આર્ચીવ ફાઇલ સ્થાપિત કરો"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
+#: emoticonslist.ui:82
+#, kde-format
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"જો તમારી પાસે પહેલેથી સ્થાનિક લાગણીચિહ્ન થીમની આર્ચીવ હોય તો, આ બટન તેને છુટી કરશે અને "
+"તને કેડીઇ કાર્યક્રમ માટે પૂરી પાડશે."
+
+#. i18n: ectx: property (text), widget (QPushButton, btInstall)
+#: emoticonslist.ui:85
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File"
+msgstr "થીમ સ્થાપિત કરો..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: emoticonslist.ui:92
+#, kde-format
+msgid "Require spaces around emoticons"
+msgstr "લાગણીચિહ્નો આસપાસ જરુરી જગ્યા"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Remove the selected theme from your disk"
+msgstr "પસંદ કરેલ થીમ ડિસ્કમાંથી દૂર કરો"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "આ પસંદ કરેલ થીમ ડિસ્કમાંથી દૂર કરશે."
+
+#. i18n: ectx: property (text), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:105
+#, kde-format
+msgid "Remove Theme"
+msgstr "થીમ દૂર કરો"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
+#: emoticonslist.ui:125
+#, kde-format
+msgid "Design a new emoticon theme"
+msgstr "નવી લાગણીચિહ્ન થીમની રચના કરો"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
+#: emoticonslist.ui:128
+#, kde-format
+msgid ""
+"Start a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"થીમને નવુ નામ આપીને શરુ કરો. ત્યારપછી જમણી તરફનુ ઉમેરો બટન વાપરીને આ થીંમમાં લાગણીચિહ્ન "
+"ઉમેરો."
+
+#. i18n: ectx: property (text), widget (QPushButton, btNew)
+#: emoticonslist.ui:131
+#, fuzzy, kde-format
+#| msgid "New Theme..."
+msgid "New Theme"
+msgstr "નવી થીમ..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Remove the selected emoticon"
+msgstr "પસંદ કરેલ લાગણીચિહ્ન કાઢી નાખો"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:141
+#, kde-format
+msgid "Remove the selected emoticon from your disk"
+msgstr "પસંદ કરેલ લાગણીચિહ્નને તમારી ડિસ્કમાંથી કાઢી નાખો"
+
+#. i18n: ectx: property (text), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:144
+#, kde-format
+msgid "Remove"
+msgstr "દૂર કરો"

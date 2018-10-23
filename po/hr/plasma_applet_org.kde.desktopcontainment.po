@@ -1,0 +1,514 @@
+# Translation of plasma_applet_folderview to Croatian
+#
+# DoDo <DoDoEntertainment@gmail.com>, 2009.
+# Andrej Dundovic <adundovi@gmail.com>, 2009, 2010.
+# Andrej Dundović <adundovi@gmail.com>, 2009.
+# Marko Dimjasevic <marko@dimjasevic.net>, 2010.
+# Marko Dimjašević <marko@dimjasevic.net>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_folderview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-05 05:55+0200\n"
+"PO-Revision-Date: 2011-07-12 17:59+0200\n"
+"Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: package/contents/config/config.qml:29
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgid "Location"
+msgstr "Mjesto"
+
+#: package/contents/config/config.qml:36
+#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/FolderViewLayer.qml:406
+msgid "Icons"
+msgstr "Ikone"
+
+#: package/contents/config/config.qml:43
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
+msgid "Filter"
+msgstr "Filtar"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:127
+msgid "Rotate"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:284
+msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/BackButtonItem.qml:116
+msgid "Back"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show All Files"
+msgstr "Prikaži sve datoteke"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show Files Matching"
+msgstr "Prikaži datoteke koje se podudaraju s"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Hide Files Matching"
+msgstr "Sakrij datoteke koje se podudaraju s"
+
+#: package/contents/ui/ConfigFilter.qml:90
+msgid "File name pattern:"
+msgstr "Izraz imena datoteke:"
+
+#: package/contents/ui/ConfigFilter.qml:104
+msgid "File types:"
+msgstr "Tipovi datoteke:"
+
+#: package/contents/ui/ConfigFilter.qml:114
+#, fuzzy
+#| msgid "Search file type"
+msgid "Search file type..."
+msgstr "Pretraži tip datoteke"
+
+#: package/contents/ui/ConfigFilter.qml:211
+#, fuzzy
+#| msgid "File types:"
+msgid "File type"
+msgstr "Tipovi datoteke:"
+
+#: package/contents/ui/ConfigFilter.qml:219
+msgid "Description"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:237
+msgid "Select All"
+msgstr "Označi sve"
+
+#: package/contents/ui/ConfigFilter.qml:248
+msgid "Deselect All"
+msgstr "Odznači sve"
+
+#: package/contents/ui/ConfigIcons.qml:72
+msgid "Panel button:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:83
+#, fuzzy
+#| msgid "Custom title:"
+msgid "Use a custom icon"
+msgstr "Prilagođeni naslov:"
+
+#: package/contents/ui/ConfigIcons.qml:125
+#, fuzzy
+#| msgctxt "@title:menu in Copy To or Move To submenu"
+#| msgid "Browse..."
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Pretraži…"
+
+#: package/contents/ui/ConfigIcons.qml:131
+#, fuzzy
+#| msgid "Sort Icons"
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Sortiraj ikone"
+
+#: package/contents/ui/ConfigIcons.qml:151
+#, fuzzy
+#| msgid "Arrangement:"
+msgid "Arrangement:"
+msgstr "Razmještaj:"
+
+#: package/contents/ui/ConfigIcons.qml:158
+#, fuzzy
+#| msgid "Arrange icons:"
+msgid "Arrange in"
+msgstr "Razmjesti ikone"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
+msgid "Rows"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
+msgid "Columns"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:176
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, fuzzy, kde-format
+#| msgid "Align to grid:"
+msgid "Align"
+msgstr "Poravnaj po mreži:"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:198
+#, fuzzy
+#| msgid "Lock in place:"
+msgid "Lock in place"
+msgstr "Zaključaj na mjestu:"
+
+#: package/contents/ui/ConfigIcons.qml:213
+msgid "Sorting:"
+msgstr "Sortiranje:"
+
+#: package/contents/ui/ConfigIcons.qml:220
+msgid "Sort by"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "Sort Icons"
+#| msgid "Unsorted"
+msgid "Unsorted"
+msgstr "Nesortirano"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:62
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Name"
+msgid "Name"
+msgstr "Po nazivu"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:309
+#: plugins/folder/viewpropertiesmenu.cpp:66
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgid "Size"
+msgstr "Veličina:"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Type"
+msgid "Type"
+msgstr "Po vrsti"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Date"
+msgid "Date"
+msgstr "Po datumu"
+
+#: package/contents/ui/ConfigIcons.qml:251
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Descending"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:263
+#, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgid "Folders first"
+msgstr "Prvo direktoriji"
+
+#: package/contents/ui/ConfigIcons.qml:278
+msgid "Appearance:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:287
+msgctxt "whether to use icon or list view"
+msgid "View mode"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:299
+msgid "List"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:334
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small"
+msgstr "Malena"
+
+#: package/contents/ui/ConfigIcons.qml:344
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Large"
+msgstr "Velika"
+
+#: package/contents/ui/ConfigIcons.qml:354
+#, fuzzy
+#| msgid " lines"
+msgid "Text lines"
+msgstr " retka"
+
+#: package/contents/ui/ConfigIcons.qml:382
+#, fuzzy
+#| msgctxt "On a camera"
+#| msgid "Aperture:"
+msgid "Features:"
+msgstr "Otvor:"
+
+#: package/contents/ui/ConfigIcons.qml:391
+msgid "Tool tips"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:403
+#, fuzzy
+#| msgid "Select All"
+msgid "Selection markers"
+msgstr "Označi sve"
+
+#: package/contents/ui/ConfigIcons.qml:415
+msgid "Folder preview popups"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:425
+#, fuzzy
+#| msgid "Previews:"
+msgid "Preview thumbnails"
+msgstr "Pregledi:"
+
+#: package/contents/ui/ConfigIcons.qml:434
+msgid "More Preview Options..."
+msgstr "Više opcija pregleda …"
+
+#: package/contents/ui/ConfigLocation.qml:93
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgid "Location:"
+msgstr "Mjesto"
+
+#: package/contents/ui/ConfigLocation.qml:101
+msgid "Show the Desktop folder"
+msgstr "Prikaži direktorij radne površine"
+
+#: package/contents/ui/ConfigLocation.qml:113
+msgid "Show files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:123
+msgid "Show a place:"
+msgstr "Prikaži mjesto:"
+
+#: package/contents/ui/ConfigLocation.qml:171
+msgid "Specify a folder:"
+msgstr "Odredite direktorij:"
+
+#: package/contents/ui/ConfigLocation.qml:182
+msgid "Type a path or a URL here"
+msgstr "Upišite putanju ili URL ovdje"
+
+#: package/contents/ui/ConfigLocation.qml:232
+#, fuzzy
+#| msgctxt "Music"
+#| msgid "Title:"
+msgid "Title:"
+msgstr "Naslov:"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "None"
+msgstr "Ništa"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Default"
+msgstr "Zadano"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Full path"
+msgstr "Cijela putanja"
+
+#: package/contents/ui/ConfigLocation.qml:244
+#, fuzzy
+#| msgid "Custom title:"
+msgid "Custom title"
+msgstr "Prilagođeni naslov:"
+
+#: package/contents/ui/ConfigLocation.qml:257
+#, fuzzy
+#| msgid "Enter a customized title"
+msgid "Enter custom title here"
+msgstr "Unesite prilagođeni naslov"
+
+#: package/contents/ui/ConfigTweaks.qml:42
+#, fuzzy
+#| msgid "Desktop Folder"
+msgid "Desktop Layout"
+msgstr "Direktorij radne površine"
+
+#: package/contents/ui/ConfigTweaks.qml:51
+#, fuzzy
+#| msgid "Show the Desktop folder"
+msgid "Show the desktop toolbox"
+msgstr "Prikaži direktorij radne površine"
+
+#: package/contents/ui/ConfigTweaks.qml:59
+msgid "Widget Handling"
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:69
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+#, fuzzy
+#| msgid "Previews:"
+msgid "Preview Plugins"
+msgstr "Pregledi:"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+msgid "OK"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+msgid "Cancel"
+msgstr ""
+
+#: package/contents/ui/main.qml:370
+msgid "Widgets unlocked"
+msgstr ""
+
+#: package/contents/ui/main.qml:371
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr ""
+
+#: package/contents/ui/main.qml:372
+msgid "Got it"
+msgstr ""
+
+#: package/contents/ui/main.qml:583
+#, fuzzy
+#| msgid "&Refresh Desktop"
+msgid "Configure Desktop"
+msgstr "Osvježi radnu površinu"
+
+#: plugins/folder/directorypicker.cpp:45
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgid "Select Folder"
+msgstr "Označi sve"
+
+#: plugins/folder/foldermodel.cpp:396
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "Osvježi radnu površinu"
+
+#: plugins/folder/foldermodel.cpp:396 plugins/folder/foldermodel.cpp:1539
+#, kde-format
+msgid "&Refresh View"
+msgstr "Osvježi pogled"
+
+#: plugins/folder/foldermodel.cpp:1546
+#, kde-format
+msgid "&Empty Trash Bin"
+msgstr "Isprazni kantu za sm&eće"
+
+#: plugins/folder/foldermodel.cpp:1549
+#, fuzzy, kde-format
+#| msgid "&Restore"
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "&Obnovi"
+
+#: plugins/folder/foldermodel.cpp:1554
+#, kde-format
+msgid "&Open"
+msgstr "&Otvori"
+
+#: plugins/folder/foldermodel.cpp:1626
+#, kde-format
+msgid "&Paste"
+msgstr "&Zalijepi"
+
+#: plugins/folder/foldermodel.cpp:1759
+#, kde-format
+msgid "&Properties"
+msgstr "&Svojstva"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+#, fuzzy, kde-format
+#| msgid "Arrange icons:"
+msgid "Arrange In"
+msgstr "Razmjesti ikone"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgid "Sort By"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgid "Folders First"
+msgstr "Prvo direktoriji"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, fuzzy, kde-format
+#| msgid "Icon size:"
+msgid "Icon Size"
+msgstr "Veličina ikona:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Tiny"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Huge"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
+msgid "Locked"
+msgstr ""

@@ -1,0 +1,437 @@
+# Translation of plasma_applet_org.kde.desktopcontainment to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2008, 2009, 2015, 2016, 2017, 2018.
+# Eirik U. Birkeland <eirbir@gmail.com>, 2008, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_folderview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-05 05:55+0200\n"
+"PO-Revision-Date: 2018-06-15 22:59+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: package/contents/config/config.qml:29
+msgid "Location"
+msgstr "Adresse"
+
+#: package/contents/config/config.qml:36
+#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/FolderViewLayer.qml:406
+msgid "Icons"
+msgstr "Ikon"
+
+#: package/contents/config/config.qml:43
+msgid "Filter"
+msgstr "Filter"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr "Finpussing"
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr "Endra storleik"
+
+#: package/contents/ui/AppletHandle.qml:127
+msgid "Rotate"
+msgstr "Drei"
+
+#: package/contents/ui/AppletHandle.qml:284
+msgid "Remove"
+msgstr "Fjern"
+
+#: package/contents/ui/BackButtonItem.qml:116
+msgid "Back"
+msgstr "Tilbake"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show All Files"
+msgstr "Vis alle filene"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show Files Matching"
+msgstr "Vis filer i samsvar med søket"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Hide Files Matching"
+msgstr "Gøym filer i samsvar med søket"
+
+#: package/contents/ui/ConfigFilter.qml:90
+msgid "File name pattern:"
+msgstr "Filnamnmønster:"
+
+#: package/contents/ui/ConfigFilter.qml:104
+msgid "File types:"
+msgstr "Filtypar:"
+
+#: package/contents/ui/ConfigFilter.qml:114
+msgid "Search file type..."
+msgstr "Søk etter filtype …"
+
+#: package/contents/ui/ConfigFilter.qml:211
+msgid "File type"
+msgstr "Filtype"
+
+#: package/contents/ui/ConfigFilter.qml:219
+msgid "Description"
+msgstr "Skildring"
+
+#: package/contents/ui/ConfigFilter.qml:237
+msgid "Select All"
+msgstr "Merk alle"
+
+#: package/contents/ui/ConfigFilter.qml:248
+msgid "Deselect All"
+msgstr "Fjern merking"
+
+#: package/contents/ui/ConfigIcons.qml:72
+msgid "Panel button:"
+msgstr "Panelknapp:"
+
+#: package/contents/ui/ConfigIcons.qml:83
+msgid "Use a custom icon"
+msgstr "Bruk sjølvvalt ikon"
+
+#: package/contents/ui/ConfigIcons.qml:125
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Vel …"
+
+#: package/contents/ui/ConfigIcons.qml:131
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Fjern ikon"
+
+#: package/contents/ui/ConfigIcons.qml:151
+msgid "Arrangement:"
+msgstr "Ordning:"
+
+#: package/contents/ui/ConfigIcons.qml:158
+msgid "Arrange in"
+msgstr "Ordna i"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
+msgid "Rows"
+msgstr "Rader"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
+msgid "Columns"
+msgstr "Kolonnar"
+
+#: package/contents/ui/ConfigIcons.qml:176
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, kde-format
+msgid "Align"
+msgstr "Juster"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
+msgstr "Venstre"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr "Høgre"
+
+#: package/contents/ui/ConfigIcons.qml:198
+msgid "Lock in place"
+msgstr "Lås på plass"
+
+#: package/contents/ui/ConfigIcons.qml:213
+msgid "Sorting:"
+msgstr "Sortering:"
+
+#: package/contents/ui/ConfigIcons.qml:220
+msgid "Sort by"
+msgstr "Sorter etter"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgid "Unsorted"
+msgstr "Usortert"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:62
+#, kde-format
+msgid "Name"
+msgstr "Namn"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:309
+#: plugins/folder/viewpropertiesmenu.cpp:66
+#, kde-format
+msgid "Size"
+msgstr "Storleik"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgid "Type"
+msgstr "Type"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgid "Date"
+msgstr "Dato"
+
+#: package/contents/ui/ConfigIcons.qml:251
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Descending"
+msgstr "Synkande"
+
+#: package/contents/ui/ConfigIcons.qml:263
+msgid "Folders first"
+msgstr "Mapper først"
+
+#: package/contents/ui/ConfigIcons.qml:278
+msgid "Appearance:"
+msgstr "Utsjånad:"
+
+#: package/contents/ui/ConfigIcons.qml:287
+msgctxt "whether to use icon or list view"
+msgid "View mode"
+msgstr "Visingsmodus"
+
+#: package/contents/ui/ConfigIcons.qml:299
+msgid "List"
+msgstr "Liste"
+
+#: package/contents/ui/ConfigIcons.qml:334
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small"
+msgstr "Liten"
+
+#: package/contents/ui/ConfigIcons.qml:344
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Large"
+msgstr "Stor"
+
+#: package/contents/ui/ConfigIcons.qml:354
+msgid "Text lines"
+msgstr "Tekstlinjer"
+
+#: package/contents/ui/ConfigIcons.qml:382
+msgid "Features:"
+msgstr "Funksjonar:"
+
+#: package/contents/ui/ConfigIcons.qml:391
+msgid "Tool tips"
+msgstr "Hjelpebobler"
+
+#: package/contents/ui/ConfigIcons.qml:403
+msgid "Selection markers"
+msgstr "Utvalsmarkørar"
+
+#: package/contents/ui/ConfigIcons.qml:415
+msgid "Folder preview popups"
+msgstr "Infobobler for mappeførehandsvising"
+
+#: package/contents/ui/ConfigIcons.qml:425
+msgid "Preview thumbnails"
+msgstr "Minibilete for førehandsvising"
+
+#: package/contents/ui/ConfigIcons.qml:434
+msgid "More Preview Options..."
+msgstr "Fleire val for førehandsvising …"
+
+#: package/contents/ui/ConfigLocation.qml:93
+msgid "Location:"
+msgstr "Stad:"
+
+#: package/contents/ui/ConfigLocation.qml:101
+msgid "Show the Desktop folder"
+msgstr "Vis skrivebordsmappa"
+
+#: package/contents/ui/ConfigLocation.qml:113
+msgid "Show files linked to the current activity"
+msgstr "Vis filer kopla til den gjeldande aktiviteten"
+
+#: package/contents/ui/ConfigLocation.qml:123
+msgid "Show a place:"
+msgstr "Vis ein stad:"
+
+#: package/contents/ui/ConfigLocation.qml:171
+msgid "Specify a folder:"
+msgstr "Vel ei mappe:"
+
+#: package/contents/ui/ConfigLocation.qml:182
+msgid "Type a path or a URL here"
+msgstr "Skriv inn ei adresse her"
+
+#: package/contents/ui/ConfigLocation.qml:232
+msgid "Title:"
+msgstr "Tittel:"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "None"
+msgstr "Ingen"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Default"
+msgstr "Standard"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Full path"
+msgstr "Full adresse"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Custom title"
+msgstr "Sjølvvald tittel"
+
+#: package/contents/ui/ConfigLocation.qml:257
+msgid "Enter custom title here"
+msgstr "Skriv inn sjølvvald tittel her"
+
+#: package/contents/ui/ConfigTweaks.qml:42
+msgid "Desktop Layout"
+msgstr "Skrivebordsoppsett"
+
+#: package/contents/ui/ConfigTweaks.qml:51
+msgid "Show the desktop toolbox"
+msgstr "Vis verktøylinja for skrivebord"
+
+#: package/contents/ui/ConfigTweaks.qml:59
+msgid "Widget Handling"
+msgstr "Handtering av skjermelement"
+
+#: package/contents/ui/ConfigTweaks.qml:69
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr "Trykk og hald inne skjermelementa for å flytta dei og visa handtaka"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+msgid "Preview Plugins"
+msgstr "Tillegg for førehandsvising"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+msgid "OK"
+msgstr "OK"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: package/contents/ui/main.qml:370
+msgid "Widgets unlocked"
+msgstr "Skjermelement låste opp"
+
+#: package/contents/ui/main.qml:371
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr ""
+"Du kan trykkja og halda inne skjermelementa for å flytta dei og visa "
+"handtaka."
+
+#: package/contents/ui/main.qml:372
+msgid "Got it"
+msgstr "Forstått"
+
+#: package/contents/ui/main.qml:583
+msgid "Configure Desktop"
+msgstr "Set opp skrivebord"
+
+#: plugins/folder/directorypicker.cpp:45
+#, kde-format
+msgid "Select Folder"
+msgstr "Vel mappe"
+
+#: plugins/folder/foldermodel.cpp:396
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "&Last skrivebordet om att"
+
+#: plugins/folder/foldermodel.cpp:396 plugins/folder/foldermodel.cpp:1539
+#, kde-format
+msgid "&Refresh View"
+msgstr "&Last visinga om att"
+
+#: plugins/folder/foldermodel.cpp:1546
+#, kde-format
+msgid "&Empty Trash Bin"
+msgstr "&Tøm papirkorga"
+
+#: plugins/folder/foldermodel.cpp:1549
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "Gjenopprett"
+
+#: plugins/folder/foldermodel.cpp:1554
+#, kde-format
+msgid "&Open"
+msgstr "&Opna"
+
+#: plugins/folder/foldermodel.cpp:1626
+#, kde-format
+msgid "&Paste"
+msgstr "&Lim inn"
+
+#: plugins/folder/foldermodel.cpp:1759
+#, kde-format
+msgid "&Properties"
+msgstr "&Eigenskapar"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+#, kde-format
+msgid "Arrange In"
+msgstr "Ordna i"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgid "Sort By"
+msgstr "Sorter etter"
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+#, kde-format
+msgid "Folders First"
+msgstr "Mapper først"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgid "Icon Size"
+msgstr "Ikonstorleik"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Tiny"
+msgstr "Ørliten"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small Medium"
+msgstr "Liten/middels"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr "Middels"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Huge"
+msgstr "Enorm"
+
+#: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
+msgid "Locked"
+msgstr "Låst"

@@ -1,0 +1,265 @@
+# translation of kcmstyle.po to Walon
+# Ratournaedje e walon des messaedjes di KDE.
+#
+# Pablo Saratxaga <pablo@walon.org>, 2007.
+# Jean Cayron <jean.cayron@gmail.com>, 2008.
+# Jean Cayron <jean.cayron@base.be>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2011-07-17 16:00+0200\n"
+"Last-Translator: Jean Cayron <jean.cayron@base.be>\n"
+"Language-Team: Walloon <linux@walon.org>\n"
+"Language: wa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lorint Hendschel,Pablo Saratxaga,Djan Cayron"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "laurent.hendschel@skynet.be,pablo@walon.org,jean.cayron@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: finetuning.ui:44
+#, fuzzy, kde-format
+#| msgid "Show icons on buttons:"
+msgid "Show icons in b&uttons:"
+msgstr "Håyner des imådjetes ezès botons:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: finetuning.ui:57
+#, kde-format
+msgid "Toolbars"
+msgstr "Bår ås usteyes"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: finetuning.ui:63
+#, fuzzy, kde-format
+#| msgid "Main toolbar text:"
+msgid "Main &toolbar text location:"
+msgstr "Sicrijhaedje del mwaisse bår ås usteyes:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:77 finetuning.ui:114
+#, kde-format
+msgid "No Text"
+msgstr "Nou scrijhaedje"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:82 finetuning.ui:119
+#, kde-format
+msgid "Text Only"
+msgstr "Rén kel tecse"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:87 finetuning.ui:124
+#, kde-format
+msgid "Text Beside Icons"
+msgstr "Tecse adlé ls imådjetes"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:92 finetuning.ui:129
+#, kde-format
+msgid "Text Below Icons"
+msgstr "Tecse å dzo des imådjetes"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: finetuning.ui:100
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text:"
+msgid "Secondary toolbar text &location:"
+msgstr "2inme livea di scrijhaedje del bår ås usteyes:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: finetuning.ui:153
+#, kde-format
+msgid "Show icons in menus:"
+msgstr "Håyner les imådjetes ezès menus :"
+
+#: kcmstyle.cpp:161
+#, kde-format
+msgid ""
+"<h1>Style</h1>This module allows you to modify the visual appearance of user "
+"interface elements, such as the widget style and effects."
+msgstr ""
+"<h1>Stîle</h1>Ci module ci vs permet d' candjî l' rivnance des elemints di "
+"l' eterface di l' uzeu, come li stîle des ahesses eyet ls efets."
+
+#: kcmstyle.cpp:173
+#, kde-format
+msgid "KDE Style Module"
+msgstr "Module do stîle di KDE"
+
+#: kcmstyle.cpp:175
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "© 2002 Karol Szwed, Daniel Molkentin"
+
+#: kcmstyle.cpp:177
+#, kde-format
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmstyle.cpp:178
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmstyle.cpp:179
+#, kde-format
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"
+
+#: kcmstyle.cpp:204
+#, kde-format
+msgid "Widget style:"
+msgstr "Stîle des ahesses:"
+
+#: kcmstyle.cpp:214
+#, kde-format
+msgid "Con&figure..."
+msgstr "A&pontyî..."
+
+#: kcmstyle.cpp:223
+#, kde-format
+msgid "Preview"
+msgstr "Prévoeyaedje"
+
+#: kcmstyle.cpp:251
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Applications"
+msgstr "&Programes"
+
+#: kcmstyle.cpp:252
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Fine Tuning"
+msgstr "&Fén apontiaedje"
+
+#: kcmstyle.cpp:282 kcmstyle.cpp:293
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr ""
+"Åk n' a nén stî come dji tcherdjive li purnea d' apontiaedje po ci stîle ci."
+
+#: kcmstyle.cpp:284 kcmstyle.cpp:295
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "Dji n' a nén savou tcherdjî l' purnea di dvize"
+
+#: kcmstyle.cpp:517 kcmstyle.cpp:628
+#, kde-format
+msgid "No description available."
+msgstr "Nou discrijhaedje"
+
+#: kcmstyle.cpp:628
+#, kde-format
+msgid "Description: %1"
+msgstr "Discrijhaedje: %1"
+
+#: kcmstyle.cpp:731
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+
+#: kcmstyle.cpp:735
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+
+#: kcmstyle.cpp:738
+#, kde-format
+msgid "This page allows you to choose details about the widget style options"
+msgstr ""
+
+#: kcmstyle.cpp:739
+#, kde-format
+msgid ""
+"<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text Below Icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+
+#: kcmstyle.cpp:746
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"some important buttons."
+msgstr ""
+
+#: kcmstyle.cpp:748
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"most menu items."
+msgstr ""
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "Apontyî %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: stylepreview.ui:19
+#, kde-format
+msgid "Tab 1"
+msgstr "Linwete 1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: stylepreview.ui:29
+#, kde-format
+msgid "Group Box"
+msgstr "Boesse di groupe"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
+#: stylepreview.ui:35 stylepreview.ui:45
+#, kde-format
+msgid "Radio button"
+msgstr "Boton radio"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: stylepreview.ui:62
+#, kde-format
+msgid "Checkbox"
+msgstr "Boesse a clitchî"
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: stylepreview.ui:115
+#, kde-format
+msgid "Button"
+msgstr "Boton"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
+#: stylepreview.ui:125
+#, kde-format
+msgid "Combobox"
+msgstr "Djivêye menu disrôlant"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: stylepreview.ui:155
+#, kde-format
+msgid "Tab 2"
+msgstr "Linwete 2"

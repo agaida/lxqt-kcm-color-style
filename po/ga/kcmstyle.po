@@ -1,0 +1,282 @@
+# translation of kcmstyle.po to Irish
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002
+# Kevin Scannell <kscanne@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0beta1\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: finetuning.ui:44
+#, fuzzy, kde-format
+#| msgid "Show icons on buttons:"
+msgid "Show icons in b&uttons:"
+msgstr "Taispeáin deilbhíní ar chnaipí:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: finetuning.ui:57
+#, kde-format
+msgid "Toolbars"
+msgstr "Barraí Uirlisí"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: finetuning.ui:63
+#, fuzzy, kde-format
+#| msgid "Main toolbar text:"
+msgid "Main &toolbar text location:"
+msgstr "Téacs ar an bpríomhbharra uirlisí:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:77 finetuning.ui:114
+#, kde-format
+msgid "No Text"
+msgstr "Gan Téacs"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:82 finetuning.ui:119
+#, kde-format
+msgid "Text Only"
+msgstr "Téacs Amháin"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:87 finetuning.ui:124
+#, kde-format
+msgid "Text Beside Icons"
+msgstr "Téacs Taobh Leis na Deilbhíní"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:92 finetuning.ui:129
+#, kde-format
+msgid "Text Below Icons"
+msgstr "Téacs Faoi na Deilbhíní"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: finetuning.ui:100
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text:"
+msgid "Secondary toolbar text &location:"
+msgstr "Téacs ar an mbarra uirlisí tanáisteach:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: finetuning.ui:153
+#, kde-format
+msgid "Show icons in menus:"
+msgstr "Taispeáin deilbhíní i roghchláir:"
+
+#: kcmstyle.cpp:161
+#, kde-format
+msgid ""
+"<h1>Style</h1>This module allows you to modify the visual appearance of user "
+"interface elements, such as the widget style and effects."
+msgstr ""
+"<h1>Stíl</h1>Leis an modúl seo is féidir dealramh an chomhéadain úsáideora a "
+"athrú, mar shampla stíl na ngiuirléidí agus maisíochtaí."
+
+#: kcmstyle.cpp:173
+#, kde-format
+msgid "KDE Style Module"
+msgstr "Modúl Stíle KDE"
+
+#: kcmstyle.cpp:175
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "© 2002 Karol Szwed, Daniel Molkentin"
+
+#: kcmstyle.cpp:177
+#, kde-format
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmstyle.cpp:178
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmstyle.cpp:179
+#, kde-format
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"
+
+#: kcmstyle.cpp:204
+#, kde-format
+msgid "Widget style:"
+msgstr "Stíl na ngiuirléidí:"
+
+#: kcmstyle.cpp:214
+#, kde-format
+msgid "Con&figure..."
+msgstr "Cu&mraigh..."
+
+#: kcmstyle.cpp:223
+#, kde-format
+msgid "Preview"
+msgstr "Réamhamharc"
+
+#: kcmstyle.cpp:251
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Applications"
+msgstr "&Feidhmchláir"
+
+#: kcmstyle.cpp:252
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Fine Tuning"
+msgstr "Tiúnadh &Fíneálta"
+
+#: kcmstyle.cpp:282 kcmstyle.cpp:293
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr ""
+"Tharla earráid agus an dialóg chumraíochta á luchtú le haghaidh na stíle seo."
+
+#: kcmstyle.cpp:284 kcmstyle.cpp:295
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "Ní féidir an dialóg a luchtú"
+
+#: kcmstyle.cpp:517 kcmstyle.cpp:628
+#, kde-format
+msgid "No description available."
+msgstr "Níl cur síos ar fáil."
+
+#: kcmstyle.cpp:628
+#, kde-format
+msgid "Description: %1"
+msgstr "Cur Síos: %1"
+
+#: kcmstyle.cpp:731
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"Anseo is féidir leat stíl ghiuirléide a roghnú ó liosta de stíleanna "
+"réamhshainithe (m.sh. an tslí a ndeartar cnaipí). Uaireanta is féidir an "
+"stíl a chur le chéile le téama (eolas breise cosúil le huigeacht nó grádán)."
+
+#: kcmstyle.cpp:735
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"Taispeántar réamhamharc ar an stíl roghnaithe sa limistéar seo gan é a chur "
+"i bhfeidhm ar an deasc féin."
+
+#: kcmstyle.cpp:738
+#, kde-format
+msgid "This page allows you to choose details about the widget style options"
+msgstr ""
+"Ar an leathanach seo is féidir leat mionsonraí a roghnú maidir le roghanna "
+"stíl na ngiuirléidí"
+
+#: kcmstyle.cpp:739
+#, kde-format
+msgid ""
+"<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text Below Icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>Gan Téacs:</b> Ná taispeáin ach deilbhíní ar chnaipí sa bharra "
+"uirlisí. An rogha is fearr le taifeach íseal.</p><p><b>Téacs Amháin: </b>Ná "
+"taispeáin ach téacs ar chnaipí sa bharra uirlisí.</p><p><b>Téacs le taobh "
+"deilbhíní: </b> Taispeáin deilbhíní agus téacs ar chnaipí sa bharra uirlisí. "
+"Ailínítear an téacs le taobh an deilbhín.</p><b>Téacs faoi dheilbhíní: </b> "
+"Taispeáin deilbhíní agus téacs ar chnaipí sa bharra uirlisí. Ailínítear an "
+"téacs faoin deilbhín."
+
+#: kcmstyle.cpp:746
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"some important buttons."
+msgstr ""
+"Leis an rogha seo, taispeánfaidh Feidhmchláir KDE deilbhíní beaga le taobh "
+"roinnt cnaipí tábhachtacha."
+
+#: kcmstyle.cpp:748
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"most menu items."
+msgstr ""
+"Leis an rogha seo, taispeánfaidh Feidhmchláir KDE deilbhíní beaga le taobh "
+"formhór na míreanna roghchláir."
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "Cumraigh %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: stylepreview.ui:19
+#, kde-format
+msgid "Tab 1"
+msgstr "Cluaisín 1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: stylepreview.ui:29
+#, kde-format
+msgid "Group Box"
+msgstr "Bosca Grúpa"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
+#: stylepreview.ui:35 stylepreview.ui:45
+#, kde-format
+msgid "Radio button"
+msgstr "Cnaipe raidió"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: stylepreview.ui:62
+#, kde-format
+msgid "Checkbox"
+msgstr "Ticbhosca"
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: stylepreview.ui:115
+#, kde-format
+msgid "Button"
+msgstr "Cnaipe"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
+#: stylepreview.ui:125
+#, kde-format
+msgid "Combobox"
+msgstr "Bosca Teaglama"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: stylepreview.ui:155
+#, kde-format
+msgid "Tab 2"
+msgstr "Cluaisín 2"

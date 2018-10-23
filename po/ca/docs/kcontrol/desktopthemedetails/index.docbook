@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Catalan  "INCLUDE">
+]>
+<article id="desktopthemedetails" lang="&language;">
+<articleinfo>
+<title
+>Tema d'escriptori</title>
+<authorgroup>
+<author
+><firstname
+>Andrew</firstname
+> <surname
+>Lake</surname
+></author>
+&traductor.Antoni.Bella; 
+</authorgroup>
+
+<date
+>25 de març de 2018</date>
+<releaseinfo
+>Plasma 5.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Arranjament del sistema</keyword>
+<keyword
+>escriptori</keyword>
+<keyword
+>tema</keyword>
+<keyword
+>plasma</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>Es mostra una vista prèvia dels temes disponibles en aquest diàleg. Seleccioneu un tema fent clic sobre seu.</para>
+
+<para
+>Utilitzeu el botó <guibutton
+>Obtén temes nous</guibutton
+> per a baixar temes addicionals des d'Internet o carregar un tema des d'un fitxer.</para>
+
+<para
+>El botó <guibutton
+>Elimina</guibutton
+> només està habilitat pels temes personalitzats.</para>
+
+<note>
+<para
+>Des del &plasma; 5.6 ja no és possible editar i personalitzar components o elements individuals d'un tema.</para>
+
+<para
+>Les eines recomanades per a comprovar, fusionar i provar els temes es troben al paquet plasma-sdk, en concret l'<application
+>Explorador pels temes del Plasma</application
+>.</para>
+
+<para
+>Si el paquet plasma-sdk està instal·lat al vostre sistema, apareixerà un botó sobre la vista prèvia d'un tema i us permetrà iniciar-lo a l'<application
+>Explorador pels temes del Plasma</application
+>. </para>
+
+<para
+>Per a més informació tècnica, visiteu <ulink url="https://techbase.kde.org/Development/Tutorials/Plasma5/ThemeDetails"
+>aquesta pàgina</ulink
+>.</para>
+</note>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

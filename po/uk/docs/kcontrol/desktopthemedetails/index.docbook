@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Ukrainian "INCLUDE">
+]>
+<article id="desktopthemedetails" lang="&language;">
+<articleinfo>
+<title
+>Тема стільниці</title>
+<authorgroup>
+<author
+><firstname
+>Andrew</firstname
+> <surname
+>Lake</surname
+></author>
+<othercredit role="translator"
+><firstname
+>Юрій</firstname
+><surname
+>Чорноіван</surname
+><affiliation
+><address
+><email
+>yurchor@ukr.net</email
+></address
+></affiliation
+><contrib
+>Переклад українською</contrib
+></othercredit
+>  
+</authorgroup>
+
+<date
+>25 березня 2018 року</date>
+<releaseinfo
+>Плазма 5.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Системні параметри</keyword>
+<keyword
+>стільниця</keyword>
+<keyword
+>тема</keyword>
+<keyword
+>плазма</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>У цьому діалоговому вікні буде показано попередній перегляд доступних тем. Виберіть одну з них наведенням вказівника миші на відповідний пункт у списку з наступним клацанням лівою кнопкою миші.</para>
+
+<para
+>Натисніть кнопку <guibutton
+>Отримати нові теми</guibutton
+>, щоб отримати додаткові теми з інтернету або завантажити тему з файла.</para>
+
+<para
+>Кнопкою <guibutton
+>Вилучити</guibutton
+> можна буде скористатися лише для нетипових тем.</para>
+
+<note>
+<para
+>З часу випуску Плазми 5.6 вже не можна редагувати і налаштовувати окремі компоненти або елементи теми.</para>
+
+<para
+>Рекомендовані інструменти для перевірки, об’єднання та тестування тем зібрані у пакунку plasma-sdk. Одним із цих інструментів є «Навігатор темами Плазми».</para>
+
+<para
+>Якщо у вашій системі встановлено пакунок plasma-sdk, при наведенні вказівника миші на попередній перегляд теми з'явиться кнопка, за допомогою якої ви зможете запустити <application
+>Навігатор темами Плазми</application
+>. </para>
+
+<para
+>Докладнішу технічну інформацію можна знайти на <ulink url="https://techbase.kde.org/Development/Tutorials/Plasma5/ThemeDetails"
+>цій сторінці</ulink
+>.</para>
+</note>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

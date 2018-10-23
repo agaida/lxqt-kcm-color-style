@@ -1,0 +1,432 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2015, 2016, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-05 05:55+0200\n"
+"PO-Revision-Date: 2017-12-02 23:34+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde@peremen.name>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:29
+msgid "Location"
+msgstr "위치"
+
+#: package/contents/config/config.qml:36
+#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/FolderViewLayer.qml:406
+msgid "Icons"
+msgstr "아이콘"
+
+#: package/contents/config/config.qml:43
+msgid "Filter"
+msgstr "필터"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr "미세 조정"
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr "크기 조정"
+
+#: package/contents/ui/AppletHandle.qml:127
+msgid "Rotate"
+msgstr "회전"
+
+#: package/contents/ui/AppletHandle.qml:284
+msgid "Remove"
+msgstr "삭제"
+
+#: package/contents/ui/BackButtonItem.qml:116
+msgid "Back"
+msgstr "뒤로"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show All Files"
+msgstr "모든 파일 보이기"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show Files Matching"
+msgstr "일치하는 파일 보이기"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Hide Files Matching"
+msgstr "일치하는 파일 숨기기"
+
+#: package/contents/ui/ConfigFilter.qml:90
+msgid "File name pattern:"
+msgstr "파일 이름 패턴:"
+
+#: package/contents/ui/ConfigFilter.qml:104
+msgid "File types:"
+msgstr "파일 형식:"
+
+#: package/contents/ui/ConfigFilter.qml:114
+msgid "Search file type..."
+msgstr "파일 형식 찾기..."
+
+#: package/contents/ui/ConfigFilter.qml:211
+msgid "File type"
+msgstr "파일 형식"
+
+#: package/contents/ui/ConfigFilter.qml:219
+msgid "Description"
+msgstr "설명"
+
+#: package/contents/ui/ConfigFilter.qml:237
+msgid "Select All"
+msgstr "모두 선택"
+
+#: package/contents/ui/ConfigFilter.qml:248
+msgid "Deselect All"
+msgstr "모두 선택 해제"
+
+#: package/contents/ui/ConfigIcons.qml:72
+msgid "Panel button:"
+msgstr "패널 단추:"
+
+#: package/contents/ui/ConfigIcons.qml:83
+msgid "Use a custom icon"
+msgstr "사용자 정의 아이콘 사용"
+
+#: package/contents/ui/ConfigIcons.qml:125
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "선택..."
+
+#: package/contents/ui/ConfigIcons.qml:131
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "아이콘 초기화"
+
+#: package/contents/ui/ConfigIcons.qml:151
+msgid "Arrangement:"
+msgstr "배치:"
+
+#: package/contents/ui/ConfigIcons.qml:158
+msgid "Arrange in"
+msgstr "배열 기준"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
+msgid "Rows"
+msgstr "행"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
+msgid "Columns"
+msgstr "열"
+
+#: package/contents/ui/ConfigIcons.qml:176
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, kde-format
+msgid "Align"
+msgstr "정렬"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
+msgstr "왼쪽"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr "오른쪽"
+
+#: package/contents/ui/ConfigIcons.qml:198
+msgid "Lock in place"
+msgstr "위치에 고정"
+
+#: package/contents/ui/ConfigIcons.qml:213
+msgid "Sorting:"
+msgstr "정렬:"
+
+#: package/contents/ui/ConfigIcons.qml:220
+msgid "Sort by"
+msgstr "정렬 순서"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgid "Unsorted"
+msgstr "정렬하지 않음"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:62
+#, kde-format
+msgid "Name"
+msgstr "이름"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:309
+#: plugins/folder/viewpropertiesmenu.cpp:66
+#, kde-format
+msgid "Size"
+msgstr "크기"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgid "Type"
+msgstr "종류"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgid "Date"
+msgstr "날짜"
+
+#: package/contents/ui/ConfigIcons.qml:251
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Descending"
+msgstr "내림차순"
+
+#: package/contents/ui/ConfigIcons.qml:263
+msgid "Folders first"
+msgstr "폴더 우선"
+
+#: package/contents/ui/ConfigIcons.qml:278
+msgid "Appearance:"
+msgstr "모양:"
+
+#: package/contents/ui/ConfigIcons.qml:287
+msgctxt "whether to use icon or list view"
+msgid "View mode"
+msgstr "보기 모드"
+
+#: package/contents/ui/ConfigIcons.qml:299
+msgid "List"
+msgstr "목록"
+
+#: package/contents/ui/ConfigIcons.qml:334
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small"
+msgstr "작게"
+
+#: package/contents/ui/ConfigIcons.qml:344
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Large"
+msgstr "크게"
+
+#: package/contents/ui/ConfigIcons.qml:354
+msgid "Text lines"
+msgstr "텍스트 줄 수"
+
+#: package/contents/ui/ConfigIcons.qml:382
+msgid "Features:"
+msgstr "기능:"
+
+#: package/contents/ui/ConfigIcons.qml:391
+msgid "Tool tips"
+msgstr "풍선 도움말"
+
+#: package/contents/ui/ConfigIcons.qml:403
+msgid "Selection markers"
+msgstr "선택 표시기"
+
+#: package/contents/ui/ConfigIcons.qml:415
+msgid "Folder preview popups"
+msgstr "폴더 미리 보기 팝업"
+
+#: package/contents/ui/ConfigIcons.qml:425
+msgid "Preview thumbnails"
+msgstr "미리 보기 그림"
+
+#: package/contents/ui/ConfigIcons.qml:434
+msgid "More Preview Options..."
+msgstr "추가 미리 보기 옵션..."
+
+#: package/contents/ui/ConfigLocation.qml:93
+msgid "Location:"
+msgstr "위치:"
+
+#: package/contents/ui/ConfigLocation.qml:101
+msgid "Show the Desktop folder"
+msgstr "데스크톱 폴더 표시"
+
+#: package/contents/ui/ConfigLocation.qml:113
+msgid "Show files linked to the current activity"
+msgstr "현재 활동과 연결된 파일만 표시"
+
+#: package/contents/ui/ConfigLocation.qml:123
+msgid "Show a place:"
+msgstr "다음 위치 표시:"
+
+#: package/contents/ui/ConfigLocation.qml:171
+msgid "Specify a folder:"
+msgstr "폴더 지정:"
+
+#: package/contents/ui/ConfigLocation.qml:182
+msgid "Type a path or a URL here"
+msgstr "경로나 URL을 입력하십시오"
+
+#: package/contents/ui/ConfigLocation.qml:232
+msgid "Title:"
+msgstr "제목:"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "None"
+msgstr "없음"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Default"
+msgstr "기본값"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Full path"
+msgstr "전체 경로"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Custom title"
+msgstr "사용자 정의 제목"
+
+#: package/contents/ui/ConfigLocation.qml:257
+msgid "Enter custom title here"
+msgstr "사용자 정의 제목을 입력하십시오"
+
+#: package/contents/ui/ConfigTweaks.qml:42
+msgid "Desktop Layout"
+msgstr "데스크톱 레이아웃"
+
+#: package/contents/ui/ConfigTweaks.qml:51
+msgid "Show the desktop toolbox"
+msgstr "데스크톱 도구 상자"
+
+#: package/contents/ui/ConfigTweaks.qml:59
+msgid "Widget Handling"
+msgstr "위젯 다루기"
+
+#: package/contents/ui/ConfigTweaks.qml:69
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr "위젯을 누르고 있으면 이동시킬 수 있으며 핸들이 표시됩니다"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+msgid "Preview Plugins"
+msgstr "미리 보기 플러그인"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+msgid "OK"
+msgstr "확인"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+msgid "Cancel"
+msgstr "취소"
+
+#: package/contents/ui/main.qml:370
+msgid "Widgets unlocked"
+msgstr "위젯 잠금 해제됨"
+
+#: package/contents/ui/main.qml:371
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr "위젯을 누르고 있으면 이동시킬 수 있으며 핸들이 표시됩니다."
+
+#: package/contents/ui/main.qml:372
+msgid "Got it"
+msgstr "알겠습니다"
+
+#: package/contents/ui/main.qml:583
+msgid "Configure Desktop"
+msgstr "데스크톱 설정"
+
+#: plugins/folder/directorypicker.cpp:45
+#, kde-format
+msgid "Select Folder"
+msgstr "폴더 선택"
+
+#: plugins/folder/foldermodel.cpp:396
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "데스크톱 새로 고침(&R)"
+
+#: plugins/folder/foldermodel.cpp:396 plugins/folder/foldermodel.cpp:1539
+#, kde-format
+msgid "&Refresh View"
+msgstr "보기 새로 고침(&R)"
+
+#: plugins/folder/foldermodel.cpp:1546
+#, kde-format
+msgid "&Empty Trash Bin"
+msgstr "휴지통 비우기(&E)"
+
+#: plugins/folder/foldermodel.cpp:1549
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "복원"
+
+#: plugins/folder/foldermodel.cpp:1554
+#, kde-format
+msgid "&Open"
+msgstr "열기(&O)"
+
+#: plugins/folder/foldermodel.cpp:1626
+#, kde-format
+msgid "&Paste"
+msgstr "붙여넣기(&P)"
+
+#: plugins/folder/foldermodel.cpp:1759
+#, kde-format
+msgid "&Properties"
+msgstr "속성(&P)"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+#, kde-format
+msgid "Arrange In"
+msgstr "배열 방식"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgid "Sort By"
+msgstr "정렬 순서"
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+#, kde-format
+msgid "Folders First"
+msgstr "폴더 우선"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgid "Icon Size"
+msgstr "아이콘 크기"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Tiny"
+msgstr "작게"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small Medium"
+msgstr "약간 작게"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr "중간"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Huge"
+msgstr "크게"
+
+#: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
+msgid "Locked"
+msgstr "잠김"

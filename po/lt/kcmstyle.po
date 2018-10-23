@@ -1,0 +1,281 @@
+# translation of kcmstyle.po to Lithuanian
+# Ričardas Čepas <rch@richard.eu.org>, 2002.
+# Donatas Glodenis <dgvirtual@akl.lt>, 2004-2005.
+# Donatas Glodenis <dgvirtual@akl.lt>, 2007-2009.
+# Tomas Straupis <tomasstraupis@gmail.com>, 2011.
+# Liudas Ališauskas <liudas@akmc.lt>, 2013.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2017-06-25 00:17+0200\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ričardas Čepas, Donatas Glodenis"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "rch@richard.eu.org, dgvirtual@akl.lt"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: finetuning.ui:44
+#, fuzzy, kde-format
+#| msgid "Show icons on buttons:"
+msgid "Show icons in b&uttons:"
+msgstr "Rodyti ženkliukus ant mygtukų:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: finetuning.ui:57
+#, kde-format
+msgid "Toolbars"
+msgstr "Įrankinės"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: finetuning.ui:63
+#, fuzzy, kde-format
+#| msgid "Main toolbar text:"
+msgid "Main &toolbar text location:"
+msgstr "Pagrindinės įrankinės tekstas:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:77 finetuning.ui:114
+#, kde-format
+msgid "No Text"
+msgstr "Nėra teksto"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:82 finetuning.ui:119
+#, kde-format
+msgid "Text Only"
+msgstr "Tik tekstas"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:87 finetuning.ui:124
+#, kde-format
+msgid "Text Beside Icons"
+msgstr "Tekstas šalia ženkliukų"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:92 finetuning.ui:129
+#, kde-format
+msgid "Text Below Icons"
+msgstr "Tekstas po ženkliukais"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: finetuning.ui:100
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text:"
+msgid "Secondary toolbar text &location:"
+msgstr "Antrinės įrankinės tekstas:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: finetuning.ui:153
+#, kde-format
+msgid "Show icons in menus:"
+msgstr "Rodyti ženkliukus meniu:"
+
+#: kcmstyle.cpp:161
+#, kde-format
+msgid ""
+"<h1>Style</h1>This module allows you to modify the visual appearance of user "
+"interface elements, such as the widget style and effects."
+msgstr ""
+"<h1>Stilius</h1>Šis modulis leidžia jums keisti naudotojo sąsajos elementų "
+"išvaizdą, pvz., valdiklių spalvą ir efektus."
+
+#: kcmstyle.cpp:173
+#, kde-format
+msgid "KDE Style Module"
+msgstr "KDE stiliaus modulis"
+
+#: kcmstyle.cpp:175
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
+
+#: kcmstyle.cpp:177
+#, kde-format
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmstyle.cpp:178
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmstyle.cpp:179
+#, kde-format
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"
+
+#: kcmstyle.cpp:204
+#, kde-format
+msgid "Widget style:"
+msgstr "Valdiklių stilius:"
+
+#: kcmstyle.cpp:214
+#, kde-format
+msgid "Con&figure..."
+msgstr "Kon&figūruoti..."
+
+#: kcmstyle.cpp:223
+#, kde-format
+msgid "Preview"
+msgstr "Peržiūra"
+
+#: kcmstyle.cpp:251
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Applications"
+msgstr "&Programos"
+
+#: kcmstyle.cpp:252
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Fine Tuning"
+msgstr "&Derinimas"
+
+#: kcmstyle.cpp:282 kcmstyle.cpp:293
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "Bandant įkelti konfigūravimo dialogą šiam stiliui įvyko klaida."
+
+#: kcmstyle.cpp:284 kcmstyle.cpp:295
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "Nepavyko įkelti dialogo"
+
+#: kcmstyle.cpp:517 kcmstyle.cpp:628
+#, kde-format
+msgid "No description available."
+msgstr "Nėra aprašymo"
+
+#: kcmstyle.cpp:628
+#, kde-format
+msgid "Description: %1"
+msgstr "Aprašymas: %1"
+
+#: kcmstyle.cpp:731
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"Čia iš sąrašo galima pasirinkti iš anksto parengtus stilius (pvz., kaip "
+"atrodys mygtukai), kurie gali būti sujungti su tema (papildoma informacija - "
+"kaip marmuro tekstūra arba spalvų perėjimas)."
+
+#: kcmstyle.cpp:735
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"Ši zona leidžia peržiūrėti dabar pasirinktą stilių nepritaikant jo visam "
+"darbalaukiui."
+
+#: kcmstyle.cpp:738
+#, kde-format
+msgid "This page allows you to choose details about the widget style options"
+msgstr "Šiame puslapyje galite parinkti valdiklių stiliaus parinkčių detales"
+
+#: kcmstyle.cpp:739
+#, kde-format
+msgid ""
+"<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text Below Icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>Tik ženkliukai:</b> Rodo tik ženkliukus ant įrankinės mygtukų. "
+"Geriausia parinktis ne didelei raiškai.</p><p><b>Tik tekstas: </b>Rodo tik "
+"tekstą ant įrankinės mygtukų.</p><p><b>Tekstas šalia ženkliukų: </b> Rodo "
+"ženkliukus ir tekstą ant įrankinių mygtukų. Tekstas rodomas šalia ženkliuko."
+"</p><b>Tekstas po ženkliukais: </b> Rodo ženkliukus ir tekstą ant įrankinės "
+"mygtukų. Tekstas rodomas po ženkliukas."
+
+#: kcmstyle.cpp:746
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"some important buttons."
+msgstr ""
+"Jei Jūs įjungsite šią parinktį, KDE programos rodys mažas ženkliukus šalia "
+"kai kurių svarbių mygtukų."
+
+#: kcmstyle.cpp:748
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"most menu items."
+msgstr ""
+"Jei Jūs įjungsite šią parinktį, KDE programos rodys mažas ženkliukus šalia "
+"daugumos meniu elementų."
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "Konfigūruoti %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: stylepreview.ui:19
+#, kde-format
+msgid "Tab 1"
+msgstr "Tab 1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: stylepreview.ui:29
+#, kde-format
+msgid "Group Box"
+msgstr "Grupė"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
+#: stylepreview.ui:35 stylepreview.ui:45
+#, kde-format
+msgid "Radio button"
+msgstr "Radio mygtukas"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: stylepreview.ui:62
+#, kde-format
+msgid "Checkbox"
+msgstr "Žymimas langelis"
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: stylepreview.ui:115
+#, kde-format
+msgid "Button"
+msgstr "Mygtukas"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
+#: stylepreview.ui:125
+#, kde-format
+msgid "Combobox"
+msgstr "Sąrašo laukas"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: stylepreview.ui:155
+#, kde-format
+msgid "Tab 2"
+msgstr "Tab 2"

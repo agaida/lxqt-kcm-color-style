@@ -1,0 +1,293 @@
+# translation of kcmstyle.po to 
+# translation of kcmstyle.po to Tamil
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Vasee Vaseeharan <vasee@ieee.org>, 2004.
+# Ambalam <tamilpc@ambalam.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2005-02-14 05:03-0800\n"
+"Last-Translator: Tamil PC <tamilpc@ambalam.com>\n"
+"Language-Team:  <tamilpc@ambalam.com>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "zhakanini"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "prabu_anand2000@yahoo.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: finetuning.ui:44
+#, fuzzy, kde-format
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons in b&uttons:"
+msgstr "பட்டன்களின் மேல் குறும்படங்களை காட்டு"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: finetuning.ui:57
+#, fuzzy, kde-format
+#| msgid "&Toolbar"
+msgid "Toolbars"
+msgstr "&கருவிப்பட்டி"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: finetuning.ui:63
+#, kde-format
+msgid "Main &toolbar text location:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:77 finetuning.ui:114
+#, kde-format
+msgid "No Text"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:82 finetuning.ui:119
+#, kde-format
+msgid "Text Only"
+msgstr "உரை மட்டும்"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:87 finetuning.ui:124
+#, fuzzy, kde-format
+#| msgid "Text Alongside Icons"
+msgid "Text Beside Icons"
+msgstr "குறும்படங்களருகே உரை"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:92 finetuning.ui:129
+#, fuzzy, kde-format
+#| msgid "Text Under Icons"
+msgid "Text Below Icons"
+msgstr "குறும்படங்களின் கீழே உரை"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: finetuning.ui:100
+#, kde-format
+msgid "Secondary toolbar text &location:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: finetuning.ui:153
+#, fuzzy, kde-format
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons in menus:"
+msgstr "பட்டன்களின் மேல் குறும்படங்களை காட்டு"
+
+#: kcmstyle.cpp:161
+#, kde-format
+msgid ""
+"<h1>Style</h1>This module allows you to modify the visual appearance of user "
+"interface elements, such as the widget style and effects."
+msgstr ""
+"<h1>பாணி</h1>இந்தக் கூறு சாளரப் பாணி மற்றும் விளைவுகள் போன்ற பயனர் இடைமுக பகுதிகளின் "
+"காட்சியமைப்புகளின் தோற்றத்தை மாற்றி அமைக்க அனுமதிக்கிறது."
+
+#: kcmstyle.cpp:173
+#, kde-format
+msgid "KDE Style Module"
+msgstr "கேடியி பாணிக் கூறு"
+
+#: kcmstyle.cpp:175
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "(c) 2002 கரோல் ஸ்வெட், டேனியல் மால்கெண்டின்"
+
+#: kcmstyle.cpp:177
+#, kde-format
+msgid "Karol Szwed"
+msgstr ""
+
+#: kcmstyle.cpp:178
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr ""
+
+#: kcmstyle.cpp:179
+#, kde-format
+msgid "Ralf Nolden"
+msgstr ""
+
+#: kcmstyle.cpp:204
+#, fuzzy, kde-format
+#| msgid "Widget Style"
+msgid "Widget style:"
+msgstr "சாளரப் பாணி"
+
+#: kcmstyle.cpp:214
+#, kde-format
+msgid "Con&figure..."
+msgstr "வடிவமை..."
+
+#: kcmstyle.cpp:223
+#, kde-format
+msgid "Preview"
+msgstr "முன்காட்சி"
+
+#: kcmstyle.cpp:251
+#, fuzzy, kde-format
+#| msgid "Application Level"
+msgctxt "@title:tab"
+msgid "&Applications"
+msgstr "பயன்பாட்டு நிலை"
+
+#: kcmstyle.cpp:252
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Fine Tuning"
+msgstr ""
+
+#: kcmstyle.cpp:282 kcmstyle.cpp:293
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "இந்த பாணிக்காக வடிவமைப்பு உரையாடலை ஏற்றுவதில் பிழை."
+
+#: kcmstyle.cpp:284 kcmstyle.cpp:295
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "உரையடலை ஏற்ற முடியாது."
+
+#: kcmstyle.cpp:517 kcmstyle.cpp:628
+#, kde-format
+msgid "No description available."
+msgstr "விவரம் ஏதுமில்லை."
+
+#: kcmstyle.cpp:628
+#, kde-format
+msgid "Description: %1"
+msgstr "விவரம்: %1"
+
+#: kcmstyle.cpp:731
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"இங்கே, ஏற்கனவே விவரிக்கப்பட்ட சாளர பாணிகளிலிருந்து நீங்கள் தேர்வு செய்யலாம் (உதா. பட்டன்கள் "
+"வரையபட்டிருக்கும் முறை) இது ஒரு உருகருவுடன் சேர்க்கலாம் (சலவைக்கல்லின் இழையமைப்பு அல்லது "
+"ஒரு சீரான சரிவு போன்ற அதிகப்படியான தகவல்)."
+
+#: kcmstyle.cpp:735
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"இது தற்போது தேர்வு செய்துள்ள பாணியின் முன்காட்சியை உங்கள் கணினியின் மேல்மேசையில் "
+"பயன்படுத்தாமல் காட்டுகிறது"
+
+#: kcmstyle.cpp:738
+#, kde-format
+msgid "This page allows you to choose details about the widget style options"
+msgstr ""
+
+#: kcmstyle.cpp:739
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
+#| "for low resolutions.</p><p><b>Text only: </b>Shows only text on toolbar "
+#| "buttons.</p><p><b>Text alongside icons: </b> Shows icons and text on "
+#| "toolbar buttons. Text is aligned alongside the icon.</p><b>Text under "
+#| "icons: </b> Shows icons and text on toolbar buttons. Text is aligned "
+#| "below the icon."
+msgid ""
+"<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text Below Icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>குறும்படங்கள் மட்டும்:</b>கருவிப்பட்டி பட்டன்களில் குறும்படங்களை மட்டும் காட்டுகிறது. "
+"குறைந்த தெளிவுத்திறன்களுக்கான சிறந்த விருப்பத்தேர்வு.</p><p><b>உரை மட்டும்: </"
+"b>கருவிபட்டி பட்டன்களில் உரையை மட்டும் காட்டுகிறது.</p><p><b>உரையின் பக்கத்தில் "
+"குறும்படங்கள்: </b> கருபபட்டி பட்டன்களில் குறும்படங்கள் மற்ரும் உரையை காட்டுகிறது. "
+"குறும்படத்துடன் உரை வரிசைப்படுத்தப்பட்டுள்ளது.</p><b>குறும்படங்களின் கீழ் உரை: </b> "
+"கருவிப்பட்டி பட்டன்களில் உரை மற்றும் குறும்படங்களை காட்டுகிறது. குறும்படத்தின் கீழ் உரை "
+"வரிசைப்படுத்தப்பட்டுள்ளது."
+
+#: kcmstyle.cpp:746
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"some important buttons."
+msgstr ""
+"இதனை தேர்வு செய்தால், கேடியி பயன்பாடுகள் சின்ன குறும்படங்களோடு சில முக்கிய பட்டன்களையும் "
+"காட்டும்."
+
+#: kcmstyle.cpp:748
+#, fuzzy, kde-format
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside some important buttons."
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"most menu items."
+msgstr ""
+"இதனை தேர்வு செய்தால், கேடியி பயன்பாடுகள் சின்ன குறும்படங்களோடு சில முக்கிய பட்டன்களையும் "
+"காட்டும்."
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "வடிவமை %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: stylepreview.ui:19
+#, kde-format
+msgid "Tab 1"
+msgstr "தத்தல் 1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: stylepreview.ui:29
+#, kde-format
+msgid "Group Box"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
+#: stylepreview.ui:35 stylepreview.ui:45
+#, kde-format
+msgid "Radio button"
+msgstr "ஒற்றைத்தேர்வுப் பட்டன்"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: stylepreview.ui:62
+#, kde-format
+msgid "Checkbox"
+msgstr "தேர்வுப்பெட்டி"
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: stylepreview.ui:115
+#, kde-format
+msgid "Button"
+msgstr "பட்டன்"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
+#: stylepreview.ui:125
+#, kde-format
+msgid "Combobox"
+msgstr "பலத்தேர்வுப்பெட்டி"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: stylepreview.ui:155
+#, kde-format
+msgid "Tab 2"
+msgstr "தத்தல் 2"

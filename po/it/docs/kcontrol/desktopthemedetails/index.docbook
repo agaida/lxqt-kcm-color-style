@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Italian "INCLUDE">
+]>
+<article id="desktopthemedetails" lang="&language;">
+<articleinfo>
+<title
+>Tema del desktop</title>
+<authorgroup>
+<author
+><firstname
+>Andrew</firstname
+> <surname
+>Lake</surname
+></author>
+<othercredit role="translator"
+><firstname
+>Federico</firstname
+><surname
+>Zenith</surname
+><affiliation
+><address
+><email
+>federico.zenith@member.fsf.org</email
+></address
+></affiliation
+><contrib
+>Traduzione della documentazione</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>2018-03-25</date>
+<releaseinfo
+>Plasma 5.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Impostazioni di sistema</keyword>
+<keyword
+>desktop</keyword>
+<keyword
+>tema</keyword>
+<keyword
+>plasma</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>Un'anteprima dei temi disponibili viene mostrato in questa finestra. Seleziona un tema facendo clic su di esso.</para>
+
+<para
+>Usa il pulsante <guibutton
+>Scarica nuovi temi</guibutton
+> per scaricare temi aggiuntivi da Internet o caricare un tema da un file.</para>
+
+<para
+>Il pulsante <guibutton
+>Rimuovi</guibutton
+> è abilitato solo per i temi personalizzati.</para>
+
+<note>
+<para
+>A partire da &plasma; 5.6 non è più possibile modificare e personalizzare singoli componenti o elementi in un tema.</para>
+
+<para
+>Lo strumento consigliato per controllare, miscelare e testare i temi è il pacchetto plasma-sdk, in particolare l'applicazione <application
+>Plasma Theme Explorer</application
+>.</para>
+
+<para
+>Se il pacchetto plasma-sdk è installato nel tuo sistema, al passaggio del mouse sull'anteprima dei temi apparirà un pulsante che permette di avviare l'applicazione <application
+>Plasma Theme Explorer</application
+>. </para>
+
+<para
+>Per maggiori informazioni consultare <ulink url="https://techbase.kde.org/Development/Tutorials/Plasma5/ThemeDetails"
+>questa pagina</ulink
+>.</para>
+</note>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

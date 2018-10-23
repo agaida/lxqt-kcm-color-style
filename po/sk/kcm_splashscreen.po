@@ -1,0 +1,72 @@
+# translation of kcm_splashscreen.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015.
+# Mthw <jari_45@hotmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_splashscreen\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-12 05:57+0200\n"
+"PO-Revision-Date: 2018-09-02 10:18+0100\n"
+"Last-Translator: Mthw <jari_45@hotmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roman Paholík"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "wizzardsk@gmail.com"
+
+#: kcm.cpp:50
+#, kde-format
+msgid "Configure Splash screen details"
+msgstr "Nastaviť podrobnosti úvodnej obrazovky"
+
+#: kcm.cpp:52
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:127
+#, kde-format
+msgid "None"
+msgstr "Žiadne"
+
+#: kcm.cpp:129
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr "Žiadna obrazovka nebude zobrazená"
+
+#: kcm.cpp:206
+#, kde-format
+msgid "Error"
+msgstr "Chyba"
+
+#: kcm.cpp:206
+#, kde-format
+msgid "Failed to successfully test the splash screen."
+msgstr "Testovanie úvodnej obrazovky zlyhalo."
+
+#: package/contents/ui/main.qml:27
+#, kde-format
+msgid "This module lets you configure the splash screen theme."
+msgstr "Tento modul umožnuje nastaviť tému úvodnej obrazovky"
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "Test Splashscreen"
+msgstr "Otestovať úvodnú obrazovku"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "&Get New Theme..."
+msgstr "Získať nové témy..."

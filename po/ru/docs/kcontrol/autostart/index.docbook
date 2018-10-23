@@ -1,0 +1,355 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Russian "INCLUDE">
+]>
+<article id="autostart" lang="&language;">
+<articleinfo>
+<title
+>Автозапуск</title>
+<authorgroup>
+<author
+>&Anne-Marie.Mahfouf;</author>
+<othercredit role="translator"
+><firstname
+>Илья</firstname
+><surname
+>Мерцалов</surname
+><affiliation
+><address
+><email
+>a567765@yandex.ru</email
+></address
+></affiliation
+><contrib
+>  Перевод на русский язык</contrib
+></othercredit
+><othercredit role="translator"
+><firstname
+>Олеся</firstname
+><surname
+>Герасименко</surname
+><affiliation
+><address
+><email
+>gammaray@basealt.ru</email
+></address
+></affiliation
+><contrib
+>  Перевод на русский язык</contrib
+></othercredit
+><othercredit role="reviewer"
+><firstname
+>Александр</firstname
+><surname
+>Яворский</surname
+><contrib
+>Рецензирование</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>2018-03-25</date>
+<releaseinfo
+>&plasma; 5.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>параметры системы</keyword>
+<keyword
+>автозапуск</keyword>
+<keyword
+>файл .desktop</keyword>
+<keyword
+>файл сценария</keyword>
+</keywordset>
+</articleinfo>
+
+<sect1 id="kcm_autostart">
+<title
+>Диспетчер автозапуска</title>
+
+<para
+>Этот модуль приложения &systemsettings; содержит функционал для изменения списка программ, которые запускаются вместе с &plasma;. Он позволяет добавлять программы и файлы сценариев для автоматического запуска при запуске или завершении сеанса &plasma;, а также управлять ими.</para>
+
+<note
+><para
+>Все изменения, произведённые в этом модуле, сразу же вступают в силу.</para
+></note>
+
+<para
+>Этот модуль просматривает папки <filename
+>$HOME/.config/autostart/</filename
+>, <filename class="directory"
+>$HOME/.config/plasma-workspace/env</filename
+> и <filename class="directory"
+>$HOME/.config/plasma-workspace/shutdown</filename
+>, чтобы определить, какие программы и файлы сценариев уже находятся там, и отображает их список. </para>
+
+<note
+><para
+>Текущая реализация автозапуска имеет недостаток: невозможно запустить сценарий после запуска сеанса &plasma;.</para
+></note>
+
+<note
+><para
+>Возможно изменить расположение папки <filename class="directory"
+>Автозапуск</filename
+> на вкладке <menuchoice
+><guimenu
+>Приложения</guimenu
+> <guimenuitem
+>Пути</guimenuitem
+></menuchoice
+> раздела <guilabel
+>Предпочтения пользователя</guilabel
+> программы «Параметры системы» и установить папку, отличную от <filename class="directory"
+>$HOME/.config/autostart</filename
+>.</para
+></note>
+
+<para
+>Сведения о настройке поведения системы при запуске сеанса &plasma; доступны в разделах справки: <ulink url="help:/kcontrol/kcmsmserver"
+>Управление сеансами</ulink
+> и <ulink url="help:/kcontrol/kded"
+>Управление службами</ulink
+>.</para>
+
+<para
+>Некоторые приложения &kde; содержат собственный функционал управления поведением при запуске. Например, приложение &kalarm; позволяет включить или отключить автозапуск в диалоговом окне настройки параметров, а в приложениях &konversation; и &kopete; необходимо использовать пункт меню <menuchoice
+><guimenu
+>Файл</guimenu
+><guimenuitem
+>Выход</guimenuitem
+></menuchoice
+>, чтобы приложение не продолжало работу в системном лотке и не перезапускалось при следующем входе в систему. </para>
+
+<sect2 id="migration">
+<title
+>Перенос конфигурации из рабочей среды &kde; 4</title>
+<para
+>Чтобы перенести пользовательскую конфигурацию из рабочей среды &kde; 4 следует выполнить следующие действия:</para>
+<simplelist>
+<member
+>Скопировать файлы .desktop из папки <filename class="directory"
+>$HOME/.kde/Autostart</filename
+> в папку <filename class="directory"
+>$HOME/.config/autostart</filename
+>;</member>
+<member
+>Скопировать файлы сценариев, которые должны выполняться до запуска &plasma;, из папки <filename class="directory"
+>$HOME/.kde/Autostart</filename
+> в папку <filename class="directory"
+>$HOME/.config/plasma-workspace/env</filename
+>;</member>
+<member
+>Скопировать файлы сценариев, которые должны выполняться при завершении работы &plasma;, из папки <filename class="directory"
+>$HOME/.kde/Autostart</filename
+> в папку <filename class="directory"
+>$HOME/.config/plasma-workspace/shutdown</filename
+>.</member>
+</simplelist>
+</sect2>
+
+<!--FIXME Disabling Autostart Files Provided By Your Distribution -> http://www.sharpley.org.uk/node/8 -->
+
+<sect2 id="current">
+<title
+>Список файлов</title>
+<para
+>В основной части окна модуля приведён список программ, которые запускаются при запуске &plasma;, а также сценариев, которые запускаются до запуска, при запуске или при завершении работы &plasma;.</para>
+
+<variablelist>
+<varlistentry
+><term
+><guilabel
+>Имя</guilabel
+></term>
+<listitem>
+<para
+>Этот столбец недоступен для редактирования. В нём показано имя программы или сценария, запускаемого вместе с &plasma;. Для программы имя — это содержимое ключа «Name» файла .desktop, а для сценария — просто имя файла. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Команда</guilabel
+></term>
+<listitem>
+<para
+>Этот столбец отображает команды, которые используются для запуска программ. Для изменения команды запуска нажмите кнопку <guibutton
+>Свойства</guibutton
+> или дважды щёлкните по строке программы. Команда извлекается из ключа «Exec» файла .desktop. </para>
+<para
+>Для сценария команда является путём к соответствующему файлу сценария, её нельзя изменить. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Состояние</guilabel
+></term>
+<listitem>
+<para
+>Этот параметр доступен только для программ, предоставляемых файлами .desktop. Возможно оставить программу в папке <filename class="directory"
+>Автозапуск</filename
+>, но отключить её запуск при начале работы &plasma;. Снятие флажка <guilabel
+>Включено</guilabel
+> отключает автоматический запуск программы. </para>
+<para
+>Снятие флажка <guilabel
+>Включено</guilabel
+> также устанавливает значение «true» для свойства «Hidden» (скрытый) файла .desktop в папке <filename class="directory"
+>Автозапуск</filename
+>. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Время запуска</guilabel
+></term>
+<listitem>
+<para
+>Программы, представляемые файлами .desktop, могут быть запущены только при запуске системы. Сценарии же могут выполняться при <guilabel
+>Начале сеанса</guilabel
+>, <guilabel
+>Завершении сеанса</guilabel
+> или <guilabel
+>Перед запуском сеанса</guilabel
+>.  Эта столбец определяет стадию, на которой запускается сценарий. </para>
+<para
+>Сценарии и файлы .desktop, настроенные для выполнения на стадии <guilabel
+>Начало сеанса</guilabel
+>, копируются в папку <filename class="directory"
+>$HOME/.config/autostart</filename
+> (либо для них создаётся символическая ссылка) и будут запускаться во время запуска &plasma;. </para>
+<para
+>Сценарии, настроенные для выполнения на стадии <guilabel
+>Завершение сеанса</guilabel
+>, копируются в папку <filename class="directory"
+>$HOME/.config/plasma-workspace/shutdown</filename
+> (либо для них создаётся символическая ссылка) и будут запускаться во время завершения работы &plasma;, после выхода пользователя из системы. </para>
+<para
+>Сценарии, настроенные для выполнения <guilabel
+>Перед запуском сеанса</guilabel
+>, копируются в папку <filename class="directory"
+>$HOME/.config/plasma-workspace/env</filename
+> (либо для них создаётся символическая ссылка) и будут запускаться на ранних стадиях загрузки &plasma; (сценарий <filename
+>startkde</filename
+> будет искать сценарии в этой папке). </para>
+<note
+><para
+>Только сценарии с расширением <filename
+>.sh</filename
+> доступны к прочтению &plasma; для запуска на стадиях <guilabel
+>Перед запуском сеанса</guilabel
+> и <guilabel
+>Завершение сеанса</guilabel
+>. </para
+></note>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect2>
+
+<sect2 id="actions">
+<title
+>Действия</title>
+<para
+>On the bottom you have some buttons to change the way Autostart is configured. You can add programs or scripts, remove them or change their properties. </para>
+
+<variablelist>
+<varlistentry
+><term
+><guibutton
+>Добавить приложение...</guibutton
+></term>
+<listitem>
+<para
+>Нажатие этой кнопки вызывает стандартный диалог &kde; <guilabel
+>Выбор приложения</guilabel
+> для выбора программы, которую необходимо запускать при старте. После того как программа выбрана, нажатие кнопки <guibutton
+>OK</guibutton
+> откроет диалог свойств программы. </para>
+<para
+>После нажатия кнопки <guibutton
+>OK</guibutton
+> в диалоге свойств будет выполнено копирование файла .desktop программы в папку <filename class="directory"
+>Autostart</filename
+>. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry
+><term
+><guibutton
+>Добавить сценарий...</guibutton
+></term>
+<listitem>
+<para
+>Эта кнопка открывает диалог, который позволяет указать путь к добавляемому сценарию. Если оставить флажок <guilabel
+>Создать символическую ссылку</guilabel
+> включённым (состояние по умолчанию), то сценарий будет добавлен при помощи символической ссылки. Если снять флажок — сценарий будет скопирован в соответствующую локальную папку. </para>
+</listitem>
+</varlistentry>
+<varlistentry
+><term
+><guibutton
+>Удалить из списка</guibutton
+></term>
+<listitem>
+<para
+>Нажатие кнопки «Удалить из списка» приведёт к удалению файла .desktop программы, сценария или символической ссылки из папки <filename class="directory"
+>Автозапуск</filename
+> без запроса дополнительного подтверждения </para>
+</listitem>
+</varlistentry>
+<varlistentry
+><term
+><guibutton
+>Свойства…</guibutton
+></term>
+<listitem>
+<para
+>Эта кнопка (доступна только для программ, то есть файлов .desktop) позволяет изменять свойства программы или сценария. Диалог изменения содержит следующие категории свойств: основные, права доступа, предварительный просмотр (если доступно) и свойства, относящиеся к назначению программ. </para>
+</listitem>
+</varlistentry>
+<varlistentry
+><term
+><guibutton
+>Дополнительно...</guibutton
+></term>
+<listitem>
+<para
+>Эта кнопка доступна только для программ (то есть файлов .desktop). Диалоговое окно позволяет указать, следует ли автоматически запускать программу только в &plasma; (и ни в какой другой среде рабочего стола, имеющейся в системе).  По умолчанию программа будет автоматически запускаться при входе во все среды рабочего стола системы. При отмеченном флажке <guilabel
+>Автозапуск только в Plasma</guilabel
+> автозапуск программы выполняется только при запуске среды рабочего стола графической среды &plasma;. </para>
+<para
+>Устанавливает значение «KDE» для ключа OnlyShowIn в файле .desktop программы. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect2>
+</sect1>
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

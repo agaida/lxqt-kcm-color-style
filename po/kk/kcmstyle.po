@@ -1,0 +1,281 @@
+# translation of kcmstyle.po to Karakh
+#
+# Sairan Kikkarin <sairan@computer.org>, 2005, 2007, 2008, 2010.
+# Sairan Kikkarin <sairan(at)computer.org>, 2010, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2013-01-02 07:43+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ақсәуле Мамаева, Сайран Киккарин"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ak78@sci.kz, sairan@computer.org"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: finetuning.ui:44
+#, fuzzy, kde-format
+#| msgid "Show icons on buttons:"
+msgid "Show icons in b&uttons:"
+msgstr "Батырмаларда таңбашалар кө&рсетілсін"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: finetuning.ui:57
+#, kde-format
+msgid "Toolbars"
+msgstr "Құралдар"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: finetuning.ui:63
+#, fuzzy, kde-format
+#| msgid "Main toolbar text:"
+msgid "Main &toolbar text location:"
+msgstr "Негізгі құрал панелінің жазуы:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:77 finetuning.ui:114
+#, kde-format
+msgid "No Text"
+msgstr "Жазусыз таңбашалар"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:82 finetuning.ui:119
+#, kde-format
+msgid "Text Only"
+msgstr "Таңбашасыз жазулар"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:87 finetuning.ui:124
+#, kde-format
+msgid "Text Beside Icons"
+msgstr "Жазу таңбашаның жанында"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:92 finetuning.ui:129
+#, kde-format
+msgid "Text Below Icons"
+msgstr "Жазу таңбашаның астында"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: finetuning.ui:100
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text:"
+msgid "Secondary toolbar text &location:"
+msgstr "Қосалқы құрал панелінің жазуы:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: finetuning.ui:153
+#, kde-format
+msgid "Show icons in menus:"
+msgstr "Мәзірде таңбашалар көрсетілсін"
+
+#: kcmstyle.cpp:161
+#, kde-format
+msgid ""
+"<h1>Style</h1>This module allows you to modify the visual appearance of user "
+"interface elements, such as the widget style and effects."
+msgstr ""
+"<h1>Стиль</h1>Бұл модуль пайдаланушының интерфейс бөлшектерінің стилі мен "
+"эффекттерін көрнектілігін баптауға мүмкіндік береді."
+
+#: kcmstyle.cpp:173
+#, kde-format
+msgid "KDE Style Module"
+msgstr "KDE стилінің баптау модулі"
+
+#: kcmstyle.cpp:175
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
+
+#: kcmstyle.cpp:177
+#, kde-format
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmstyle.cpp:178
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmstyle.cpp:179
+#, kde-format
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"
+
+#: kcmstyle.cpp:204
+#, kde-format
+msgid "Widget style:"
+msgstr "Бөлшектің стилі:"
+
+#: kcmstyle.cpp:214
+#, kde-format
+msgid "Con&figure..."
+msgstr "Ба&птау..."
+
+#: kcmstyle.cpp:223
+#, kde-format
+msgid "Preview"
+msgstr "Қарау"
+
+#: kcmstyle.cpp:251
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Applications"
+msgstr "Қ&олданбалар"
+
+#: kcmstyle.cpp:252
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Fine Tuning"
+msgstr "&Дәлдеп баптау"
+
+#: kcmstyle.cpp:282 kcmstyle.cpp:293
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "Бұл стильді баптау диалогын жүктеу кезінде қате пайда болды."
+
+#: kcmstyle.cpp:284 kcmstyle.cpp:295
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "Диалогты жүктеуі болмады"
+
+#: kcmstyle.cpp:517 kcmstyle.cpp:628
+#, kde-format
+msgid "No description available."
+msgstr "Сипаттамасы жоқ."
+
+#: kcmstyle.cpp:628
+#, kde-format
+msgid "Description: %1"
+msgstr "Сипаттамасы: %1 "
+
+#: kcmstyle.cpp:731
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"Мұнда тізімінен, безендіру нақышымен біректіре алатын (мысалы, мәрмәрлі "
+"текстурасымен немесе градиентімен) дайын бөлшек стилін таңдай аласыз "
+"(мысалы, батырмаларды бейнелеу түрін)."
+
+#: kcmstyle.cpp:735
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"Бұнда, бірден барлық үстел үшін іске асырмай-ақ, таңдап жатқан стилді, "
+"мысалы үшін келтірілген барлық бөлшектер үлгісінде қарап ала аласыз."
+
+#: kcmstyle.cpp:738
+#, kde-format
+msgid "This page allows you to choose details about the widget style options"
+msgstr "Бұнда виджет стилінің параметрлерін егжейлеп таңдай аласыз"
+
+#: kcmstyle.cpp:739
+#, kde-format
+msgid ""
+"<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text Below Icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>Жазусыз таңбашалар:</b> Құралдар панелінің батырмасында тек қана "
+"таңбашалар көрсетіледі. Экранның айырымдылығы төмен болғанда ыңғайлы.</"
+"p><p><b>Таңбашасыз жазулар:</b> Құралдар панелінің батырмасында тек жазу "
+"ғана көрсетіледі.</p> <p><b>Жазу таңбашаның жанында:</b> Құралдар панелінің "
+"батырмасында таңбаша мен жазу көрсетіледі. Жазу таңбашамен қатар.</p> "
+"<b>Жазу таңбашаның астында:</b> Құралдар панелінің батырмасында таңбаша мен "
+"жазу көрсетіледі. Жазу таңбашаның астында."
+
+#: kcmstyle.cpp:746
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"some important buttons."
+msgstr ""
+"Белгісі қойылса, KDE қолданбасы, кейбір маңызды батырмалардың жанында "
+"кішірек таңбашаларын көрсетеді."
+
+#: kcmstyle.cpp:748
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"most menu items."
+msgstr ""
+"Белгісі қойылса, KDE қолданбасы, мәзір аталымдарының көбінде кішірек "
+"таңбашаларын көрсетеді."
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "%1 дегенді баптау"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: stylepreview.ui:19
+#, kde-format
+msgid "Tab 1"
+msgstr "1-қойынды"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: stylepreview.ui:29
+#, kde-format
+msgid "Group Box"
+msgstr "Топтастыру"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
+#: stylepreview.ui:35 stylepreview.ui:45
+#, kde-format
+msgid "Radio button"
+msgstr "Қосқыш"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: stylepreview.ui:62
+#, kde-format
+msgid "Checkbox"
+msgstr "Құсбелгі көзі"
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: stylepreview.ui:115
+#, kde-format
+msgid "Button"
+msgstr "Батырма"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
+#: stylepreview.ui:125
+#, kde-format
+msgid "Combobox"
+msgstr "Ашылмалы тізім"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: stylepreview.ui:155
+#, kde-format
+msgid "Tab 2"
+msgstr "2-қойынды"

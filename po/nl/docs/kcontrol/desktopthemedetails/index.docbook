@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Dutch "INCLUDE">
+]>
+<article id="desktopthemedetails" lang="&language;">
+<articleinfo>
+<title
+>Bureaubladthema</title>
+<authorgroup>
+<author
+><firstname
+>Andrew</firstname
+> <surname
+>Lake</surname
+></author>
+&Freek.de.Kruijf; 
+</authorgroup>
+
+<date
+>2018-03-25</date>
+<releaseinfo
+>Plasma 5.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Systeeminstellingen</keyword>
+<keyword
+>bureaublad</keyword>
+<keyword
+>thema</keyword>
+<keyword
+>plasma</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>In deze dialoog worden voorbeelden van beschikbare thema's getoond. Selecteer een thema door er op te klikken.</para>
+
+<para
+>Gebruik de knop <guibutton
+>Nieuwe thema's ophalen</guibutton
+> om extra thema's te downloaden van het internet of een thema uit een bestand te laden.</para>
+
+<para
+>De knop <guibutton
+>Verwijderen</guibutton
+> is alleen ingeschakeld bij eigen thema's.</para>
+
+<note>
+<para
+>Sinds &plasma; 5.6 is het niet langer mogelijk om individuele componenten of items in een thema te bewerken een aan te passen.</para>
+
+<para
+>De aanbevolen hulpmiddelen om thema's te controleren, te mengen en te testen is het pakket plasma-sdk, specifiek de <application
+>Plasma themaverkenner</application
+>.</para>
+
+<para
+>Als het pakket plasma-sdk op uw systeem is geïnstalleerd, verschijnt er een knop bij zweven boven een themavoorbeeld en laat u <application
+>Plasma themaverkenner</application
+> starten. </para>
+
+<para
+>Voor meer technische informatie bezoekt u <ulink url="https://techbase.kde.org/Development/Tutorials/Plasma5/ThemeDetails"
+>deze pagina</ulink
+>.</para>
+</note>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

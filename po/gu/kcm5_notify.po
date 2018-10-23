@@ -1,0 +1,96 @@
+# translation of kcmnotify.po to Gujarati
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pragnesh Radadiya <pg.radadia@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2008-10-03 15:28+0530\n"
+"Last-Translator: Pragnesh Radadiya <pg.radadia@gmail.com>\n"
+"Language-Team: Gujarati <kde-i18n-doc@lists.kde.org>\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Pragnesh Radadiya"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pg.radadia@gmail.com"
+
+#: knotify.cpp:57
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Notifications</h1>KDE allows for a great deal of control over "
+#| "how you will be notified when certain events occur. There are several "
+#| "choices as to how you are notified:<ul><li>As the application was "
+#| "originally designed.</li><li>With a beep or other noise.</li><li>Via a "
+#| "popup dialog box with additional information.</li><li>By recording the "
+#| "event in a logfile without any additional visual or audible alert.</li></"
+#| "ul>"
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>સિસ્ટમ સૂચનાઓ</h1>કેડીઇ તમને તમે કેવી રીતે સૂચિત થવા જોઇએ જયારે કોઇ  ઘટના બને  તેના પર પૂરેપૂરો કાબૂ કરવા દે છે. ઘણી બધી પસંદગીઓ છે કે તમને કેવી  રીતે સૂચનાઓ મળવી જોઇએ:<ul><li>જેમ કે એ રીતે કાર્યક્રમ પહેલેથી બનાવવામાં આવ્યો છે.</"
+"li><li>બીપ અને બીજા અવાજો સાથે.</li><li>આપોઆપ આવી જતા સંપાનદન ખાનામાં વધારે "
+"માહિતી  સાથે.</li><li>કોઇપણ દર્શિત કે સાંભળી શકાય તેવી ચેતવણી વગર ઘટનાને લોગફાઇલમાં  નોંધીને.</li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "ઘટના સ્ત્રોત:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr ""
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "સિસ્ટમ સૂચના નિયંત્રણ પેનલ મોડ્યુલ"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "(c) ૨૦૦૨-૨૦૦૬ કેડીઇ જૂથ"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "ઓલિવિર ગોફાર્ટ"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "કાર્સ્ટેન ફેઇફેર"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "ચાલ્સ સેમ્યુઅલ્સ"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "મૂળ લખેલું"

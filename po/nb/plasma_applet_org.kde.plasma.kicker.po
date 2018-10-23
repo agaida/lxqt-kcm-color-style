@@ -1,0 +1,502 @@
+# Translation of plasma_applet_org.kde.plasma.kicker to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2014.
+# Øystein Steffensen-Alværvik <ystein@posteo.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-06-02 06:36+0200\n"
+"PO-Revision-Date: 2018-06-24 21:56+0100\n"
+"Last-Translator: Øystein Steffensen-Alværvik <ystein@posteo.net>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "Generelt"
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Fjern fra favoritter"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Legg til i favoritter"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "På alle aktiviteter"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "På gjeldende aktivitet"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "Vis i favoritter"
+
+#: package/contents/ui/ConfigGeneral.qml:64
+#, kde-format
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: package/contents/ui/ConfigGeneral.qml:151
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Velg …"
+
+#: package/contents/ui/ConfigGeneral.qml:156
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Fjern ikon"
+
+#: package/contents/ui/ConfigGeneral.qml:168
+#, kde-format
+msgid "Behavior"
+msgstr "Oppførsel"
+
+#: package/contents/ui/ConfigGeneral.qml:175
+#, kde-format
+msgid "Show applications as:"
+msgstr "Vis programmer som:"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Name only"
+msgstr "Bare navn"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Description only"
+msgstr "Bare beskrivelse"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Name (Description)"
+msgstr "Navn (beskrivelse)"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Description (Name)"
+msgstr "Beskrivelse (navn)"
+
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Flatten menu to a single level"
+msgstr "Flat ut menyen til ett nivå"
+
+#: package/contents/ui/ConfigGeneral.qml:198
+#, kde-format
+msgid "Sort alphabetically"
+msgstr "Sorter alfabetisk"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, kde-format
+msgid "Categories"
+msgstr "Kategorier"
+
+#: package/contents/ui/ConfigGeneral.qml:213
+#, kde-format
+msgid "Show:"
+msgstr "Vis:"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgid "Recently used"
+msgstr "Nylig brukte"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgid "Often used"
+msgstr "Ofte brukte"
+
+#: package/contents/ui/ConfigGeneral.qml:229
+#, kde-format
+msgid "Show recent applications"
+msgstr "Vis nylig brukte programmer"
+
+#: package/contents/ui/ConfigGeneral.qml:230
+#, kde-format
+msgid "Show often used applications"
+msgstr "Vis ofte brukte programmer"
+
+#: package/contents/ui/ConfigGeneral.qml:237
+#, kde-format
+msgid "Show recent documents"
+msgstr "Vis nylig brukte dokumenter"
+
+#: package/contents/ui/ConfigGeneral.qml:238
+#, kde-format
+msgid "Show often used documents"
+msgstr "Vis ofte brukte dokumenter"
+
+#: package/contents/ui/ConfigGeneral.qml:245
+#, kde-format
+msgid "Show recent contacts"
+msgstr "Vis nylig brukte kontakter"
+
+#: package/contents/ui/ConfigGeneral.qml:246
+#, kde-format
+msgid "Show often used contacts"
+msgstr "Vis ofte brukte kontakter"
+
+#: package/contents/ui/ConfigGeneral.qml:254
+#, kde-format
+msgid "Search"
+msgstr "Søk"
+
+#: package/contents/ui/ConfigGeneral.qml:262
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Utvid søket til bokmerker, filer og e-poster"
+
+#: package/contents/ui/ConfigGeneral.qml:270
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "Plasser søkeresultater nederst"
+
+#: package/contents/ui/DashboardRepresentation.qml:301
+#, kde-format
+msgid "Searching for '%1'"
+msgstr "Søker etter «%1»"
+
+#: package/contents/ui/DashboardRepresentation.qml:301
+#, kde-format
+msgid "Type to search."
+msgstr "Skriv for å søke."
+
+#: package/contents/ui/DashboardRepresentation.qml:392
+#: plugin/kastatsfavoritesmodel.cpp:495 plugin/simplefavoritesmodel.cpp:43
+#, kde-format
+msgid "Favorites"
+msgstr "Favoritter"
+
+#: package/contents/ui/DashboardRepresentation.qml:609
+#: package/contents/ui/DashboardTabBar.qml:53
+#, kde-format
+msgid "Widgets"
+msgstr "Skjermelementer"
+
+#: package/contents/ui/DashboardTabBar.qml:43
+#, kde-format
+msgid "Apps & Docs"
+msgstr "Programmer og hjelp"
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Rediger programmer …"
+
+#: package/contents/ui/MenuRepresentation.qml:319
+#, kde-format
+msgid "Search..."
+msgstr "Søk …"
+
+#: plugin/actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "Åpne med:"
+
+#: plugin/actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: plugin/actionlist.cpp:149
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Legg til på skrivebord"
+
+#: plugin/actionlist.cpp:153
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Legg til panel (skjermelement)"
+
+#: plugin/actionlist.cpp:157
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Fest til oppgavelinje"
+
+#: plugin/actionlist.cpp:264 plugin/rootmodel.cpp:390
+#, kde-format
+msgid "Recent Documents"
+msgstr "Nylig brukte dokumenter"
+
+#: plugin/actionlist.cpp:276
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Glem nylig brukte dokumenter"
+
+#: plugin/actionlist.cpp:332
+#, kde-format
+msgid "Edit Application..."
+msgstr "Rediger program …"
+
+#: plugin/actionlist.cpp:379
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Manage '%1'..."
+msgstr "Behandle «%1»"
+
+#: plugin/appentry.cpp:178
+#, kde-format
+msgid "Hide Application"
+msgstr "Skjul program"
+
+#: plugin/appentry.cpp:238
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:240
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
+#: plugin/computermodel.cpp:246 plugin/recentusagemodel.cpp:148
+#: plugin/recentusagemodel.cpp:208
+#, kde-format
+msgid "Applications"
+msgstr "Programmer"
+
+#: plugin/appsmodel.cpp:165
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Vis programmer i denne undermenyen"
+
+#: plugin/appsmodel.cpp:171
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Vis programmer i «%1»"
+
+#: plugin/computermodel.cpp:104
+#, kde-format
+msgid "Run Command..."
+msgstr "Kjør kommando …"
+
+#: plugin/computermodel.cpp:108
+#, kde-format
+msgid "Run a command or a search query"
+msgstr "Kjør en kommando eller et søk"
+
+#: plugin/computermodel.cpp:161
+#, kde-format
+msgid "Computer"
+msgstr "Datamaskin"
+
+#: plugin/computermodel.cpp:238
+#, kde-format
+msgid "Removable Storage"
+msgstr "Flyttbare lagringsenheter"
+
+#: plugin/computermodel.cpp:240
+#, kde-format
+msgid "Places"
+msgstr "Steder"
+
+#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
+#, kde-format
+msgid "Show Contact Information..."
+msgstr "Vis kontaktinformasjon …"
+
+#: plugin/recentcontactsmodel.cpp:52
+#, kde-format
+msgid "Contacts"
+msgstr "Kontakter"
+
+#: plugin/recentcontactsmodel.cpp:85
+#, kde-format
+msgid "Forget Contact"
+msgstr "Glem kontakt"
+
+#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "Glem alle kontaktene"
+
+#: plugin/recentusagemodel.cpp:146
+#, kde-format
+msgid "Recently Used"
+msgstr "Nylig brukte"
+
+#: plugin/recentusagemodel.cpp:151 plugin/recentusagemodel.cpp:257
+#, kde-format
+msgid "Documents"
+msgstr "Dokumenter"
+
+#: plugin/recentusagemodel.cpp:226
+#, kde-format
+msgid "Forget Application"
+msgstr "Glem program"
+
+#: plugin/recentusagemodel.cpp:269
+#, kde-format
+msgid "Forget Document"
+msgstr "Glem dokument"
+
+#: plugin/recentusagemodel.cpp:397
+#, kde-format
+msgid "Forget All"
+msgstr "Glem alt"
+
+#: plugin/recentusagemodel.cpp:399
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Glem alle programmene"
+
+#: plugin/recentusagemodel.cpp:402
+#, kde-format
+msgid "Forget All Documents"
+msgstr "Glem alle dokumentene"
+
+#: plugin/rootmodel.cpp:106
+#, kde-format
+msgid "Hide %1"
+msgstr "Skjul %1"
+
+#: plugin/rootmodel.cpp:376
+#, kde-format
+msgid "All Applications"
+msgstr "Alle programmer"
+
+#: plugin/rootmodel.cpp:382
+#, kde-format
+msgid "Recent Contacts"
+msgstr "Nylig brukte kontakter"
+
+#: plugin/rootmodel.cpp:391
+#, kde-format
+msgid "Often Used Documents"
+msgstr "Ofte brukte dokumenter"
+
+#: plugin/rootmodel.cpp:401
+#, kde-format
+msgid "Recent Applications"
+msgstr "Nylig brukte programmer"
+
+#: plugin/rootmodel.cpp:402
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Ofte brukte programmer"
+
+#: plugin/rootmodel.cpp:416
+#, kde-format
+msgid "Power / Session"
+msgstr "Strøm / økt"
+
+#: plugin/runnermodel.cpp:238
+#, kde-format
+msgid "Search results"
+msgstr "Søkeresultater"
+
+#: plugin/systementry.cpp:168
+#, kde-format
+msgid "Lock"
+msgstr "Lås"
+
+#: plugin/systementry.cpp:171
+#, kde-format
+msgid "Logout"
+msgstr "Logg ut"
+
+#: plugin/systementry.cpp:174 plugin/systementry.cpp:242
+#, kde-format
+msgid "Save Session"
+msgstr "Lagre økta"
+
+#: plugin/systementry.cpp:177
+#, kde-format
+msgid "Switch User"
+msgstr "Bytt bruker"
+
+#: plugin/systementry.cpp:180
+#, kde-format
+msgid "Suspend"
+msgstr "Hvilemodus"
+
+#: plugin/systementry.cpp:183
+#, kde-format
+msgid "Hibernate"
+msgstr "Dvalemodus"
+
+#: plugin/systementry.cpp:186
+#, kde-format
+msgid "Reboot"
+msgstr "Start på nytt"
+
+#: plugin/systementry.cpp:189
+#, kde-format
+msgid "Shut Down"
+msgstr "Slå av maskinen"
+
+#: plugin/systementry.cpp:202 plugin/systementry.cpp:205
+#: plugin/systementry.cpp:208 plugin/systementry.cpp:211
+#, kde-format
+msgid "Session"
+msgstr "Økt"
+
+#: plugin/systementry.cpp:214 plugin/systementry.cpp:217
+#: plugin/systementry.cpp:220 plugin/systementry.cpp:223
+#, kde-format
+msgid "System"
+msgstr "System"
+
+#: plugin/systementry.cpp:236
+#, kde-format
+msgid "Lock screen"
+msgstr "Lås skjermen"
+
+#: plugin/systementry.cpp:239
+#, kde-format
+msgid "End session"
+msgstr "Avslutt økt"
+
+#: plugin/systementry.cpp:245
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Start en parallell økt som en annen bruker"
+
+#: plugin/systementry.cpp:248
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Hvilemodus til minnet"
+
+#: plugin/systementry.cpp:251
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Dvalemodus til disk"
+
+#: plugin/systementry.cpp:254
+#, kde-format
+msgid "Restart computer"
+msgstr "Start maskinen på nytt"
+
+#: plugin/systementry.cpp:257
+#, kde-format
+msgid "Turn off computer"
+msgstr "Slå av maskinen"
+
+#: plugin/systemmodel.cpp:75
+#, kde-format
+msgid "System actions"
+msgstr "Systemhandlinger"

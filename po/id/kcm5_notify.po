@@ -1,0 +1,93 @@
+# Indonesian translations for kcmnotify package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmnotify package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2010.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2018-08-26 17:59+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Andhika Padmawan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "andhika.padmawan@gmail.com"
+
+#: knotify.cpp:57
+#, kde-format
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>Notifikasi Sistem</h1>Plasma membolehkanmu untuk mengendalikan bagaimana "
+"cara kamu akan diberitahu ketika perihal tertentu terjadi. Ada beberapa "
+"pilihan bagaimana kamu akan diberitahu:<ul><li>Sesuai dengan standar "
+"aplikasi.</li><li>Dengan suara bip atau suara lainnya.</li><li>Via kotak "
+"dialog popup dengan informasi tambahan.</li><li>Dengan merekam perihal di "
+"dalam file catatan tanpa tambahan visual atau peringatan suara apapun.</li></"
+"ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "Sumber perihal:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr "Nonaktifkan suara untuk semua perihal tersebut"
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "Modul Panel Kendali Notifikasi Sistem"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "(c) 2002-2006 Tim KDE"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "Implementasi asli"

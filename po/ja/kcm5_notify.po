@@ -1,0 +1,104 @@
+# Translation of kcmnotify into Japanese.
+# This file is distributed under the same license as the kdebase package.
+# Noboru Sinohara <shinobo@leo.bekkoame.ne.jp>, 2002.
+# Seiji Hoshiba <hoshiyan@mint.ocn.ne.jp>, 2004.
+# Toyohiro Asukai <toyohiro@ksmplus.com>, 2004.
+# Fumiaki Okushi <fumiaki@okushi.com>, 2005.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2006, 2007, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2008-12-29 00:03+0900\n"
+"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Taiki Komoda,Noboru Sinohara,Seiji Hoshiba"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kom@kde.gr.jp,shinobo@leo.bekkoame.ne.jp,hoshiyan@mint.ocn.ne.jp"
+
+#: knotify.cpp:57
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Notifications</h1>KDE allows for a great deal of control over "
+#| "how you will be notified when certain events occur. There are several "
+#| "choices as to how you are notified:<ul><li>As the application was "
+#| "originally designed.</li><li>With a beep or other noise.</li><li>Via a "
+#| "popup dialog box with additional information.</li><li>By recording the "
+#| "event in a logfile without any additional visual or audible alert.</li></"
+#| "ul>"
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>システム通知</h1>KDE では、特定のイベントが発生したときに、それをどのよう"
+"にユーザに通知するかを細かく制御できるようになっています。以下のような選択肢"
+"があります。<ul><li>各アプリケーションの仕様どおり</li><li>ビープ音またはその"
+"他の音を鳴らす</li><li>ポップアップダイアログボックスに情報を表示する</"
+"li><li>音を鳴らしたり視覚的に通知せずに、ログファイルにイベントを記録する</"
+"li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "イベントソース:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr ""
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "システム通知コントロールパネルモジュール"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "(c) 2002-2006 KDE 開発チーム"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "オリジナルの実装"

@@ -1,0 +1,142 @@
+# Translation of plasma_applet_org.kde.plasma.pager.po to Brazilian Portuguese
+# Copyright (C) 2013-2016 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2013, 2014, 2016.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.pager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-19 03:29+0200\n"
+"PO-Revision-Date: 2017-03-02 18:53-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "Geral"
+
+#: package/contents/ui/configGeneral.qml:88
+#, kde-format
+msgid "Display:"
+msgstr "Mostrar:"
+
+#: package/contents/ui/configGeneral.qml:94
+#, kde-format
+msgid "Activity number"
+msgstr "Número da atividade"
+
+#: package/contents/ui/configGeneral.qml:94
+#, kde-format
+msgid "Desktop number"
+msgstr "Número da área de trabalho"
+
+#: package/contents/ui/configGeneral.qml:105
+#, kde-format
+msgid "Activity name"
+msgstr "Nome da atividade"
+
+#: package/contents/ui/configGeneral.qml:105
+#, kde-format
+msgid "Desktop name"
+msgstr "Nome da área de trabalho"
+
+#: package/contents/ui/configGeneral.qml:111
+#, kde-format
+msgid "No text"
+msgstr "Nenhum texto"
+
+#: package/contents/ui/configGeneral.qml:122
+#, kde-format
+msgid "Icons"
+msgstr "Ícones"
+
+#: package/contents/ui/configGeneral.qml:132
+#, kde-format
+msgid "Only the current screen"
+msgstr "Apenas na tela atual"
+
+#: package/contents/ui/configGeneral.qml:136
+#, kde-format
+msgid "Layout:"
+msgstr "Layout:"
+
+#: package/contents/ui/configGeneral.qml:143
+#, kde-format
+msgctxt "The pager layout"
+msgid "Default"
+msgstr "Padrão"
+
+#: package/contents/ui/configGeneral.qml:143
+#, kde-format
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: package/contents/ui/configGeneral.qml:143
+#, kde-format
+msgid "Vertical"
+msgstr "Vertical"
+
+#: package/contents/ui/configGeneral.qml:148
+#, kde-format
+msgid "Selecting current desktop:"
+msgstr "Selecionando área de trabalho atual:"
+
+#: package/contents/ui/configGeneral.qml:154
+#, kde-format
+msgid "Does nothing"
+msgstr "Não fazer nada"
+
+#: package/contents/ui/configGeneral.qml:165
+#, kde-format
+msgid "Shows desktop"
+msgstr "Mostra a área de trabalho"
+
+#: package/contents/ui/main.qml:319
+#, kde-format
+msgid "...and %1 other window"
+msgid_plural "...and %1 other windows"
+msgstr[0] "...e mais %1 janela"
+msgstr[1] "...e mais %1 janelas"
+
+#: package/contents/ui/main.qml:341
+#, kde-format
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 janela:"
+msgstr[1] "%1 janelas:"
+
+#: package/contents/ui/main.qml:350
+#, kde-format
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 janela minimizada:"
+msgstr[1] "%1 janelas minimizadas:"
+
+#: package/contents/ui/main.qml:525
+#, kde-format
+msgid "Show Activity Manager..."
+msgstr "Mostrar o gerenciador de atividades..."
+
+#: package/contents/ui/main.qml:528
+#, kde-format
+msgid "Add Virtual Desktop"
+msgstr "Adicionar uma área de trabalho virtual"
+
+#: package/contents/ui/main.qml:529
+#, kde-format
+msgid "Remove Virtual Desktop"
+msgstr "Remover a área de trabalho virtual"
+
+#: package/contents/ui/main.qml:534
+#, kde-format
+msgid "Configure Desktops..."
+msgstr "Configurar áreas de trabalho..."

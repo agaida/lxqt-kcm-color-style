@@ -1,0 +1,440 @@
+# Translation of plasma_applet_org.kde.desktopcontainment.po to Euskara/Basque (eu).
+# Copyright (C) 2008-2018, Free Software Foundation.
+# This file is distributed under the same license as the kde-workspace package.
+# KDE Euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2008, 2010, 2011, 2017, 2018.
+# marcos <marcos@euskalgnu.org>, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.desktopcontainment\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-05 05:55+0200\n"
+"PO-Revision-Date: 2018-07-21 12:15+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:29
+msgid "Location"
+msgstr "Kokalekua"
+
+#: package/contents/config/config.qml:36
+#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/FolderViewLayer.qml:406
+msgid "Icons"
+msgstr "Ikonoak"
+
+#: package/contents/config/config.qml:43
+msgid "Filter"
+msgstr "Iragazkia"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr "Egokitzapenak"
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr "Neurria aldatu"
+
+#: package/contents/ui/AppletHandle.qml:127
+msgid "Rotate"
+msgstr "Biratu"
+
+#: package/contents/ui/AppletHandle.qml:284
+msgid "Remove"
+msgstr "Kendu"
+
+#: package/contents/ui/BackButtonItem.qml:116
+msgid "Back"
+msgstr "Atzera"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show All Files"
+msgstr "Erakutsi fitxategi guztiak"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show Files Matching"
+msgstr "Erakutsi bat datozen fitxategiak"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Hide Files Matching"
+msgstr "Ezkutatu bat datozen fitxategiak"
+
+#: package/contents/ui/ConfigFilter.qml:90
+msgid "File name pattern:"
+msgstr "Fitxategi-izenaren eredua:"
+
+#: package/contents/ui/ConfigFilter.qml:104
+msgid "File types:"
+msgstr "Fitxategi motak:"
+
+#: package/contents/ui/ConfigFilter.qml:114
+msgid "Search file type..."
+msgstr "Bilatu ...fitxategi mota"
+
+#: package/contents/ui/ConfigFilter.qml:211
+msgid "File type"
+msgstr "Fitxategi mota"
+
+#: package/contents/ui/ConfigFilter.qml:219
+msgid "Description"
+msgstr "Azalpena"
+
+#: package/contents/ui/ConfigFilter.qml:237
+msgid "Select All"
+msgstr "Hautatu guztia"
+
+#: package/contents/ui/ConfigFilter.qml:248
+msgid "Deselect All"
+msgstr "Desautatu guztia"
+
+#: package/contents/ui/ConfigIcons.qml:72
+msgid "Panel button:"
+msgstr "Paneleko botoia:"
+
+#: package/contents/ui/ConfigIcons.qml:83
+msgid "Use a custom icon"
+msgstr "Erabili ikono pertsonalizatua"
+
+#: package/contents/ui/ConfigIcons.qml:125
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Hautatu..."
+
+#: package/contents/ui/ConfigIcons.qml:131
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Kendu ikonoa"
+
+#: package/contents/ui/ConfigIcons.qml:151
+msgid "Arrangement:"
+msgstr "Antolaketa:"
+
+#: package/contents/ui/ConfigIcons.qml:158
+msgid "Arrange in"
+msgstr "Antolatu"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
+msgid "Rows"
+msgstr "Errenkadatan"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
+msgid "Columns"
+msgstr "Zutabetan"
+
+#: package/contents/ui/ConfigIcons.qml:176
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, kde-format
+msgid "Align"
+msgstr "Lerrokatu"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
+msgstr "Ezkerrera"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr "Eskuinera"
+
+#: package/contents/ui/ConfigIcons.qml:198
+msgid "Lock in place"
+msgstr "Giltzatu lekuan"
+
+#: package/contents/ui/ConfigIcons.qml:213
+msgid "Sorting:"
+msgstr "Sailkatzea:"
+
+#: package/contents/ui/ConfigIcons.qml:220
+msgid "Sort by"
+msgstr "Sailkatu ... arabera"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgid "Unsorted"
+msgstr "Sailkatu gabe"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:62
+#, kde-format
+msgid "Name"
+msgstr "Izena"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:309
+#: plugins/folder/viewpropertiesmenu.cpp:66
+#, kde-format
+msgid "Size"
+msgstr "Neurria"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgid "Type"
+msgstr "Mota"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgid "Date"
+msgstr "Data"
+
+#: package/contents/ui/ConfigIcons.qml:251
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Descending"
+msgstr "Beherantz"
+
+#: package/contents/ui/ConfigIcons.qml:263
+msgid "Folders first"
+msgstr "Karpetak lehenengo"
+
+#: package/contents/ui/ConfigIcons.qml:278
+msgid "Appearance:"
+msgstr "Itxura:"
+
+#: package/contents/ui/ConfigIcons.qml:287
+msgctxt "whether to use icon or list view"
+msgid "View mode"
+msgstr "Ikuspegi-modua"
+
+#: package/contents/ui/ConfigIcons.qml:299
+msgid "List"
+msgstr "Zerrenda"
+
+#: package/contents/ui/ConfigIcons.qml:334
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small"
+msgstr "Txikia"
+
+#: package/contents/ui/ConfigIcons.qml:344
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Large"
+msgstr "Handia"
+
+#: package/contents/ui/ConfigIcons.qml:354
+msgid "Text lines"
+msgstr "Testu lerroak"
+
+#: package/contents/ui/ConfigIcons.qml:382
+msgid "Features:"
+msgstr "Eginbideak:"
+
+#: package/contents/ui/ConfigIcons.qml:391
+msgid "Tool tips"
+msgstr "Argibideak"
+
+#: package/contents/ui/ConfigIcons.qml:403
+msgid "Selection markers"
+msgstr "Hautapenaren markatzaileak"
+
+#: package/contents/ui/ConfigIcons.qml:415
+msgid "Folder preview popups"
+msgstr "Karpeta-aurreikuspegia azaleratzen da"
+
+#: package/contents/ui/ConfigIcons.qml:425
+msgid "Preview thumbnails"
+msgstr "Aurreikusteko koadro txikiak"
+
+#: package/contents/ui/ConfigIcons.qml:434
+msgid "More Preview Options..."
+msgstr "Aurreikuspegiaren aukera gehiago..."
+
+#: package/contents/ui/ConfigLocation.qml:93
+msgid "Location:"
+msgstr "Kokalekua:"
+
+#: package/contents/ui/ConfigLocation.qml:101
+msgid "Show the Desktop folder"
+msgstr "Erakutsi Mahaigain karpeta"
+
+#: package/contents/ui/ConfigLocation.qml:113
+msgid "Show files linked to the current activity"
+msgstr "Erakutsi uneko jarduerarekin lotutako fitxategiak"
+
+#: package/contents/ui/ConfigLocation.qml:123
+msgid "Show a place:"
+msgstr "Erakutsi leku bat:"
+
+#: package/contents/ui/ConfigLocation.qml:171
+msgid "Specify a folder:"
+msgstr "Zehaztu karpeta bat:"
+
+#: package/contents/ui/ConfigLocation.qml:182
+msgid "Type a path or a URL here"
+msgstr "Idatzi bide-izen bat edo URL bat hemen"
+
+#: package/contents/ui/ConfigLocation.qml:232
+msgid "Title:"
+msgstr "Titulua:"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "None"
+msgstr "Bat ere ez"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Full path"
+msgstr "Bide-izen osoa"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Custom title"
+msgstr "Titulu pertsonalizatua"
+
+#: package/contents/ui/ConfigLocation.qml:257
+msgid "Enter custom title here"
+msgstr "Sartu titulu pertsonalizatua hemen"
+
+#: package/contents/ui/ConfigTweaks.qml:42
+msgid "Desktop Layout"
+msgstr "Mahaigainaren diseinua"
+
+#: package/contents/ui/ConfigTweaks.qml:51
+msgid "Show the desktop toolbox"
+msgstr "Erakutsi Mahaigaineko tresna-kutxa"
+
+#: package/contents/ui/ConfigTweaks.qml:59
+msgid "Widget Handling"
+msgstr "Trepeten kudeaketa"
+
+#: package/contents/ui/ConfigTweaks.qml:69
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr ""
+"Zanpatu trepetak eta eutsi, haiek mugitu eta euren heldulekuak erakusteko"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+msgid "Preview Plugins"
+msgstr "Aurreikusteko pluginak"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+msgid "OK"
+msgstr "Ados"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+msgid "Cancel"
+msgstr "Utzi"
+
+#: package/contents/ui/main.qml:370
+msgid "Widgets unlocked"
+msgstr "Trepetak giltzatu gabe"
+
+#: package/contents/ui/main.qml:371
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr ""
+"Trepetak zanpatu eta eutsi ditzakezu, haiek mugitu eta euren heldulekuak "
+"erakusteko."
+
+#: package/contents/ui/main.qml:372
+msgid "Got it"
+msgstr "Ulertuta"
+
+#: package/contents/ui/main.qml:583
+msgid "Configure Desktop"
+msgstr "Konfiguratu mahaigaina"
+
+#: plugins/folder/directorypicker.cpp:45
+#, kde-format
+msgid "Select Folder"
+msgstr "Hautatu karpeta"
+
+#: plugins/folder/foldermodel.cpp:396
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "F&reskatu mahaigaina"
+
+#: plugins/folder/foldermodel.cpp:396 plugins/folder/foldermodel.cpp:1539
+#, kde-format
+msgid "&Refresh View"
+msgstr "F&reskatu ikuspegia"
+
+#: plugins/folder/foldermodel.cpp:1546
+#, kde-format
+msgid "&Empty Trash Bin"
+msgstr "&Hustu zakarrontzia"
+
+#: plugins/folder/foldermodel.cpp:1549
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "Lehengoratu"
+
+#: plugins/folder/foldermodel.cpp:1554
+#, kde-format
+msgid "&Open"
+msgstr "&Ireki"
+
+#: plugins/folder/foldermodel.cpp:1626
+#, kde-format
+msgid "&Paste"
+msgstr "&Itsatsi"
+
+#: plugins/folder/foldermodel.cpp:1759
+#, kde-format
+msgid "&Properties"
+msgstr "&Propietateak"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+#, kde-format
+msgid "Arrange In"
+msgstr "Antolatu honela:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgid "Sort By"
+msgstr "Ordenatu honen arabera"
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+#, kde-format
+msgid "Folders First"
+msgstr "Karpetak lehenengo"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgid "Icon Size"
+msgstr "Ikonoen neurria"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Tiny"
+msgstr "Ñimiñoa"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small Medium"
+msgstr "txiki ertaina"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr "Euskarria"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Huge"
+msgstr "Itzela"
+
+#: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
+msgid "Locked"
+msgstr "Giltzatuta"

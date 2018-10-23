@@ -1,0 +1,184 @@
+# Translation of kcm_cursortheme.po to Ukrainian
+# Copyright (C) 2018 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_cursortheme\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-12 05:57+0200\n"
+"PO-Revision-Date: 2018-04-25 09:25+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: kcmcursortheme.cpp:73
+#, kde-format
+msgid "Cursor Theme"
+msgstr "Тема вказівника"
+
+#: kcmcursortheme.cpp:74
+#, kde-format
+msgid "Mouse Cursor Theme settings"
+msgstr "Параметри теми вказівника миші"
+
+#: kcmcursortheme.cpp:74
+#, kde-format
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr "© Fredrik Höglund, 2003–2007"
+
+#: kcmcursortheme.cpp:75
+#, kde-format
+msgid "Fredrik Höglund"
+msgstr "Fredrik Höglund"
+
+#: kcmcursortheme.cpp:76
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcmcursortheme.cpp:235
+#, kde-format
+msgctxt "@item:inlistbox size"
+msgid "Resolution dependent"
+msgstr "залежний від роздільності"
+
+#: kcmcursortheme.cpp:364
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"Вам слід перезапустити сеанс Плазми, щоб внесені зміни набули чинності."
+
+#: kcmcursortheme.cpp:466
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Не вдалося створити тимчасовий файл."
+
+#: kcmcursortheme.cpp:477
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Не вдалося отримати архів теми курсорів %1."
+
+#: kcmcursortheme.cpp:507
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "Цей файл не є архівом тем."
+
+#: kcmcursortheme.cpp:514
+#, kde-format
+msgid "Failed to create 'icons' folder."
+msgstr "Не вдалося створити теку «icons»."
+
+#: kcmcursortheme.cpp:522
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr ""
+"Тема з назвою %1 вже існує у вашій теці тем піктограм. Замінити її новою?"
+
+#: kcmcursortheme.cpp:526
+#, kde-format
+msgid "Overwrite Theme?"
+msgstr "Перезаписати тему?"
+
+#: kcmcursortheme.cpp:552
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Тему успішно встановлено."
+
+#: kcmcursortheme.cpp:568
+#, kde-format
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
+"<qt>Не можна вилучити тему, яку ви зараз використовуєте.<br />Спочатку "
+"перемкніть на іншу тему.</qt>"
+
+#: kcmcursortheme.cpp:574
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt>Ви дійсно хочете вилучити тему курсорів <strong>%1</strong>? <br />Це "
+"вилучить всі файли, встановлені темою.</qt>"
+
+#: kcmcursortheme.cpp:580
+#, kde-format
+msgid "Confirmation"
+msgstr "Підтвердження"
+
+#: package/contents/ui/Delegate.qml:57
+#, kde-format
+msgid "Remove Theme"
+msgstr "Вилучити тему"
+
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "This module lets you configure the mouse cursor theme used."
+msgstr ""
+"За допомогою цього модуля можна налаштувати використану тему вказівника миші."
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Size:"
+msgstr "Розмір:"
+
+#: package/contents/ui/main.qml:139
+#, kde-format
+msgid "&Install From File..."
+msgstr "Вс&тановити з файла…"
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgid "&Get New Theme..."
+msgstr "&Отримати нову тему…"
+
+#: package/contents/ui/main.qml:167
+#, kde-format
+msgid "Open Theme"
+msgstr "Відкриття теми"
+
+#: package/contents/ui/main.qml:169
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "файли тем курсорів (*.tar.gz *.tar.bz2)"
+
+#: xcursor/thememodel.cpp:83
+#, kde-format
+msgid "Name"
+msgstr "Назва"
+
+#: xcursor/thememodel.cpp:86
+#, kde-format
+msgid "Description"
+msgstr "Опис"
+
+#: xcursor/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr "(Доступні розміри: %1)"

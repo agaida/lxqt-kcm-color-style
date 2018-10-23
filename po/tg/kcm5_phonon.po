@@ -1,0 +1,395 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"PO-Revision-Date: 2012-01-04 21:47+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik <>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Виктор Ибрагимов"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "victor.ibragimov@gmail.com"
+
+#: audiosetup.cpp:561
+#, kde-format
+msgid "Playback (%1)"
+msgstr "Воспроизведение (%1)"
+
+#: audiosetup.cpp:565
+#, kde-format
+msgid "Recording (%1)"
+msgstr "Запись (%1)"
+
+#: audiosetup.cpp:623
+#, kde-format
+msgid "Independent Devices"
+msgstr "Независимые устройства"
+
+#: audiosetup.cpp:652
+#, kde-format
+msgid "KDE Audio Hardware Setup"
+msgstr "Настройка звукового оборудования KDE"
+
+#. i18n: ectx: property (title), widget (QGroupBox, hardwareGroupBox)
+#: audiosetup.ui:18
+#, kde-format
+msgid "Hardware"
+msgstr "Оборудование"
+
+#. i18n: ectx: property (text), widget (QLabel, profileLabel)
+#: audiosetup.ui:44
+#, kde-format
+msgid "Profile"
+msgstr "Профиль"
+
+#. i18n: ectx: property (text), widget (QLabel, cardLabel)
+#: audiosetup.ui:54
+#, kde-format
+msgid "Sound Card"
+msgstr "Звуковая плата"
+
+#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
+#: audiosetup.ui:67
+#, kde-format
+msgid "Device Configuration"
+msgstr "Настройка устройства"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: audiosetup.ui:83
+#, kde-format
+msgid "Connector"
+msgstr "Разъём"
+
+#. i18n: ectx: property (text), widget (QLabel, deviceLabel)
+#: audiosetup.ui:103
+#, kde-format
+msgid "Sound Device"
+msgstr "Звуковое устройство"
+
+#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
+#: audiosetup.ui:144
+#, kde-format
+msgid "Speaker Placement and Testing"
+msgstr "Проверка конфигурации динамиков"
+
+#. i18n: ectx: property (title), widget (QGroupBox, inputGroupBox)
+#: audiosetup.ui:181
+#, kde-format
+msgid "Input Levels"
+msgstr "Уровни на входе"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"Рӯйхати пуштибонии Phonon дар системаи шумо ёфт шуд.  Тартиботи рӯйхат "
+"истифодабарии Phonon муайян мекунад."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "Мақбул"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "Қатъ"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "Воспроизведение звука"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "Запись звука"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "Запись видео"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "Ошибка"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "Проверить выбранное устройство"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"Муайянкунии тартиботи дастгоҳҳои стандартие, ки метавонанд бо интихоби шахси "
+"ба кор дароварда шаванд."
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "Приоритет устройств воспроизведения звука по умолчанию"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "Приоритет устройств записи звука по умолчанию"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "Приоритет устройств записи видео по умолчанию"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "Приоритет устройств воспроизведения звука для категории «%1»"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "Приоритет устройств записи звука для категории «%1»"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "Приоритет устройств записи видео для категории «%1»"
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"Использовать приоритет использования устройств для следующих категорий "
+"воспроизведения звука:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "Категорияи стандартӣ/номуайян"
+
+#: devicepreference.cpp:869
+#, fuzzy, kde-format
+#| msgid "Test the selected device"
+msgid "Failed to set the selected audio output device"
+msgstr "Проверить выбранное устройство"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "Выбранный механизм вероятно не поддерживает запись звука"
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "Выбранный механизм вероятно не поддерживает запись видео"
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "Тестирование %1"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"Различные категории работы с мультимедиа. Для каждой категории вы можете "
+"назначить отдельное устройство."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "Намоиши дастгоҳҳои иловагӣ"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "Использовать текущий список устройств для некоторых других категорий."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "Қабул кардани рӯйхати дастгоҳ ба..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"Обнаруженные в системе устройства, подходящие для выбранной категории. "
+"Выберите устройство, которое будет использоваться приложениями."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"Приоритет определяет порядок использования устройств: если невозможно "
+"вывести звук на первое устройство, будет предпринята попытка вывода на "
+"следующем устройстве и так далее."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "Санҷиш"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "имконоти дастгоҳи интихобшуда"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "имконоти дастгоҳи интихобшуда маҷуд нест"
+
+#: main.cpp:43
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "Барномаи танзимоти Phonon"
+
+#: main.cpp:45
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:46
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:47
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:58
+#, kde-format
+msgid "Device Preference"
+msgstr "Хусусиятҳои дастгоҳ"
+
+#: main.cpp:60
+#, kde-format
+msgid "Backend"
+msgstr "Пуштибонӣ"
+
+#: main.cpp:96
+#, kde-format
+msgid "Audio Hardware Setup"
+msgstr "Настройка звукового оборудования"
+
+#: testspeakerwidget.cpp:148
+#, kde-format
+msgid "Front Left"
+msgstr "Левый фронтальный"
+
+#: testspeakerwidget.cpp:150
+#, kde-format
+msgid "Front Left of Center"
+msgstr "Фронтальный левее центра"
+
+#: testspeakerwidget.cpp:152
+#, kde-format
+msgid "Front Center"
+msgstr "Центральный фронтальный"
+
+#: testspeakerwidget.cpp:154
+#, kde-format
+msgid "Mono"
+msgstr "Моно"
+
+#: testspeakerwidget.cpp:156
+#, kde-format
+msgid "Front Right of Center"
+msgstr "Фронтальный правее центра"
+
+#: testspeakerwidget.cpp:158
+#, kde-format
+msgid "Front Right"
+msgstr "Правый фронтальный"
+
+#: testspeakerwidget.cpp:160
+#, kde-format
+msgid "Side Left"
+msgstr "Левый боковой"
+
+#: testspeakerwidget.cpp:162
+#, kde-format
+msgid "Side Right"
+msgstr "Правый боковой"
+
+#: testspeakerwidget.cpp:164
+#, kde-format
+msgid "Rear Left"
+msgstr "Левый тыловой"
+
+#: testspeakerwidget.cpp:166
+#, kde-format
+msgid "Rear Center"
+msgstr "Центральный тыловой"
+
+#: testspeakerwidget.cpp:168
+#, kde-format
+msgid "Rear Right"
+msgstr "Правый тыловой"
+
+#: testspeakerwidget.cpp:170
+#, kde-format
+msgid "Subwoofer"
+msgstr "Сабвуфер"
+
+#: testspeakerwidget.cpp:174
+#, kde-format
+msgid "Unknown Channel"
+msgstr "Неизвестный канал"

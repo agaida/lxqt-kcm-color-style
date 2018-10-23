@@ -1,0 +1,463 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitris Kardarakos <dimkard@gmail.com>, 2014, 2015, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-05 05:55+0200\n"
+"PO-Revision-Date: 2017-01-15 17:57+0200\n"
+"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:29
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: package/contents/config/config.qml:36
+#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/FolderViewLayer.qml:406
+msgid "Icons"
+msgstr "Εικονίδια"
+
+#: package/contents/config/config.qml:43
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr "Μικροδιορθώσεις"
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr "Αλλαγή μεγέθους"
+
+#: package/contents/ui/AppletHandle.qml:127
+msgid "Rotate"
+msgstr "Περιστροφή"
+
+#: package/contents/ui/AppletHandle.qml:284
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: package/contents/ui/BackButtonItem.qml:116
+msgid "Back"
+msgstr "Πίσω"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show All Files"
+msgstr "Εμφάνιση όλων των αρχείων"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Show Files Matching"
+msgstr "Εμφάνιση αρχείων με ταίριασμα"
+
+#: package/contents/ui/ConfigFilter.qml:84
+msgid "Hide Files Matching"
+msgstr "Απόκρυψη αρχείων με ταίριασμα"
+
+#: package/contents/ui/ConfigFilter.qml:90
+msgid "File name pattern:"
+msgstr "Μοτίβο ονόματος αρχείου:"
+
+#: package/contents/ui/ConfigFilter.qml:104
+msgid "File types:"
+msgstr "Τύποι αρχείων:"
+
+#: package/contents/ui/ConfigFilter.qml:114
+msgid "Search file type..."
+msgstr "Αναζήτηση τύπου αρχείου..."
+
+#: package/contents/ui/ConfigFilter.qml:211
+#, fuzzy
+#| msgid "File types:"
+msgid "File type"
+msgstr "Τύποι αρχείων:"
+
+#: package/contents/ui/ConfigFilter.qml:219
+msgid "Description"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:237
+msgid "Select All"
+msgstr "Επιλογή όλων"
+
+#: package/contents/ui/ConfigFilter.qml:248
+msgid "Deselect All"
+msgstr "Αναίρεση επιλογής όλων"
+
+#: package/contents/ui/ConfigIcons.qml:72
+#, fuzzy
+#| msgid "Panel Button"
+msgid "Panel button:"
+msgstr "Κουμπί πίνακα"
+
+#: package/contents/ui/ConfigIcons.qml:83
+#, fuzzy
+#| msgid "Custom icon:"
+msgid "Use a custom icon"
+msgstr "Προσαρμοσμένο εικονίδιο:"
+
+#: package/contents/ui/ConfigIcons.qml:125
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Επιλογή..."
+
+#: package/contents/ui/ConfigIcons.qml:131
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Καθαρισμός εικονιδίου"
+
+#: package/contents/ui/ConfigIcons.qml:151
+#, fuzzy
+#| msgid "Arrangement"
+msgid "Arrangement:"
+msgstr "Διάταξη"
+
+#: package/contents/ui/ConfigIcons.qml:158
+#, fuzzy
+#| msgid "Arrange in:"
+msgid "Arrange in"
+msgstr "Διάταξη σε:"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
+msgid "Rows"
+msgstr "Γραμμές"
+
+#: package/contents/ui/ConfigIcons.qml:168
+#: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
+msgid "Columns"
+msgstr "Στήλες"
+
+#: package/contents/ui/ConfigIcons.qml:176
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, kde-format
+msgid "Align"
+msgstr "Στοίχιση"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
+msgstr "Αριστερά"
+
+#: package/contents/ui/ConfigIcons.qml:186
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr "Δεξιά"
+
+#: package/contents/ui/ConfigIcons.qml:198
+msgid "Lock in place"
+msgstr "Κλείδωμα στην τοποθεσία:"
+
+#: package/contents/ui/ConfigIcons.qml:213
+msgid "Sorting:"
+msgstr "Ταξινόμηση:"
+
+#: package/contents/ui/ConfigIcons.qml:220
+#, fuzzy
+#| msgid "Sort By"
+msgid "Sort by"
+msgstr "Ταξινόμηση κατά"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgid "Unsorted"
+msgstr "Αταξινόμητα"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:62
+#, kde-format
+msgid "Name"
+msgstr "Όνομα"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:309
+#: plugins/folder/viewpropertiesmenu.cpp:66
+#, kde-format
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgid "Type"
+msgstr "Τύπος"
+
+#: package/contents/ui/ConfigIcons.qml:236
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: package/contents/ui/ConfigIcons.qml:251
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Descending"
+msgstr "Φθίνουσα"
+
+#: package/contents/ui/ConfigIcons.qml:263
+msgid "Folders first"
+msgstr "Πρώτα οι φάκελοι"
+
+#: package/contents/ui/ConfigIcons.qml:278
+#, fuzzy
+#| msgid "Appearance"
+msgid "Appearance:"
+msgstr "Εμφάνιση"
+
+#: package/contents/ui/ConfigIcons.qml:287
+#, fuzzy
+#| msgctxt "whether to use icon or list view"
+#| msgid "View Mode:"
+msgctxt "whether to use icon or list view"
+msgid "View mode"
+msgstr "Λειτουργία προβολής:"
+
+#: package/contents/ui/ConfigIcons.qml:299
+msgid "List"
+msgstr "Λίστα"
+
+#: package/contents/ui/ConfigIcons.qml:334
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small"
+msgstr "Μικρό"
+
+#: package/contents/ui/ConfigIcons.qml:344
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: package/contents/ui/ConfigIcons.qml:354
+#, fuzzy
+#| msgid "Text lines:"
+msgid "Text lines"
+msgstr "Γραμμές κειμένου:"
+
+#: package/contents/ui/ConfigIcons.qml:382
+#, fuzzy
+#| msgid "Features"
+msgid "Features:"
+msgstr "Χαρακτηριστικά"
+
+#: package/contents/ui/ConfigIcons.qml:391
+#, fuzzy
+#| msgid "Tooltips"
+msgid "Tool tips"
+msgstr "Υποδείξεις"
+
+#: package/contents/ui/ConfigIcons.qml:403
+msgid "Selection markers"
+msgstr "Σημεία επιλογής"
+
+#: package/contents/ui/ConfigIcons.qml:415
+msgid "Folder preview popups"
+msgstr "Αναδυόμενα παράθυρα προεπισκόπησης φακέλων"
+
+#: package/contents/ui/ConfigIcons.qml:425
+msgid "Preview thumbnails"
+msgstr "Εικόνες προεπισκόπησης"
+
+#: package/contents/ui/ConfigIcons.qml:434
+msgid "More Preview Options..."
+msgstr "Περισσότερες επιλογές προεπισκόπησης..."
+
+#: package/contents/ui/ConfigLocation.qml:93
+#, fuzzy
+#| msgid "Location"
+msgid "Location:"
+msgstr "Τοποθεσία"
+
+#: package/contents/ui/ConfigLocation.qml:101
+msgid "Show the Desktop folder"
+msgstr "Εμφάνιση φακέλου επιφάνειας εργασίας"
+
+#: package/contents/ui/ConfigLocation.qml:113
+msgid "Show files linked to the current activity"
+msgstr "Εμφάνιση των αρχείων που σχετίζονται με την τρέχουσα δραστηριότητα"
+
+#: package/contents/ui/ConfigLocation.qml:123
+msgid "Show a place:"
+msgstr "Εμφάνιση μιας τοποθεσίας:"
+
+#: package/contents/ui/ConfigLocation.qml:171
+msgid "Specify a folder:"
+msgstr "Καθορισμός φακέλου:"
+
+#: package/contents/ui/ConfigLocation.qml:182
+msgid "Type a path or a URL here"
+msgstr "Πληκτρολογήστε εδώ μια διαδρομή ή URL"
+
+#: package/contents/ui/ConfigLocation.qml:232
+#, fuzzy
+#| msgid "Title"
+msgid "Title:"
+msgstr "Τίτλος"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "None"
+msgstr "Κανένα"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Full path"
+msgstr "Πλήρης διαδρομή"
+
+#: package/contents/ui/ConfigLocation.qml:244
+msgid "Custom title"
+msgstr "Προσαρμοσμένος τίτλος"
+
+#: package/contents/ui/ConfigLocation.qml:257
+msgid "Enter custom title here"
+msgstr "Εισαγωγή ενός προσαρμοσμένου τίτλου εδώ"
+
+#: package/contents/ui/ConfigTweaks.qml:42
+msgid "Desktop Layout"
+msgstr "Διάταξη επιφάνειας εργασίας"
+
+#: package/contents/ui/ConfigTweaks.qml:51
+msgid "Show the desktop toolbox"
+msgstr "Εμφάνιση της εργαλειοθήκης επιφάνειας εργασίας"
+
+#: package/contents/ui/ConfigTweaks.qml:59
+msgid "Widget Handling"
+msgstr "Χειρισμός γραφικού συστατικού"
+
+#: package/contents/ui/ConfigTweaks.qml:69
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr ""
+"Πιέστε και κρατήστε πατημένα τα γραφικά συστατικά για να τα μετακινήσετε και "
+"να εμφανίσετε τα σημεία χειρισμού"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+msgid "Preview Plugins"
+msgstr "Πρόσθετα προεπισκοπήσης:"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+msgid "OK"
+msgstr "Εντάξει"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: package/contents/ui/main.qml:370
+msgid "Widgets unlocked"
+msgstr "Τα γραφικά συστατικά ξεκλειδώθηκαν"
+
+#: package/contents/ui/main.qml:371
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr ""
+"Μπορείτε να πιέσετε και κρατήστε πατημένα τα γραφικά συστατικά για να τα "
+"μετακινήσετε και να εμφανίσετε τα σημεία χειρισμού."
+
+#: package/contents/ui/main.qml:372
+msgid "Got it"
+msgstr "Το 'πιασα"
+
+#: package/contents/ui/main.qml:583
+msgid "Configure Desktop"
+msgstr "Διαμόρφωση επιφάνειας εργασίας"
+
+#: plugins/folder/directorypicker.cpp:45
+#, kde-format
+msgid "Select Folder"
+msgstr "Επιλογή φακέλου"
+
+#: plugins/folder/foldermodel.cpp:396
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "&Ανανέωση επιφάνειας εργασίας"
+
+#: plugins/folder/foldermodel.cpp:396 plugins/folder/foldermodel.cpp:1539
+#, kde-format
+msgid "&Refresh View"
+msgstr "Ανανέωση προ&βολής"
+
+#: plugins/folder/foldermodel.cpp:1546
+#, kde-format
+msgid "&Empty Trash Bin"
+msgstr "Άδειασμα &κάδου απορριμάτων"
+
+#: plugins/folder/foldermodel.cpp:1549
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "Επαναφορά"
+
+#: plugins/folder/foldermodel.cpp:1554
+#, kde-format
+msgid "&Open"
+msgstr "Ά&νοιγμα"
+
+#: plugins/folder/foldermodel.cpp:1626
+#, kde-format
+msgid "&Paste"
+msgstr "Επι&κόλληση"
+
+#: plugins/folder/foldermodel.cpp:1759
+#, kde-format
+msgid "&Properties"
+msgstr "&Ιδιότητες"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+#, kde-format
+msgid "Arrange In"
+msgstr "Διάταξη σε"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgid "Sort By"
+msgstr "Ταξινόμηση κατά"
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+#, kde-format
+msgid "Folders First"
+msgstr "Πρώτα οι φάκελοι"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgid "Icon Size"
+msgstr "Μέγεθος εικονιδίων"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Tiny"
+msgstr "Μικροσκοπικό"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small Medium"
+msgstr "Μικρομεσαίο"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Huge"
+msgstr "Τεράστιο"
+
+#: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
+msgid "Locked"
+msgstr "Κλειδωμένο"

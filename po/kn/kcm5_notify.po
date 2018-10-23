@@ -1,0 +1,99 @@
+# translation of kcmnotify.po to Kannada
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2008-12-25 15:14+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ಶಂಕರ ಪ್ರಸಾದ್ ಎಂ ವಿ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "svenkate@redhat.com"
+
+#: knotify.cpp:57
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Notifications</h1>KDE allows for a great deal of control over "
+#| "how you will be notified when certain events occur. There are several "
+#| "choices as to how you are notified:<ul><li>As the application was "
+#| "originally designed.</li><li>With a beep or other noise.</li><li>Via a "
+#| "popup dialog box with additional information.</li><li>By recording the "
+#| "event in a logfile without any additional visual or audible alert.</li></"
+#| "ul>"
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>ಗಣಕ ಸೂಚನೆಗಳು</h1>ನಿರ್ದಿಷ್ಟ ಘಟನೆಗಳು ಜರುಗಿದಾಗ ಹೇಗೆ ಅದನ್ನು ನಿಮಗೆ ತಿಳಿಸಬೇಕು "
+"ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸುವ ಆಯ್ಕೆಗಳನ್ನು KDE ಒದಗಿಸುತ್ತದೆ. ನಿಮಗೆ ಸೂಚನೆ ನೀಡಲು ಹಲವಾರು "
+"ಆಯ್ಕೆಗಳಿವೆ:<ul><li>ಅನ್ವಯದ ಮೂಲ ವಿನ್ಯಾಸದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ.</li><li>ಒಂದು ಬೀಪ್ ಅಥವ "
+"ಬೇರಾವುದೆ ಶಬ್ಧದಿಂದ.</li><li>ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಂಡಿರುವ ಒಂದು ಪುಟಿಕೆ "
+"ವಿಂಡೊವನ್ನು ಮುಖಾಂತರ.</li><li>ಯಾವುದೆ ಹೆಚ್ಚಿನ ದೃಶ್ಯ ಅಥವ ಧ್ವನಿ ಇಲ್ಲದೆ ಕೇವಲ ಘಟನೆಯನ್ನು "
+"ಒಂದು ದಾಖಲೆ ಕಡತದಲ್ಲಿ ದಾಖಲಿಸುವ ಮೂಲಕ.</li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "ಘಟನೆಯ ಮೂಲ:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr ""
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "ಗಣಕದ ಸೂಚನಾ ನಿಯಂತ್ರಣ ಫಲಕ ಮಾಡ್ಯೂಲ್"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "(c) 2002-2006 KDE ತಂಡ"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "ಮೂಲ ಅನ್ವಯಿಸುವಿಕೆ"

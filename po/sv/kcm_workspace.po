@@ -1,0 +1,78 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2014, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-29 06:32+0200\n"
+"PO-Revision-Date: 2018-05-30 21:16+0100\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Asserhäll"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stefan.asserhall@bredband.net"
+
+#: package/contents/ui/main.qml:42
+#, kde-format
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "Display informational tooltips on mouse hover"
+msgstr "Visa verktygstips när musen hålls över objekt"
+
+#: package/contents/ui/main.qml:54
+#, kde-format
+msgid "Display visual feedback for status changes"
+msgstr "Visa visuell återmatning för statusändringar"
+
+#: package/contents/ui/main.qml:73
+#, kde-format
+msgid "Click Behaviour"
+msgstr "Klickbeteende"
+
+#: package/contents/ui/main.qml:78
+#, kde-format
+msgid "Single-click to open files and folders"
+msgstr "Enkelklicka för att öppna filer och kataloger"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Double-click to open files and folders (select icons on first click)"
+msgstr ""
+"Dubbelklicka för att öppna filer och kataloger (välj ikonen vid första "
+"klicket)"
+
+#: workspaceoptions.cpp:40
+#, kde-format
+msgid "Plasma Workspace global options"
+msgstr "Globala alternativ för Plasma arbetsyta"
+
+#: workspaceoptions.cpp:42
+#, kde-format
+msgid ""
+"System Settings module for managing global options for the Plasma Workspace."
+msgstr ""
+"Systeminställningsmodul för att hantera globala alternativ för Plasma "
+"arbetsyta."
+
+#: workspaceoptions.cpp:45
+#, kde-format
+msgid "Furkan Tokac"
+msgstr "Furkan Tokac"

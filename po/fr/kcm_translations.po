@@ -1,0 +1,147 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Maxime Corteel <mcorteel@gmail.com>, 2014, 2015.
+# Simon Depiets <sdepiets@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-16 03:46+0200\n"
+"PO-Revision-Date: 2018-06-04 17:25+0800\n"
+"Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Maxime Corteel, Simon Depiets"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mcorteel@gmail.com, sdepiets@gmail.com"
+
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "Language"
+msgstr "Langue"
+
+#: package/contents/ui/main.qml:54
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Languages"
+msgstr "Ajouter des langues"
+
+#: package/contents/ui/main.qml:101
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Ajouter"
+
+#: package/contents/ui/main.qml:129
+#, kde-format
+msgctxt "@info"
+msgid "There are no languages available on this system."
+msgstr "Aucune langue n'est installée sur ce système."
+
+#: package/contents/ui/main.qml:139
+#, kde-format
+msgctxt "@info"
+msgid "Your changes will take effect the next time you log in."
+msgstr "Vos modifications prendront effet lors de votre prochaine connexion."
+
+#: package/contents/ui/main.qml:140
+#, kde-format
+msgctxt "@info"
+msgid "There are currently no preferred languages configured."
+msgstr "Actuellement, aucune langue préférée n'est configurée."
+
+#: package/contents/ui/main.qml:151
+#, kde-format
+msgctxt "@info %2 is the language code"
+msgid ""
+"The translation files for the language with the code '%2' could not be "
+"found. The language will be removed from your configuration. If you want to "
+"add it back, please install the localization files for it and add the "
+"language again."
+msgid_plural ""
+"The translation files for the languages with the codes '%2' could not be "
+"found. These languages will be removed from your configuration. If you want "
+"to add them back, please install the localization files for it and the "
+"languages again."
+msgstr[0] ""
+"Impossible de trouver les fichiers de traduction pour la langue dont le code "
+"est « %2 ». Cette langue sera supprimée de votre configuration. Si vous "
+"souhaitez la rajouter, installez les fichiers de localisation associés et "
+"ajoutez-la de nouveau."
+msgstr[1] ""
+"Impossible de trouver les fichiers de traduction pour les langues dont les "
+"codes sont « %2 ». Ces langues seront supprimées de votre configuration. Si "
+"vous souhaitez les rajouter, installez les fichiers de localisation associés "
+"et ajoutez-les de nouveau."
+
+#: package/contents/ui/main.qml:164
+#, kde-format
+msgid ""
+"The language at the top of this list is the one you want to see and use most "
+"often."
+msgstr ""
+"La langue présente en haut de cette liste est celle que vous souhaitez voir "
+"et utiliser le plus souvent possible."
+
+#: package/contents/ui/main.qml:208
+#, kde-format
+msgctxt "@item:inlistbox 1 = Language name"
+msgid "%1 (Default)"
+msgstr "%1 (par défaut)"
+
+#: package/contents/ui/main.qml:220
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Promote to default"
+msgstr "Promouvoir en langue par défaut"
+
+#: package/contents/ui/main.qml:226
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move up"
+msgstr "Déplacer vers le haut"
+
+#: package/contents/ui/main.qml:232
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move down"
+msgstr "Déplacer vers le bas"
+
+#: package/contents/ui/main.qml:238
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove"
+msgstr "Supprimer"
+
+#: package/contents/ui/main.qml:252
+#, kde-format
+msgctxt "@action:button"
+msgid "Add languages..."
+msgstr "Ajouter des langues..."
+
+#: translations.cpp:39
+#, kde-format
+msgid "Configure Plasma translations"
+msgstr "Configurer les traductions de Plasma"
+
+#: translationsmodel.cpp:173 translationsmodel.cpp:183
+#, kde-format
+msgctxt "%1 is language name, %2 is language code name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"

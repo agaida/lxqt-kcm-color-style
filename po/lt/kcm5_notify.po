@@ -1,0 +1,98 @@
+# translation of kcmnotify.po to Lithuanian
+# Donatas Glodenis <dgvirtual@akl.lt>, 2005-2009.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2017-06-25 01:12+0200\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ričardas Čepas, Donatas Glodenis"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "rch@richard.eu.org, dgvirtual@akl.lt"
+
+#: knotify.cpp:57
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Notifications</h1>KDE allows for a great deal of control over "
+#| "how you will be notified when certain events occur. There are several "
+#| "choices as to how you are notified:<ul><li>As the application was "
+#| "originally designed.</li><li>With a beep or other noise.</li><li>Via a "
+#| "popup dialog box with additional information.</li><li>By recording the "
+#| "event in a logfile without any additional visual or audible alert.</li></"
+#| "ul>"
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>Sistemos pranešimai</h1> KDE suteikia jums daug galimybių kontroliuoti "
+"kaip jums bus pranešta atsitikus tam tikriems įvykiams. Galimi keli "
+"pranešimų variantai:<ul> <li>Taip kaip programa nuspręs.</li><li>Pyptelėjimu "
+"ar kitu garsu.</li><li>Pasirodančiu dialogo langu su papildoma informacija.</"
+"li><li>Įrašant įvykį į žurnalą be jokio papildomo vaizdinio ar garsinio "
+"signalo.</li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "Įvykio šaltinis:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr "Išjungti visų šių įvykių garsus"
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "Sistemos pranešimų valdymo pulto modulis"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "(c) 2002-2006 KDE komanda"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "Originalus įgyvendinimas"

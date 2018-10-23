@@ -1,0 +1,96 @@
+# translation of kcmnotify.po to Bengali
+# Deepayan Sarkar <deepayan.sarkar@gmail.com>, 2004, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2012-07-12 15:00+0530\n"
+"Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
+"Language-Team: Bengali <kde-translation@bengalinux.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "দীপায়ন সরকার"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "deepayan@bengalinux.org"
+
+#: knotify.cpp:57
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Notifications</h1>KDE allows for a great deal of control over "
+#| "how you will be notified when certain events occur. There are several "
+#| "choices as to how you are notified:<ul><li>As the application was "
+#| "originally designed.</li><li>With a beep or other noise.</li><li>Via a "
+#| "popup dialog box with additional information.</li><li>By recording the "
+#| "event in a logfile without any additional visual or audible alert.</li></"
+#| "ul>"
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>সিস্টেম বিজ্ঞপ্তি</h1>কোন বিশেষ ঘটনা ঘটলে তা আপনাকে কিভাবে জানানো হবে, তার "
+"উপর কে.ডি.ই. আপনাকে অনেকখানি নিয়ন্ত্রণ দেয়। আপনার বেছে নিতে পারেন অনেকগুলি "
+"উপায়ের মধ্যে একটি: <ul> <li>অ্যাপলিকেশনটি যেভাবে চায়।</li><li>একটি বীপ অথবা "
+"অন্য কোন আওয়াজ করে।</li><li>কিছু অতিরিক্ত তথ্য সমেত একটি পপ-আপ ডায়ালগ ব্যবহার করে।"
+"</li><li>কোন শব্দ বা দৃষ্টিগোচর কোন সংকেত না করে ঘটনাটি একটি লগ ফাইলে নথীবদ্ধ "
+"করে। </li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "ঘটনার উত্‍স:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr ""
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "কে-নোটিফাই"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "সিস্টেম বিজ্ঞপ্তি নিয়ন্ত্রণ প্যানেল মডিউল"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "(c) 2002-2006 KDE Team"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "মূল রূপায়ন"

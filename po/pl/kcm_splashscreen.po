@@ -1,0 +1,74 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014, 2015, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-07-12 05:57+0200\n"
+"PO-Revision-Date: 2018-04-28 06:36+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#: kcm.cpp:50
+#, kde-format
+msgid "Configure Splash screen details"
+msgstr "Ustawienia szczegółów ekranu powitalnego"
+
+#: kcm.cpp:52
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:127
+#, kde-format
+msgid "None"
+msgstr "Brak"
+
+#: kcm.cpp:129
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr "Nie będzie pokazywany żaden ekran powitalny"
+
+#: kcm.cpp:206
+#, kde-format
+msgid "Error"
+msgstr "Błąd"
+
+#: kcm.cpp:206
+#, kde-format
+msgid "Failed to successfully test the splash screen."
+msgstr "Wypróbowywanie ekranu powitalnego zakończyło się niepowodzeniem."
+
+#: package/contents/ui/main.qml:27
+#, kde-format
+msgid "This module lets you configure the splash screen theme."
+msgstr "Ten moduł umożliwia określenie wyglądu ekranu powitalnego."
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "Test Splashscreen"
+msgstr "Próba ekranu powitalnego"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "&Get New Theme..."
+msgstr "&Pobierz nowy zestaw..."

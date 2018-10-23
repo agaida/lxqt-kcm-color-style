@@ -1,0 +1,256 @@
+# Irish translation of kcm_emoticons
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcm_emoticons package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdereview/kcm_emoticons.po\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-04 03:29+0100\n"
+"PO-Revision-Date: 2008-02-14 18:32-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#: emoticonslist.cpp:71
+#, kde-format
+msgid ""
+"Insert the string for the emoticon.  If you want multiple strings, separate "
+"them by spaces."
+msgstr ""
+"Cuir teaghrán isteach le haghaidh na straoiseoige. Má tá tú ag iarraidh níos "
+"mó ná teaghrán amháin, cuir spásanna eatarthu."
+
+#: emoticonslist.cpp:111
+#, kde-format
+msgid "Emoticons"
+msgstr "Straoiseoga"
+
+#: emoticonslist.cpp:255
+#, kde-format
+msgid "Drag or Type Emoticon Theme URL"
+msgstr "Tarraing nó Clóscríobh URL an Téama Straoiseog"
+
+#: emoticonslist.cpp:260
+#, kde-format
+msgid "Emoticon themes must be installed from local files."
+msgstr "Ní mór duit téamaí straoiseog a shuiteáil ó chomhaid logánta."
+
+#: emoticonslist.cpp:261
+#, kde-format
+msgid "Could Not Install Emoticon Theme"
+msgstr "Ní Féidir Téama Straoiseog a Shuiteáil"
+
+#: emoticonslist.cpp:279
+#, kde-format
+msgid "Do you want to remove %1 too?"
+msgstr "An bhfuil fonn ort %1 a bhaint freisin?"
+
+#: emoticonslist.cpp:279
+#, kde-format
+msgid "Delete emoticon"
+msgstr "Scrios straoiseog"
+
+#: emoticonslist.cpp:295
+#, kde-format
+msgid "Add Emoticon"
+msgstr "Cuir Straoiseog Leis"
+
+#: emoticonslist.cpp:319
+#, kde-format
+msgid "Edit Emoticon"
+msgstr "Cuir Straoiseog in Eagar"
+
+#: emoticonslist.cpp:365 emoticonslist.cpp:389
+#, kde-format
+msgid "New Emoticon Theme"
+msgstr "Téama Nua Straoiseog"
+
+#: emoticonslist.cpp:365
+#, kde-format
+msgid "Enter the name of the new emoticon theme:"
+msgstr "Iontráil ainm ar an téama nua straoiseog:"
+
+#: emoticonslist.cpp:371
+#, kde-format
+msgid "%1 theme already exists"
+msgstr "Tá an téama %1 ann cheana"
+
+#: emoticonslist.cpp:389
+#, kde-format
+msgid "Choose the type of emoticon theme to create"
+msgstr "Roghnaigh cineál na straoiseoige le cruthú"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
+#: emoticonslist.ui:14
+#, kde-format
+msgid "Emoticons Manager"
+msgstr "Bainisteoir Straoiseog"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:20
+#, kde-format
+msgid "Modify the selected emoticon icon or text "
+msgstr "Athraigh deilbhín nó téacs na straoiseoige roghnaithe "
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:23
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr ""
+"Cuir an straoiseog roghnaithe in eagar chun a deilbhín nó a téacs a athrú"
+
+#. i18n: ectx: property (text), widget (QPushButton, btEdit)
+#: emoticonslist.ui:26
+#, kde-format
+msgid "Edit..."
+msgstr "Eagar..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:33
+#, kde-format
+msgid "Create a new emoticon"
+msgstr "Cruthaigh straoiseog nua"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:36
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr ""
+"Cruthaigh straoiseog nua trí dheilbhín agus roinnt téacs a thabhairt di"
+
+#. i18n: ectx: property (text), widget (QPushButton, btAdd)
+#: emoticonslist.ui:39
+#, kde-format
+msgid "Add..."
+msgstr "Cuir Leis..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:66
+#, kde-format
+msgid "Get new icon themes from the Internet"
+msgstr "Faigh téamaí nua deilbhíní ón Idirlíon"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:69
+#, kde-format
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the http://www.kde-look.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+"Caithfidh tú a bheith ceangailte leis an Idirlíon chun an gníomh seo a "
+"úsáid. Taispeánfar duit liosta téamaí straoiseog ó http://www.kde-look.org/ "
+"i ndialóg. Cliceáil an cnaipe Suiteáil a bhaineann le téama chun an téama "
+"sin a shuiteáil go logánta."
+
+#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:72
+#, fuzzy, kde-format
+#| msgid "Get New Icon Themes..."
+msgid "Get new Theme"
+msgstr "Faigh Téamaí Nua Deilbhíní..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
+#: emoticonslist.ui:79
+#, kde-format
+msgid "Install a theme archive file you already have locally"
+msgstr "Suiteáil comhad téama atá agat cheana go logánta"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
+#: emoticonslist.ui:82
+#, kde-format
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"Má tá cartlann téama straoiseog agat go logánta, úsáid an cnaipe seo chun é "
+"a dhíphacáil agus a chur ar fáil d'fheidhmchláir KDE"
+
+#. i18n: ectx: property (text), widget (QPushButton, btInstall)
+#: emoticonslist.ui:85
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File"
+msgstr "Suiteáil Comhad Téama..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: emoticonslist.ui:92
+#, kde-format
+msgid "Require spaces around emoticons"
+msgstr "Spásanna de dhíth timpeall straoiseoga"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Remove the selected theme from your disk"
+msgstr "Bain an téama roghnaithe ó do dhiosca"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "Bainfidh sé seo an téama roghnaithe ó do dhiosca."
+
+#. i18n: ectx: property (text), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:105
+#, kde-format
+msgid "Remove Theme"
+msgstr "Bain Téama"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
+#: emoticonslist.ui:125
+#, kde-format
+msgid "Design a new emoticon theme"
+msgstr "Dear téama nua straoiseog"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
+#: emoticonslist.ui:128
+#, kde-format
+msgid ""
+"Start a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"Tosaigh téama nua trí ainm a thabhairt dó. Ansin, úsáid an cnaipe Cuir Leis "
+"ar dheis chun straoiseoga a chur leis an téama seo."
+
+#. i18n: ectx: property (text), widget (QPushButton, btNew)
+#: emoticonslist.ui:131
+#, fuzzy, kde-format
+#| msgid "New Theme..."
+msgid "New Theme"
+msgstr "Téama Nua..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Remove the selected emoticon"
+msgstr "Bain an straoiseog roghnaithe"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:141
+#, kde-format
+msgid "Remove the selected emoticon from your disk"
+msgstr "Bain an straoiseog roghnaithe ó do dhiosca"
+
+#. i18n: ectx: property (text), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:144
+#, kde-format
+msgid "Remove"
+msgstr "Bain"

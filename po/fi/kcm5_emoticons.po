@@ -1,0 +1,260 @@
+# translation of kcm_emoticons.po to Finnish.
+# Copyright © 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdebase package.
+# Teemu Rytilahti <teemu.rytilahti@kde-fi.org>, 2008.
+# Teemu Rytilahti <teemu.rytilahti@d5k.net>, 2008.
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2010.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2011, 2012, 2013, 2014.
+# Tommi Nieminen <translator@legisign.org>, 2016.
+#
+# KDE Finnish translation sprint participants:
+# Author: Artnay
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_emoticons\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-04 03:29+0100\n"
+"PO-Revision-Date: 2016-09-24 16:43+0300\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-12-01 22:22:10+0000\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Teemu Rytilahti, Jorma Karvonen, Tommi Nieminen"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"teemu.rytilahti@kde-fi.org, karvonen.jorma@gmail.com, translator@legisigin."
+"org"
+
+#: emoticonslist.cpp:71
+#, kde-format
+msgid ""
+"Insert the string for the emoticon.  If you want multiple strings, separate "
+"them by spaces."
+msgstr ""
+"Lisää merkkijono hymiölle. Jos haluat useita merkkijonoja, erottele ne "
+"välilyönneillä."
+
+#: emoticonslist.cpp:111
+#, kde-format
+msgid "Emoticons"
+msgstr "Hymiöt"
+
+#: emoticonslist.cpp:255
+#, kde-format
+msgid "Drag or Type Emoticon Theme URL"
+msgstr "Vedä tai kirjoita hymiöteeman verkko-osoite"
+
+#: emoticonslist.cpp:260
+#, kde-format
+msgid "Emoticon themes must be installed from local files."
+msgstr "Hymiöteemoja voidaan asentaa vain paikallisista tiedostoista."
+
+#: emoticonslist.cpp:261
+#, kde-format
+msgid "Could Not Install Emoticon Theme"
+msgstr "Hymiöteemaa ei voitu asentaa"
+
+#: emoticonslist.cpp:279
+#, kde-format
+msgid "Do you want to remove %1 too?"
+msgstr "Haluatko poistaa myös kansion %1?"
+
+#: emoticonslist.cpp:279
+#, kde-format
+msgid "Delete emoticon"
+msgstr "Poista hymiö"
+
+#: emoticonslist.cpp:295
+#, kde-format
+msgid "Add Emoticon"
+msgstr "Lisää hymiö"
+
+#: emoticonslist.cpp:319
+#, kde-format
+msgid "Edit Emoticon"
+msgstr "Muokkaa hymiötä"
+
+#: emoticonslist.cpp:365 emoticonslist.cpp:389
+#, kde-format
+msgid "New Emoticon Theme"
+msgstr "Uusi hymiöteema"
+
+#: emoticonslist.cpp:365
+#, kde-format
+msgid "Enter the name of the new emoticon theme:"
+msgstr "Anna uuden hymiöteeman nimi:"
+
+#: emoticonslist.cpp:371
+#, kde-format
+msgid "%1 theme already exists"
+msgstr "%1-niminen teema on jo olemassa"
+
+#: emoticonslist.cpp:389
+#, kde-format
+msgid "Choose the type of emoticon theme to create"
+msgstr "Valitse luotavan hymiöteeman tyyppi"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
+#: emoticonslist.ui:14
+#, kde-format
+msgid "Emoticons Manager"
+msgstr "Hymiöteemojen hallintapaneeli"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:20
+#, kde-format
+msgid "Modify the selected emoticon icon or text "
+msgstr "Muuta valitun hymiön kuvaketta tai tekstiä"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:23
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr "Muuta valittua hymiötä vaihtamalla sen kuvaketta tai tekstiä"
+
+#. i18n: ectx: property (text), widget (QPushButton, btEdit)
+#: emoticonslist.ui:26
+#, kde-format
+msgid "Edit..."
+msgstr "Muokkaa…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:33
+#, kde-format
+msgid "Create a new emoticon"
+msgstr "Luo uusi hymiö"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:36
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "Luo uusi hymiö antamalla sille kuvake ja teksti"
+
+#. i18n: ectx: property (text), widget (QPushButton, btAdd)
+#: emoticonslist.ui:39
+#, kde-format
+msgid "Add..."
+msgstr "Lisää…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:66
+#, kde-format
+msgid "Get new icon themes from the Internet"
+msgstr "Hae uusia kuvaketeemoja internetistä"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:69
+#, kde-format
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the http://www.kde-look.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+"Käyttääksesi toimintoa sinulla on oltava internetyhteys. Kyselyikkuna "
+"esittää http://www.kde-look.org/-sivustosta saatavilla olevat hymiöteemat. "
+"Voit asentaa teeman napsauttamalla Asenna-painiketta teeman kohdalla."
+
+#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:72
+#, kde-format
+msgid "Get new Theme"
+msgstr "Hae uusi teema"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
+#: emoticonslist.ui:79
+#, kde-format
+msgid "Install a theme archive file you already have locally"
+msgstr "Asenna teemapaketti, joka löytyy koneelta"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
+#: emoticonslist.ui:82
+#, kde-format
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"Jos teemapaketti löytyy valmiiksi koneelta, tämä toiminto asentaa sen "
+"käytettäväksi KDE-ohjelmiin"
+
+#. i18n: ectx: property (text), widget (QPushButton, btInstall)
+#: emoticonslist.ui:85
+#, kde-format
+msgid "Install from File"
+msgstr "Asenna tiedostosta"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: emoticonslist.ui:92
+#, kde-format
+msgid "Require spaces around emoticons"
+msgstr "Vaadi tyhjät välit hymiöiden ympärillä"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Remove the selected theme from your disk"
+msgstr "Poista valittu teema kiintolevyltä"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "Tämä poistaa valitun teeman kiintolevyltä."
+
+#. i18n: ectx: property (text), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:105
+#, kde-format
+msgid "Remove Theme"
+msgstr "Poista teema"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
+#: emoticonslist.ui:125
+#, kde-format
+msgid "Design a new emoticon theme"
+msgstr "Suunnittele uusi hymiöteema"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
+#: emoticonslist.ui:128
+#, kde-format
+msgid ""
+"Start a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"Aloita uusi teema antamalla sille nimi. Käytä sen jälkeen Lisää-painiketta "
+"lisätäksesi hymiötä teemaan."
+
+#. i18n: ectx: property (text), widget (QPushButton, btNew)
+#: emoticonslist.ui:131
+#, kde-format
+msgid "New Theme"
+msgstr "Uusi teema"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Remove the selected emoticon"
+msgstr "Poista valittu hymiö"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:141
+#, kde-format
+msgid "Remove the selected emoticon from your disk"
+msgstr "Poista valittu hymiö kiintolevyltä"
+
+#. i18n: ectx: property (text), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:144
+#, kde-format
+msgid "Remove"
+msgstr "Poista"

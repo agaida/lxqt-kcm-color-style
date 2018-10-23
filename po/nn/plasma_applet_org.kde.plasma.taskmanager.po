@@ -1,0 +1,443 @@
+# Translation of plasma_applet_org.kde.plasma.taskmanager to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2008, 2012, 2015, 2016, 2017, 2018.
+# Eirik U. Birkeland <eirbir@gmail.com>, 2008, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_tasks\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-15 03:43+0200\n"
+"PO-Revision-Date: 2018-01-24 20:02+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "Generelt"
+
+#: package/contents/ui/Badge.qml:48
+#, kde-format
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "–"
+
+#: package/contents/ui/Badge.qml:50
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9 999+"
+
+#: package/contents/ui/ConfigGeneral.qml:58
+#, kde-format
+msgid "Arrangement"
+msgstr "Ordning"
+
+#: package/contents/ui/ConfigGeneral.qml:66
+#, kde-format
+msgid "Maximum columns:"
+msgstr "Maks kolonnar:"
+
+#: package/contents/ui/ConfigGeneral.qml:66
+#, kde-format
+msgid "Maximum rows:"
+msgstr "Maks rader:"
+
+#: package/contents/ui/ConfigGeneral.qml:79
+#, kde-format
+msgid "Always arrange tasks in rows of as many columns"
+msgstr "Ordna alltid oppgåver i rader med så mange kolonnar"
+
+#: package/contents/ui/ConfigGeneral.qml:79
+#, kde-format
+msgid "Always arrange tasks in columns of as many rows"
+msgstr "Ordna alltid oppgåver i kolonnar med så mange rader"
+
+#: package/contents/ui/ConfigGeneral.qml:86
+#, kde-format
+msgid "Icon size:"
+msgstr "Ikonstorleik:"
+
+#: package/contents/ui/ConfigGeneral.qml:91
+#, kde-format
+msgid "Small"
+msgstr "Liten"
+
+#: package/contents/ui/ConfigGeneral.qml:108
+#, kde-format
+msgid "Large"
+msgstr "Stor"
+
+#: package/contents/ui/ConfigGeneral.qml:117
+#, kde-format
+msgid "Behavior"
+msgstr "Åtferd"
+
+#: package/contents/ui/ConfigGeneral.qml:125
+#, kde-format
+msgid "Show tooltips"
+msgstr "Vis hjelpebobler"
+
+#: package/contents/ui/ConfigGeneral.qml:130
+#, kde-format
+msgid "Cycle through tasks with mouse wheel"
+msgstr "Bla gjennom oppgåver med mushjulet"
+
+#: package/contents/ui/ConfigGeneral.qml:135
+#, kde-format
+msgid "Highlight windows"
+msgstr "Framhev vindauge"
+
+#: package/contents/ui/ConfigGeneral.qml:141
+#, kde-format
+msgid "Show progress and status information in task buttons"
+msgstr "Vis framdrifts- og statusinformasjon på oppgåveknappar"
+
+#: package/contents/ui/ConfigGeneral.qml:147
+#, kde-format
+msgid "Mark applications that play audio"
+msgstr "Marker program som kan spela lyd"
+
+#: package/contents/ui/ConfigGeneral.qml:155
+#, kde-format
+msgid "On middle-click:"
+msgstr "Ved midtklikking:"
+
+#: package/contents/ui/ConfigGeneral.qml:162
+#, kde-format
+msgctxt "The click action"
+msgid "None"
+msgstr "Gjer ingenting"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Close Window or Group"
+msgstr "Lukk vindauge/gruppe"
+
+#: package/contents/ui/ConfigGeneral.qml:164
+#, kde-format
+msgid "New Instance"
+msgstr "Ny instans"
+
+#: package/contents/ui/ConfigGeneral.qml:165
+#, kde-format
+msgid "Minimize/Restore Window or Group"
+msgstr "Minimer/gjenopprett vindauge/gruppe"
+
+#: package/contents/ui/ConfigGeneral.qml:166
+#, kde-format
+msgctxt "When clicking it would toggle grouping windows of a specific app"
+msgid "Group/Ungroup"
+msgstr "Grupper/avgrupper"
+
+#: package/contents/ui/ConfigGeneral.qml:176
+#, kde-format
+msgid "Grouping and Sorting"
+msgstr "Gruppering og sortering"
+
+#: package/contents/ui/ConfigGeneral.qml:186
+#, kde-format
+msgid "Sorting:"
+msgstr "Sortering:"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "Do Not Sort"
+msgstr "Ikkje sorter"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "Manually"
+msgstr "Manuell"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "Alphabetically"
+msgstr "Alfabetisk"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "By Desktop"
+msgstr "Etter skrivebord"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "By Activity"
+msgstr "Etter aktivitet"
+
+#: package/contents/ui/ConfigGeneral.qml:201
+#, kde-format
+msgid "Keep launchers separate"
+msgstr "Hald startar skilde"
+
+#: package/contents/ui/ConfigGeneral.qml:209
+#, kde-format
+msgid "Grouping:"
+msgstr "Gruppering:"
+
+#: package/contents/ui/ConfigGeneral.qml:218
+#, kde-format
+msgid "Do Not Group"
+msgstr "Ikkje grupper"
+
+#: package/contents/ui/ConfigGeneral.qml:218
+#, kde-format
+msgid "By Program Name"
+msgstr "Etter programnamn"
+
+#: package/contents/ui/ConfigGeneral.qml:226
+#, kde-format
+msgid "Open groups in popups"
+msgstr "Opna grupper i sprettoppvindauge"
+
+#: package/contents/ui/ConfigGeneral.qml:242
+#, kde-format
+msgid "Only group when the task manager is full"
+msgstr "Lag berre grupper når oppgåvehandsamaren er full"
+
+#: package/contents/ui/ConfigGeneral.qml:254
+#, kde-format
+msgid "Filters"
+msgstr "Filter"
+
+#: package/contents/ui/ConfigGeneral.qml:262
+#, kde-format
+msgid "Show only tasks from the current screen"
+msgstr "Vis berre oppgåver frå gjeldande skjerm"
+
+#: package/contents/ui/ConfigGeneral.qml:267
+#, kde-format
+msgid "Show only tasks from the current desktop"
+msgstr "Vis berre oppgåver frå gjeldande skrivebord"
+
+#: package/contents/ui/ConfigGeneral.qml:272
+#, kde-format
+msgid "Show only tasks from the current activity"
+msgstr "Vis berre oppgåver frå gjeldande aktivitet"
+
+#: package/contents/ui/ConfigGeneral.qml:280
+#, kde-format
+msgid "Show only tasks that are minimized"
+msgstr "Vis berre minimerte oppgåver"
+
+#: package/contents/ui/ContextMenu.qml:146
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Førre spor"
+
+#: package/contents/ui/ContextMenu.qml:160
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Pause"
+
+#: package/contents/ui/ContextMenu.qml:160
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Spel"
+
+#: package/contents/ui/ContextMenu.qml:178
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Neste spor"
+
+#: package/contents/ui/ContextMenu.qml:189
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Stopp"
+
+#: package/contents/ui/ContextMenu.qml:209
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "Avslutt"
+
+#: package/contents/ui/ContextMenu.qml:224
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "Gjenopprett"
+
+#: package/contents/ui/ContextMenu.qml:250
+#, kde-format
+msgid "Mute"
+msgstr "Demp"
+
+#: package/contents/ui/ContextMenu.qml:268
+#, kde-format
+msgid "Move To &Desktop"
+msgstr "Flytt til &skrivebord"
+
+#: package/contents/ui/ContextMenu.qml:290
+#, kde-format
+msgid "Move &To Current Desktop"
+msgstr "Flytt &til dette skrivebordet"
+
+#: package/contents/ui/ContextMenu.qml:299
+#, kde-format
+msgid "&All Desktops"
+msgstr "&Alle skrivebord"
+
+#: package/contents/ui/ContextMenu.qml:313
+#, kde-format
+msgctxt "1 = number of desktop, 2 = desktop name"
+msgid "&%1 %2"
+msgstr "&%1 %2"
+
+#: package/contents/ui/ContextMenu.qml:327
+#, kde-format
+msgid "&New Desktop"
+msgstr "&Nytt skrivebord"
+
+#: package/contents/ui/ContextMenu.qml:346
+#, kde-format
+msgid "Move To &Activity"
+msgstr "Flytt til &aktivitet"
+
+#: package/contents/ui/ContextMenu.qml:367
+#, kde-format
+msgid "Add To Current Activity"
+msgstr "Legg til i gjeldande aktivitet"
+
+#: package/contents/ui/ContextMenu.qml:377
+#, kde-format
+msgid "All Activities"
+msgstr "Alle aktivitetar"
+
+#: package/contents/ui/ContextMenu.qml:438
+#, kde-format
+msgid "Mi&nimize"
+msgstr "Mi&nimer"
+
+#: package/contents/ui/ContextMenu.qml:451
+#, kde-format
+msgid "Ma&ximize"
+msgstr "Ma&ksimer"
+
+#: package/contents/ui/ContextMenu.qml:462
+#, kde-format
+msgid "Start New Instance"
+msgstr "Start ny instans"
+
+#: package/contents/ui/ContextMenu.qml:481
+#, kde-format
+msgctxt ""
+"Toggle action for showing a launcher button while the application is not "
+"running"
+msgid "&Pin"
+msgstr "&Fest"
+
+#: package/contents/ui/ContextMenu.qml:495
+#, kde-format
+msgid "&Pin"
+msgstr "&Fest"
+
+#: package/contents/ui/ContextMenu.qml:547
+#, kde-format
+msgid "On All Activities"
+msgstr "På alle aktivitetar"
+
+#: package/contents/ui/ContextMenu.qml:553
+#, kde-format
+msgid "On The Current Activity"
+msgstr "På gjeldande aktivitet"
+
+#: package/contents/ui/ContextMenu.qml:574
+#, kde-format
+msgctxt "Remove launcher button for application shown while it is not running"
+msgid "Unpin"
+msgstr "Løys"
+
+#: package/contents/ui/ContextMenu.qml:589
+#, kde-format
+msgid "More Actions"
+msgstr "Fleire handlingar"
+
+#: package/contents/ui/ContextMenu.qml:597
+#, kde-format
+msgid "&Move"
+msgstr "&Flytt"
+
+#: package/contents/ui/ContextMenu.qml:606
+#, kde-format
+msgid "Re&size"
+msgstr "&Endra storleik"
+
+#: package/contents/ui/ContextMenu.qml:615
+#, kde-format
+msgid "Keep &Above Others"
+msgstr "Hald &over andre"
+
+#: package/contents/ui/ContextMenu.qml:625
+#, kde-format
+msgid "Keep &Below Others"
+msgstr "Hald &under andre"
+
+#: package/contents/ui/ContextMenu.qml:637
+#, kde-format
+msgid "&Fullscreen"
+msgstr "&Fullskjerm"
+
+#: package/contents/ui/ContextMenu.qml:649
+#, kde-format
+msgid "&Shade"
+msgstr "&Rull opp"
+
+#: package/contents/ui/ContextMenu.qml:664
+#, kde-format
+msgid "Allow this program to be grouped"
+msgstr "Tillat gruppering av programmet"
+
+#: package/contents/ui/ContextMenu.qml:695
+#, kde-format
+msgid "&Close"
+msgstr "&Lukk"
+
+#: package/contents/ui/ToolTipInstance.qml:445
+#, kde-format
+msgid "On %1"
+msgstr "På %1"
+
+#: package/contents/ui/ToolTipInstance.qml:455
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "Tilgjengeleg i alle aktivitetar"
+
+#: package/contents/ui/ToolTipInstance.qml:477
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "Også tilgjengelig på %1"
+
+#: package/contents/ui/ToolTipInstance.qml:481
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "Tilgjengeleg på %1"
+
+#: plugin/backend.cpp:278
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place"
+msgid_plural "%1 more Places"
+msgstr[0] "%1 stad til"
+msgstr[1] "%1 stadar til"
+
+#: plugin/backend.cpp:350
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Gløym nyleg brukte dokument"

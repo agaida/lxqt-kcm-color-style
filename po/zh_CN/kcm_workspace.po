@@ -1,0 +1,78 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2014.
+# Guo Yunhe <guoyunhebrave@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-29 06:32+0200\n"
+"PO-Revision-Date: 2018-08-30 13:15\n"
+"Last-Translator: guoyunhebrave <yunhe.guo@protonmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kde-workspace/kcm_workspace.pot\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: package/contents/ui/main.qml:42
+#, kde-format
+msgid "General Settings"
+msgstr "常规设置"
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "Display informational tooltips on mouse hover"
+msgstr "在鼠标悬停时显示工具提示信息"
+
+#: package/contents/ui/main.qml:54
+#, kde-format
+msgid "Display visual feedback for status changes"
+msgstr "为状态更改显示视觉反馈"
+
+#: package/contents/ui/main.qml:73
+#, kde-format
+msgid "Click Behaviour"
+msgstr "点击行为"
+
+#: package/contents/ui/main.qml:78
+#, kde-format
+msgid "Single-click to open files and folders"
+msgstr "单击打开文件和文件夹"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Double-click to open files and folders (select icons on first click)"
+msgstr "双击打开文件和文件夹 (单击选中图标)"
+
+#: workspaceoptions.cpp:40
+#, kde-format
+msgid "Plasma Workspace global options"
+msgstr "Plasma 工作空间全局选项"
+
+#: workspaceoptions.cpp:42
+#, kde-format
+msgid ""
+"System Settings module for managing global options for the Plasma Workspace."
+msgstr "用于管理 Plasma 工作空间的全局选项的系统设置模块。"
+
+#: workspaceoptions.cpp:45
+#, kde-format
+msgid "Furkan Tokac"
+msgstr "Furkan Tokac"

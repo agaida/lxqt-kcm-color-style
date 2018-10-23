@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % German "INCLUDE">
+]>
+<article id="desktopthemedetails" lang="&language;">
+<articleinfo>
+<title
+>Arbeitsflächen-Design</title>
+<authorgroup>
+<author
+><firstname
+>Andrew</firstname
+> <surname
+>Lake</surname
+></author>
+<othercredit role="translator"
+><firstname
+>Johannes</firstname
+><surname
+>Obermayr</surname
+><affiliation
+><address
+><email
+>johannesobermayr@gmx.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>2018-03-25</date>
+<releaseinfo
+>Plasma 5.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Systemeinstellungen</keyword>
+<keyword
+>Arbeitsfläche</keyword>
+<keyword
+>Design</keyword>
+<keyword
+>Plasma</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>In diesem Dialog wird eine Vorschau der verfügbaren Designs angezeigt. Ein Design kann durch Klicken auf ein Element ausgewählt werden.</para>
+
+<para
+>Mit dem Knopf <guibutton
+>Neue Designs holen</guibutton
+> können weitere Designs aus dem Internet heruntergeladen oder ein Design aus einer Datei geladen werden.</para>
+
+<para
+>Der Knopf <guibutton
+>Entfernen</guibutton
+> ist nur für Designs aktiviert, die vom Benutzer zusätzlich installiert wurden.</para>
+
+<note>
+<para
+>Seit &plasma; 5.6 ist es nicht mehr möglich, einzelne Komponenten oder Elemente in einem Design zu ändern.</para>
+
+<para
+>Es wird empfohlen, das Programm <application
+>Plasma-Designexplorer</application
+> aus dem Paket plasma-SDK für das Überprüfen, Mischen und Testen von Designs zu verwenden.</para>
+
+<para
+>Ist das Paket „plasma-sdk“ auf Ihrem System installiert, dann erscheint ein Knopf bei Überfahren eines Designs mit dem Mauszeiger. Damit können Sie das Programm <application
+>Plasma-Designexplorer</application
+> starten. </para>
+
+<para
+>Weitere technische Informationen finden Sie auf <ulink url="https://techbase.kde.org/Development/Tutorials/Plasma5/ThemeDetails"
+>dieser Seite</ulink
+>.</para>
+</note>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

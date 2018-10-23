@@ -1,0 +1,93 @@
+# Translation of kcmnotify.po to Brazilian Portuguese
+# Copyright (C) 2014 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2014.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2017-09-14 16:22-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "André Marcelo Alvarenga"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alvarenga@kde.org"
+
+#: knotify.cpp:57
+#, kde-format
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>Notificações do sistema</h1>O Plasma permite o controle de como você "
+"será notificado quando ocorrerem determinados eventos. Há diversas opções de "
+"como o usuário pode ser notificado:<ul><li>Como o aplicativo foi "
+"originalmente projetado.</li><li>Com um bipe ou outro som.</li><li>Por meio "
+"de uma caixa de diálogo de contexto com informações adicionais.</li><li>Pela "
+"gravação do evento em um arquivo de registro sem nenhum alerta visual ou de "
+"som.</li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "Origem do evento:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr "Desabilitar os sons para todos estes eventos"
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "Módulo do painel de controle de notificações do sistema"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "(c) 2002-2006 Equipe do KDE"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "Implementação original"

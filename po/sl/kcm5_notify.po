@@ -1,0 +1,99 @@
+# Translation of kcmnotify.po to Slovenian
+# KCMNOTIFY translation to Slovenian language
+# Copyright (C) 2000, 2003, 2005 Free Software Foundation, Inc.
+# $Id: kcm5_notify.po 1508433 2018-01-12 03:42:53Z scripty $
+# $Source$
+#
+# Roman Maurer <roman.maurer@amis.net>, 2000.
+# Gregor Rakar <gregor.rakar@kiss.si>, 2003, 2005.
+# Jure Repinc <jlp@holodeck1.com>, 2007.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2016, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnotify\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-09 07:18+0200\n"
+"PO-Revision-Date: 2018-01-11 20:50+0100\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roman Maurer,Gregor Rakar,Jure Repinc,Andrej Mernik"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"roman.maurer@amis.net,gregor.rakar@kiss.si,jlp@holodeck1.com,andrejm@ubuntu."
+"si"
+
+#: knotify.cpp:57
+#, kde-format
+msgid ""
+"<h1>System Notifications</h1>Plasma allows for a great deal of control over "
+"how you will be notified when certain events occur. There are several "
+"choices as to how you are notified:<ul><li>As the application was originally "
+"designed.</li><li>With a beep or other noise.</li><li>Via a popup dialog box "
+"with additional information.</li><li>By recording the event in a logfile "
+"without any additional visual or audible alert.</li></ul>"
+msgstr ""
+"<h1>Sistemska obvestila</h1>Plasma dovoljuje precej nadzora nad tem, kako "
+"boste obveščeni ob določenih dogodkih. Obstaja nekaj možnosti o tem, kako "
+"ste obveščeni:<ul><li>kot je bil program prvotno zasnovan.</li><li>s piskom "
+"ali drugim zvokom.</li><li>s pogovornim oknom z dodatnimi podrobnostmi.</"
+"li><li>z beleženjem dogodka v datoteko z dnevnikom brez vsakršnih dodatnih "
+"vidnih ali zvočnih opozoril.</li></ul>"
+
+#: knotify.cpp:71
+#, kde-format
+msgid "Event source:"
+msgstr "Vir dogodka:"
+
+#: knotify.cpp:92
+#, kde-format
+msgid "Disable sounds for all of these events"
+msgstr "Onemogoči zvoke za vse te dogodke"
+
+#: knotify.cpp:101
+#, kde-format
+msgid "KNotify"
+msgstr "KNotify"
+
+#: knotify.cpp:102
+#, kde-format
+msgid "System Notification Control Panel Module"
+msgstr "Nadzorni modul za sistemska obvestila"
+
+#: knotify.cpp:103
+#, kde-format
+msgid "(c) 2002-2006 KDE Team"
+msgstr "© 2002-2006 Ekipa KDE"
+
+#: knotify.cpp:105
+#, kde-format
+msgid "Olivier Goffart"
+msgstr "Olivier Goffart"
+
+#: knotify.cpp:106
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: knotify.cpp:107
+#, kde-format
+msgid "Original implementation"
+msgstr "Izvirna izvedba"

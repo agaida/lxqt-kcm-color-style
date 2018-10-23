@@ -1,0 +1,503 @@
+# Translation of plasma_applet_org.kde.plasma.kicker.po to Euskara/Basque (eu)
+# Copyright (C) 2016-2017, Free Software Foundation, Inc.
+# This file is distributed under the same license as the kde-workspace package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.kicker.po\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-06-02 06:36+0200\n"
+"PO-Revision-Date: 2017-10-31 08:11+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "Orokorra"
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Ezabatu gogokoen artetik"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Erantsi gogokoetara"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Jarduera guztietan"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "Uneko jardueran"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "Erakutsi gogokoetan"
+
+#: package/contents/ui/ConfigGeneral.qml:64
+#, kde-format
+msgid "Icon:"
+msgstr "Ikonoa:"
+
+#: package/contents/ui/ConfigGeneral.qml:151
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Hautatu..."
+
+#: package/contents/ui/ConfigGeneral.qml:156
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Berrezarri ikonoa"
+
+#: package/contents/ui/ConfigGeneral.qml:168
+#, kde-format
+msgid "Behavior"
+msgstr "Portaera"
+
+#: package/contents/ui/ConfigGeneral.qml:175
+#, kde-format
+msgid "Show applications as:"
+msgstr "Erakutsi aplikazioak honela:"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Name only"
+msgstr "Izena soilik"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Description only"
+msgstr "Deskribapena soilik"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Name (Description)"
+msgstr "Izena (deskribapena)"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Description (Name)"
+msgstr "Deskribapena (Izena)"
+
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Flatten menu to a single level"
+msgstr "Lautu menua maila bakarrera"
+
+#: package/contents/ui/ConfigGeneral.qml:198
+#, kde-format
+msgid "Sort alphabetically"
+msgstr "Sailkatu alfabetikoki"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, kde-format
+msgid "Categories"
+msgstr "Kategoriak"
+
+#: package/contents/ui/ConfigGeneral.qml:213
+#, kde-format
+msgid "Show:"
+msgstr "Erakutsi:"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgid "Recently used"
+msgstr "Berriki erabilia"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgid "Often used"
+msgstr "Maiz erabilia"
+
+#: package/contents/ui/ConfigGeneral.qml:229
+#, kde-format
+msgid "Show recent applications"
+msgstr "Erakutsi berriki erabilitako aplikazioak"
+
+#: package/contents/ui/ConfigGeneral.qml:230
+#, kde-format
+msgid "Show often used applications"
+msgstr "Erakutsi maiz erabilitako aplikazioak"
+
+#: package/contents/ui/ConfigGeneral.qml:237
+#, kde-format
+msgid "Show recent documents"
+msgstr "Erakutsi berriki erabilitako dokumentuak"
+
+#: package/contents/ui/ConfigGeneral.qml:238
+#, kde-format
+msgid "Show often used documents"
+msgstr "Erakutsi maiz erabilitako dokumentuak"
+
+#: package/contents/ui/ConfigGeneral.qml:245
+#, kde-format
+msgid "Show recent contacts"
+msgstr "Erakutsi berriki erabilitako kontaktuak"
+
+#: package/contents/ui/ConfigGeneral.qml:246
+#, kde-format
+msgid "Show often used contacts"
+msgstr "Erakutsi maiz erabilitako kontaktuak"
+
+#: package/contents/ui/ConfigGeneral.qml:254
+#, kde-format
+msgid "Search"
+msgstr "Bilatu"
+
+#: package/contents/ui/ConfigGeneral.qml:262
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr ""
+"Zabaldu bilaketa laster-marketara, fitxategietara eta posta-elektronikoetara"
+
+#: package/contents/ui/ConfigGeneral.qml:270
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "Lerrokatu bilaketa emaitzak behean"
+
+#: package/contents/ui/DashboardRepresentation.qml:301
+#, kde-format
+msgid "Searching for '%1'"
+msgstr "'%1' bilatzen"
+
+#: package/contents/ui/DashboardRepresentation.qml:301
+#, kde-format
+msgid "Type to search."
+msgstr "Idatzi bilatu beharrekoa."
+
+#: package/contents/ui/DashboardRepresentation.qml:392
+#: plugin/kastatsfavoritesmodel.cpp:495 plugin/simplefavoritesmodel.cpp:43
+#, kde-format
+msgid "Favorites"
+msgstr "Gogokoak"
+
+#: package/contents/ui/DashboardRepresentation.qml:609
+#: package/contents/ui/DashboardTabBar.qml:53
+#, kde-format
+msgid "Widgets"
+msgstr "Trepetak"
+
+#: package/contents/ui/DashboardTabBar.qml:43
+#, kde-format
+msgid "Apps & Docs"
+msgstr "Aplikazioak eta Dokumentuak"
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Editatu aplikazioak..."
+
+#: package/contents/ui/MenuRepresentation.qml:319
+#, kde-format
+msgid "Search..."
+msgstr "Bilatu..."
+
+#: plugin/actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "Ireki honekin:"
+
+#: plugin/actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "Propietateak"
+
+#: plugin/actionlist.cpp:149
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Erantsi mahaigainera"
+
+#: plugin/actionlist.cpp:153
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Erantsi panelera (trepeta)"
+
+#: plugin/actionlist.cpp:157
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Iltzatu Ataza Kudeatzailean"
+
+#: plugin/actionlist.cpp:264 plugin/rootmodel.cpp:390
+#, kde-format
+msgid "Recent Documents"
+msgstr "Berriki erabilitako dokumentuak"
+
+#: plugin/actionlist.cpp:276
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Ahaztu berriki erabilitako dokumentuak"
+
+#: plugin/actionlist.cpp:332
+#, kde-format
+msgid "Edit Application..."
+msgstr "Editatu aplikazioa..."
+
+#: plugin/actionlist.cpp:379
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Manage '%1'..."
+msgstr "Kudeatu '%1'..."
+
+#: plugin/appentry.cpp:178
+#, kde-format
+msgid "Hide Application"
+msgstr "Ezkutatu aplikazioa"
+
+#: plugin/appentry.cpp:238
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:240
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
+#: plugin/computermodel.cpp:246 plugin/recentusagemodel.cpp:148
+#: plugin/recentusagemodel.cpp:208
+#, kde-format
+msgid "Applications"
+msgstr "Aplikazioak"
+
+#: plugin/appsmodel.cpp:165
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Azpimenu honetan ezkutatutako aplikazioak erakutsi"
+
+#: plugin/appsmodel.cpp:171
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "'%1': ezkutatutako aplikazioak erakutsi"
+
+#: plugin/computermodel.cpp:104
+#, kde-format
+msgid "Run Command..."
+msgstr "Exekutatu komandoa..."
+
+#: plugin/computermodel.cpp:108
+#, kde-format
+msgid "Run a command or a search query"
+msgstr "Exekutatu komando bat edo bilaketa kontsulta bat"
+
+#: plugin/computermodel.cpp:161
+#, kde-format
+msgid "Computer"
+msgstr "Ordenagailua"
+
+#: plugin/computermodel.cpp:238
+#, kde-format
+msgid "Removable Storage"
+msgstr "Biltegi eramangarria"
+
+#: plugin/computermodel.cpp:240
+#, kde-format
+msgid "Places"
+msgstr "Lekuak"
+
+#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
+#, kde-format
+msgid "Show Contact Information..."
+msgstr "Erakutsi kontaktuaren informazioa..."
+
+#: plugin/recentcontactsmodel.cpp:52
+#, kde-format
+msgid "Contacts"
+msgstr "Kontaktuak"
+
+#: plugin/recentcontactsmodel.cpp:85
+#, kde-format
+msgid "Forget Contact"
+msgstr "Ahaztu kontaktua"
+
+#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "Ahaztu kontaktu guztiak"
+
+#: plugin/recentusagemodel.cpp:146
+#, kde-format
+msgid "Recently Used"
+msgstr "Berriki erabilita"
+
+#: plugin/recentusagemodel.cpp:151 plugin/recentusagemodel.cpp:257
+#, kde-format
+msgid "Documents"
+msgstr "Dokumentuak"
+
+#: plugin/recentusagemodel.cpp:226
+#, kde-format
+msgid "Forget Application"
+msgstr "Ahaztu aplikazioa"
+
+#: plugin/recentusagemodel.cpp:269
+#, kde-format
+msgid "Forget Document"
+msgstr "Ahaztu dokumentua"
+
+#: plugin/recentusagemodel.cpp:397
+#, kde-format
+msgid "Forget All"
+msgstr "Ahaztu guztiak"
+
+#: plugin/recentusagemodel.cpp:399
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Ahaztu aplikazio guztiak"
+
+#: plugin/recentusagemodel.cpp:402
+#, kde-format
+msgid "Forget All Documents"
+msgstr "Ahaztu dokumentu guztiak"
+
+#: plugin/rootmodel.cpp:106
+#, kde-format
+msgid "Hide %1"
+msgstr "Ezkutatu %1"
+
+#: plugin/rootmodel.cpp:376
+#, kde-format
+msgid "All Applications"
+msgstr "Aplikazio guztiak"
+
+#: plugin/rootmodel.cpp:382
+#, kde-format
+msgid "Recent Contacts"
+msgstr "Berriki erabilitako kontaktuak"
+
+#: plugin/rootmodel.cpp:391
+#, kde-format
+msgid "Often Used Documents"
+msgstr "Maiz erabilitako dokumentuak"
+
+#: plugin/rootmodel.cpp:401
+#, kde-format
+msgid "Recent Applications"
+msgstr "Berriki erabilitako aplikazioak"
+
+#: plugin/rootmodel.cpp:402
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Maiz erabilitako aplikazioak"
+
+#: plugin/rootmodel.cpp:416
+#, kde-format
+msgid "Power / Session"
+msgstr "Energia / Saioa"
+
+#: plugin/runnermodel.cpp:238
+#, kde-format
+msgid "Search results"
+msgstr "Bilatu emaitzak"
+
+#: plugin/systementry.cpp:168
+#, kde-format
+msgid "Lock"
+msgstr "Giltzatu"
+
+#: plugin/systementry.cpp:171
+#, kde-format
+msgid "Logout"
+msgstr "Itxi saioa"
+
+#: plugin/systementry.cpp:174 plugin/systementry.cpp:242
+#, kde-format
+msgid "Save Session"
+msgstr "Gorde saioa"
+
+#: plugin/systementry.cpp:177
+#, kde-format
+msgid "Switch User"
+msgstr "Aldatu erabiltzailea"
+
+#: plugin/systementry.cpp:180
+#, kde-format
+msgid "Suspend"
+msgstr "Eseki"
+
+#: plugin/systementry.cpp:183
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernatu"
+
+#: plugin/systementry.cpp:186
+#, kde-format
+msgid "Reboot"
+msgstr "Berrabiarazi"
+
+#: plugin/systementry.cpp:189
+#, kde-format
+msgid "Shut Down"
+msgstr "Itzali"
+
+#: plugin/systementry.cpp:202 plugin/systementry.cpp:205
+#: plugin/systementry.cpp:208 plugin/systementry.cpp:211
+#, kde-format
+msgid "Session"
+msgstr "Saioa"
+
+#: plugin/systementry.cpp:214 plugin/systementry.cpp:217
+#: plugin/systementry.cpp:220 plugin/systementry.cpp:223
+#, kde-format
+msgid "System"
+msgstr "Sistema"
+
+#: plugin/systementry.cpp:236
+#, kde-format
+msgid "Lock screen"
+msgstr "Pantaila giltzatu"
+
+#: plugin/systementry.cpp:239
+#, kde-format
+msgid "End session"
+msgstr "Amaitu saioa"
+
+#: plugin/systementry.cpp:245
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Hasi saio paralelo bat erabiltzaile desberdin gisa"
+
+#: plugin/systementry.cpp:248
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Eseki RAMera"
+
+#: plugin/systementry.cpp:251
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Eseki diskora"
+
+#: plugin/systementry.cpp:254
+#, kde-format
+msgid "Restart computer"
+msgstr "Berrabiarazi ordenagailua"
+
+#: plugin/systementry.cpp:257
+#, kde-format
+msgid "Turn off computer"
+msgstr "Itzali ordenagailua"
+
+#: plugin/systemmodel.cpp:75
+#, kde-format
+msgid "System actions"
+msgstr "Sistemaren ekintzak"

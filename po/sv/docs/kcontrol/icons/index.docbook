@@ -1,0 +1,472 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % addindex "IGNORE">
+<!ENTITY % Swedish "INCLUDE"
+> <!-- change language only here -->
+]>
+
+<article id="icons" lang="&language;">
+<articleinfo>
+<title
+>Ikoner</title>
+<authorgroup>
+<author
+>&Mike.McBride; &Mike.McBride.mail;</author>
+<author
+>&Jost.Schenck; &Jost.Schenck.mail;</author>
+<author
+>&Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;</author>
+<othercredit role="translator"
+> <firstname
+>Stefan</firstname
+> <surname
+>Asserhäll</surname
+> <affiliation
+><address
+><email
+>stefan.asserhall@bredband.net</email
+></address
+></affiliation
+> <contrib
+>Översättare</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>2017-11-07</date>
+<releaseinfo
+>Plasma 5.11</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Kcontrol</keyword>
+<keyword
+>ikon</keyword>
+</keywordset>
+</articleinfo>
+<sect1 id="kcm_icons">
+<title
+>Ikoner</title>
+
+<sect2 id="icons-intro">
+<title
+>Inledning</title>
+
+<para
+>&plasma; levereras med en full uppsättning ikoner i flera olika storlekar. Ikonerna används överallt i &plasma;: skrivbord, panel, filhanteraren &dolphin;, i varje verktygsrad i varje &plasma;-program, etc. Modulen Ikoner ger dig ett mycket flexibelt sätt att anpassa hur &plasma; hanterar ikoner. </para>
+
+<para>
+<screenshot>
+<screeninfo
+>Här är en skärmbild av ikontemahanteringen</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="main.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Anpassa &plasma;:s ikoner</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+
+<para
+>I den här modulen kan du:</para>
+<itemizedlist>
+<listitem
+><para
+>Installera och välj ikonteman</para
+></listitem>
+<listitem
+><para
+>välja olika ikonstorlekar</para
+></listitem>
+<listitem
+><para
+>tilldela effekter till ikoner (till exempel göra dem halvgenomskinliga eller färga dem) </para
+></listitem>
+<listitem
+><para
+>anpassa de här inställningarna för varje plats där ikoner används, t.ex. skrivbordet, verktygsrader, etc. </para
+></listitem>
+</itemizedlist>
+
+<important
+><para
+>Observera att vissa av de här inställningarna kan bero på det valda ikontemat. &plasma; levereras normalt med flera ikonteman, Oxygen, Monokrom och Breeze.</para
+></important>
+
+<para
+>Det finns två sidor i modulen: <guilabel
+>Tema</guilabel
+> och <guilabel
+>Avancerat</guilabel
+>. <guilabel
+>Tema</guilabel
+> hanterar ikonteman, medan <guilabel
+>Avancerat</guilabel
+> låter dig anpassa hur ikoner används i &plasma;.</para>
+</sect2>
+
+<sect2 id="icon-theme">
+<title
+>Tema</title>
+
+<para
+>Längst upp visas en förhandsgranskning av det nuvarande temats ikoner. De flesta normala installationer har bara ett ikontema tillgängligt, &plasma;:s förvalda tema Breeze. Du kan också ladda ner flera via Internet från <ulink url="https://store.kde.org/"
+>https://store.kde.org/</ulink
+>.</para>
+
+<variablelist>
+<varlistentry
+><term
+><guilabel
+>Hämta nya teman...</guilabel
+></term>
+<listitem>
+<para
+>Du måste vara ansluten till Internet för att använda det. Att klicka på knappen visar en dialogruta där du kan välja ett nytt ikontema. Att klicka på <guibutton
+>Installera</guibutton
+> i dialogrutan installerar det valda ikontemat, och efter du stängt installationsrutan är det nya temat omedelbart tillgängligt. </para>
+<para>
+<screenshot>
+<screeninfo
+>Hämta nya ikonteman</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="get-new-theme.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Hämta nya ikonteman</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+</listitem>
+</varlistentry>
+<varlistentry
+><term
+><guilabel
+>Installera temafil...</guilabel
+></term>
+<listitem>
+<para
+>Om du laddade ner nya teman från Internet, kan du använda det här för att bläddra till platsen för nya nerladdade teman. Att klicka på knappen ger dig en liten dialogruta för att peka på ikontemats komprimerade arkiv som du har på hårddisken.</para>
+<para>
+<screenshot>
+<screeninfo
+>Installera ett nytt ikontema</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="install-theme.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Installera ett nytt ikontema</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Att klicka på <guibutton
+>Ok</guibutton
+> i dialogrutan installerar temat du pekade på och gör det tillgängligt i temalistan. </para>
+</listitem>
+</varlistentry>
+<varlistentry
+><term
+><guilabel
+>Ta bort tema</guilabel
+></term>
+<listitem>
+<para
+>Att klicka på den här knappen tar bort alla filer för temat från datorn. Ett bekräftelsemeddelande visas som frågar dig om du verkligen är säker på att du vill ta bort alla filer för det här temat. </para>
+<para>
+<screenshot>
+<screeninfo
+>Ta bort ett tema</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="delete-theme.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Ta bort ett tema</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Att klicka på <guibutton
+>Ta bort</guibutton
+> tar bort temafiler och att klicka på <guibutton
+>Avbryt</guibutton
+> tar inte bort någonting och avbryter borttagningsåtgärden. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect2>
+
+<sect2 id="icons-use">
+<title
+>Avancerat</title>
+
+<para
+>När du tittar under andra fliken i modulen ikoner, ser du två områden:</para>
+
+<itemizedlist
+> 
+<listitem
+> 
+<para
+>Ett område som heter <guilabel
+>Ikonanvändning</guilabel
+>. Här kan du välja vilken speciellt användning av ikoner som du vill anpassa, till exempel <guilabel
+>Verktygsrad</guilabel
+> eller <guilabel
+>Panel</guilabel
+>. </para
+> 
+<para>
+<screenshot>
+<screeninfo
+>Välja ikoner att anpassa</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="use-of-icons.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Välja ikoner att anpassa</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+</listitem
+> 
+
+<listitem
+> <para
+>Ett område längst upp där du kan se hur ikoner av den valda typen ser ut med de nuvarande inställningarna. Observera att tillståndet för den här förhandsgranskningen också beror på ikontillståndet som valts bland effekterna nedan (bekymra dig inte om det nu, vi förklarar det senare). </para
+> </listitem>
+</itemizedlist>
+
+<para
+>När du vill anpassa ikoner, välj först den ikonanvändning som du vill anpassa. Ändra inställningarna tills du tycker om förhandsvisningen. Välj därefter en annan ikonanvändning och anpassa den. Till sist, när du är nöjd med dina inställningar, klicka på <guibutton
+>Ok</guibutton
+> eller <guibutton
+> Verkställ</guibutton
+> för att låta ändringarna få effekt.</para>
+
+<para
+>Det finns ytterligare två alternativ att ta hänsyn till: <guilabel
+>Storlek</guilabel
+> och <guilabel
+>effekt</guilabel
+>. </para>
+
+<sect3 id="icons-use-size">
+<title
+>Ikonstorlek</title>
+
+<para>
+<screenshot>
+<screeninfo
+>Ställa in ikonstorlekar</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="size.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Ställa in ikonstorlekar</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+
+<para
+>Du kan välja i en lista med ikonstorlekar. De största ikonstorlekarna är särskilt användbara för människor med nedsatt syn.</para>
+
+<para
+>Vilka storlekar som erbjuds av listan med ikonstorlekar beror på ikontemat som du har valt under Tema. Det färgfattiga temat erbjuder till exempel bara storlekarna 16 och 32 för skrivbordsikoner och 16, 22 och 32 för verktygsradsikoner. Det färgrika temat erbjuder storlekarna 16, 32 och 48 samt storlekar från 64 till 128. Men eftersom &plasma; inte kan ha alla dessa ikonstorlekar lagrade, automatgenereras storlekar från 64 till 128, vilket kan leda till kvalitetsförluster.</para>
+
+<para
+>Du kan också välja animerade ikoner. Många av ikonerna har tillhörande animeringar. Markera kryssrutan med beteckningen <guilabel
+>Aktivera ikonanimeringar</guilabel
+> för att aktivera effekten, men observera att det kan se långsamt eller ryckigt ut med ett gammalt grafikkort eller med lite ledigt minne.</para>
+
+</sect3>
+
+<sect3 id="icons-use-effects">
+<title
+>Effekter</title>
+<para>
+<screenshot>
+<screeninfo
+>Ställa in ikoneffekter</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="effects.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Ställa in ikoneffekter</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+
+<para
+>Till sist kan du anpassa vissa <quote
+>filter</quote
+> som används för ikoner, som befinner sig i ett av tre olika tillstånd:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Förval</guilabel
+></term>
+<listitem
+><para
+>Det här är hur ikonen normalt ser ut.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Aktiv</guilabel
+>:</term>
+<listitem
+><para
+>Det här är hur ikonen ser ut när muspekaren befinner sig över den</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Inaktiverad</guilabel
+>:</term>
+<listitem
+><para
+>Det här är hur ikonen ser ut när dess motsvarande åtgärd är inaktiverad, <abbrev
+>dvs</abbrev
+> att klicka på den inte har någon effekt.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Välj ett av dessa tillstånd, och tryck på knappen <guibutton
+>Ange effekt...</guibutton
+> för att ställa in den motsvarande koneffekte  Observera att den här inställningen påverkar bara ikoner för ikonanvändningen som är vald under <guilabel
+>Ikonanvändning</guilabel
+> (se ovan). Att ställa in en effekt för aktiva ikoner, medan ikonanvändningen <guilabel
+>Verktygsrad </guilabel
+> är vald, kommer <emphasis
+>inte</emphasis
+> påverka aktiva ikoner som används på andra ställen.</para>
+
+<para
+>Under listan med ikontillstånd finns det två alternativ: du kan ställa in en effekt, och du kan välja <guilabel
+>Semitransparent</guilabel
+>, vilket gör att bakgrunden <quote
+>lyser igenom</quote
+> ikonen. Till höger om effektlistrutan finns ett skjutreglage för att ange ytterligare parametrar för ett filter för färger och <guilabel
+>Mängd</guilabel
+>.</para>
+<!-- TODO: Figure out what 'amount' really means -->
+
+<para
+>Följande effekter kan appliceras på ikoner:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Ingen effekt</guilabel
+>:</term>
+<listitem
+><para
+>Ikoner används utan att applicera någon effekt</para
+></listitem
+> 
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Till grå</guilabel
+>:</term>
+<listitem
+><para
+>Det här filtret ger ikonen ett gråaktigt utseende. Klicka på skjutreglaget <guibutton
+>Mängd </guibutton
+> för att ställa in intensiteten av filtret. Observera att det är brukligt att bara använda den här effekten för inaktiva ikoner i de flesta användargränssnitt.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Färglägg</guilabel
+>:</term>
+<listitem
+><para
+>Ikoner färgläggs med din egen färg. Du kan till exempel anpassa aktiva ikoner (dvs. den ikon som muspekaren befinner sig över) att skina med en gyllene färg. Använd färgknapparna och skjutreglaget <guilabel
+>Mängd</guilabel
+> för att ställa in färgen som ska användas och färgmättnaden.</para
+></listitem
+> 
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Gamma</guilabel
+>:</term>
+<listitem
+><para
+>Ett annat gammavärde används för alla ikoner. Om du inte är en fotograf och inte vet vad gammavärden är: det är ganska likt det man kallar kontrast. Lek bara lite med gammainställningarna genom att flytta på skjutreglaget <guibutton
+>Mängd</guibutton
+> för få en känsla för effekten.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Minska färgmättnad</guilabel
+>:</term>
+<listitem
+><para
+>Ikoner ritas med mindre färgmättnad. Det här är ganska likt <quote
+>färginställningen</quote
+> på din TV. Använd skjutreglaget för att ställa in värdet på färgmättnaden. </para
+></listitem
+> 
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Till svartvit:</guilabel
+></term>
+<listitem>
+<para
+>Ikoner ritas genom att bara använda de två valda färgerna.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect3>
+
+</sect2>
+
+</sect1>
+
+</article>

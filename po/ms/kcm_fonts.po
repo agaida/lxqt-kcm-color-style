@@ -1,0 +1,248 @@
+# kcmfonts Bahasa Melayu (Malay) (ms)
+# Copyright (C) K Desktop Environment
+#
+# Muhammad Najmi bin Ahmad Zabidi <md_najmi@yahoo.com>, 2003.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2008, 2010.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-06-20 06:46+0200\n"
+"PO-Revision-Date: 2010-08-21 20:11+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
+"Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: fonts.cpp:278
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Some changes such as anti-aliasing will only affect newly started "
+#| "applications.</p>"
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>Beberapa perubahan seperti anti-alias hanya akan memberi kesan kepada "
+"aplikasi yang baru dimulakan.</p>"
+
+#: fonts.cpp:279 fonts.cpp:289
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "Tetapan Font Diubah"
+
+#: fonts.cpp:288
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>Beberapa perubahan seperti DPI hanya akan memberi kesan kepada aplikasi "
+"yang baru dimulakan.</p>"
+
+#: fonts.cpp:440
+#, fuzzy, kde-format
+#| msgid "Configure..."
+msgid "Configure Fonts"
+msgstr "Tetapkan..."
+
+#: fonts.cpp:442
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor Default"
+msgstr ""
+
+#: kxftconfig.cpp:456
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "Tiada"
+
+#: kxftconfig.cpp:458
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:460
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:462
+#, kde-format
+msgid "Vertical RGB"
+msgstr "RGB Menegak"
+
+#: kxftconfig.cpp:464
+#, kde-format
+msgid "Vertical BGR"
+msgstr "BGR Menegak"
+
+#: kxftconfig.cpp:492
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor Default"
+msgstr ""
+
+#: kxftconfig.cpp:494
+#, fuzzy, kde-format
+#| msgid "Medium"
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Pertengahan"
+
+#: kxftconfig.cpp:496
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "Tiada"
+
+#: kxftconfig.cpp:498
+#, fuzzy, kde-format
+#| msgid "Slight"
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Sedikit"
+
+#: kxftconfig.cpp:500
+#, fuzzy, kde-format
+#| msgid "Full"
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Penuh"
+
+#: package/contents/ui/FontWidget.qml:55
+#, kde-format
+msgid "Choose..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "Fonts"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
+msgid "&Adjust All Fonts..."
+msgstr "Selaraskan Se&mua Font..."
+
+#: package/contents/ui/main.qml:46
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "General"
+msgid "General:"
+msgstr "Umum"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Fixed width"
+msgid "Fixed width:"
+msgstr "Lebar tetap"
+
+#: package/contents/ui/main.qml:56
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Small"
+msgid "Small:"
+msgstr "Kecil"
+
+#: package/contents/ui/main.qml:61
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Toolbar"
+msgid "Toolbar:"
+msgstr "Bar Alatan"
+
+#: package/contents/ui/main.qml:66
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Menu"
+msgid "Menu:"
+msgstr "Menu"
+
+#: package/contents/ui/main.qml:71
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Window title"
+msgid "Window title:"
+msgstr "Tajuk tetingkap"
+
+#: package/contents/ui/main.qml:83
+#, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
+msgid "Use anti-aliasing:"
+msgstr "Guna a&nti-alias:"
+
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
+msgid "Enabled"
+msgstr "Dihidupkan"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Vendor Default"
+msgstr ""
+
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "Dimatikan"
+
+#: package/contents/ui/main.qml:95
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr ""
+
+#: package/contents/ui/main.qml:108 package/contents/ui/main.qml:123
+#, kde-format
+msgid "%1 pt"
+msgstr ""
+
+#: package/contents/ui/main.qml:115
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr " kepada "
+
+#: package/contents/ui/main.qml:136
+#, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
+msgid "Sub-pixel rendering type:"
+msgstr "G&una paparan sub-piksel:"
+
+#: package/contents/ui/main.qml:173
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgid "Hinting style:"
+msgstr "Gaya hinting:"
+
+#: package/contents/ui/main.qml:211
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force Fonts DPI:"
+msgstr "Paksa DPI font:"
