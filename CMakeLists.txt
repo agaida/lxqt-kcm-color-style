@@ -153,7 +153,6 @@ configure_file(config-runtime.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-runtime
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
-add_subdirectory(layout-templates)
 
 add_subdirectory(doc)
 add_subdirectory(toolboxes)
