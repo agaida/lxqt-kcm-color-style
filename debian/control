@@ -3,13 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: baloo-kf5-dev (>= 5.15~),
-               breeze-dev (>= 4:5.13~),
+Build-Depends: breeze-dev (>= 4:5.13~),
                cmake (>= 3.0~),
                debhelper (>= 11~),
                extra-cmake-modules (>= 5.45.0~),
-               kded5-dev (>= 5.45.0~),
-               kinit-dev,
                kscreenlocker-dev,
                kwin-dev (>= 4:5.4.0~),
                libappstreamqt-dev,
@@ -19,9 +16,6 @@ Build-Depends: baloo-kf5-dev (>= 5.15~),
                libfreetype6-dev,
                libglib2.0-dev,
                libibus-1.0-dev,
-               libkf5activities-dev (>= 5.45.0~),
-               libkf5activitiesstats-dev (>= 5.45.0~),
-               libkf5attica-dev (>= 5.45.0~),
                libkf5auth-dev (>= 5.45.0~),
                libkf5config-dev (>= 5.45.0~),
                libkf5coreaddons-dev,
@@ -34,27 +28,17 @@ Build-Depends: baloo-kf5-dev (>= 5.15~),
                libkf5i18n-dev (>= 5.45.0~),
                libkf5itemmodels-dev (>= 5.41.0~),
                libkf5kcmutils-dev (>= 5.45.0~),
-               libkf5kdelibs4support-dev (>= 5.45.0~),
-               libkf5kio-dev,
                libkf5newstuff-dev (>= 5.45.0~),
                libkf5notifications-dev (>= 5.45.0~),
                libkf5notifyconfig-dev (>= 5.45.0~),
-               libkf5people-dev (>= 5.45.0~),
-               libkf5plasma-dev (>= 5.45.0~),
-               libkf5runner-dev (>= 5.45.0~),
                libkf5sysguard-dev,
                libkf5wallet-dev (>= 5.45.0~),
                libkf5widgetsaddons-dev,
                libkf5windowsystem-dev,
                libkf5xmlgui-dev,
                libpackagekitqt5-dev,
-               libphonon4qt5-dev (>= 4.6.60),
-               libphonon4qt5experimental-dev,
-               libpulse-dev (>= 0.9.16),
                libqt5svg5-dev (>= 5.10.0~),
                libqt5x11extras5-dev (>= 5.10.0~),
-               libscim-dev,
-               libudev-dev,
                libx11-dev,
                libx11-xcb-dev,
                libxapian-dev,
@@ -79,128 +63,15 @@ Build-Depends: baloo-kf5-dev (>= 5.15~),
                xserver-xorg-input-libinput-dev,
                xserver-xorg-input-synaptics-dev,
                xvfb,
-Standards-Version: 4.1.4
+Standards-Version: 4.2.1
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-desktop
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-desktop
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-desktop.git
 
-Package: kde-config-touchpad
-Depends: plasma-desktop, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
-
-Package: libkfontinst5
-Architecture: any
-Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Tools and widgets for the desktop library
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
- .
- This package is part of the KDE Plasma.
-
-Package: libkfontinstui5
-Architecture: any
-Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Tools and widgets for the desktop library
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
- .
- This package is part of the KDE Plasma.
-
-Package: plasma-desktop
-Architecture: any
-Depends: breeze (>= 4:5.13),
-         kactivitymanagerd (>= 5.13),
-         kde-cli-tools (>= 4:5.13),
-         kded5,
-         kio,
-         oxygen-sounds (>= 4:5.13),
-         plasma-desktop-data (= ${source:Version}),
-         plasma-framework,
-         plasma-integration (>= 5.13),
-         plasma-workspace (>= 4:5.13),
-         polkit-kde-agent-1 (>= 4:5.13),
-         qml-module-org-kde-draganddrop,
-         qml-module-org-kde-kcoreaddons,
-         qml-module-org-kde-kquickcontrols,
-         qml-module-org-kde-kquickcontrolsaddons,
-         qml-module-org-kde-kwindowsystem,
-         qml-module-org-kde-solid,
-         qml-module-qt-labs-folderlistmodel,
-         qml-module-qt-labs-settings,
-         ${misc:Depends},
-         ${shlibs:Depends},
-Recommends: bluedevil (>= 4:5.13),
-            breeze-gtk-theme (>= 5.13),
-            fonts-hack,
-            fonts-noto,
-            kde-config-gtk-style (>= 4:5.13),
-            kde-config-screenlocker (>= 5.13),
-            kde-config-sddm (>= 4:5.13),
-            kde-style-oxygen-qt5 (>= 4:5.13),
-            kgamma5 (>= 5.13),
-            khelpcenter,
-            khotkeys (>= 4:5.13),
-            kinfocenter (>= 4:5.13),
-            kio-extras,
-            kmenuedit (>= 4:5.13),
-            kscreen (>= 4:5.13),
-            ksshaskpass (>= 4:5.13),
-            ksysguard (>= 4:5.13),
-            kwin-x11 (>= 4:5.13) | kwin,
-            kwrited (>= 4:5.13),
-            libpam-kwallet5 (>= 5.13),
-            plasma-discover (>= 5.13),
-            plasma-pa (>= 4:5.13),
-            powerdevil (>= 4:5.13),
-            sni-qt,
-            systemsettings (>= 4:5.13),
-            user-manager (>= 4:5.13),
-Breaks: baloo-kf5 (<< 5.5),
-        kactivities,
-        kde-config-touchpad (<< 4:5),
-        kde-workspace-bin,
-        kde-workspace-data,
-        plasma-widget-kimpanel,
-Replaces: baloo-kf5 (<< 5.5),
-          kactivities,
-          kde-config-touchpad (<< 4:5),
-          kde-workspace-bin,
-          kde-workspace-data,
-          plasma-widget-kimpanel,
-Description: Tools and widgets for the desktop
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
- .
- This package is part of the KDE Plasma.
-
-Package: plasma-desktop-data
+Package: lxqt-kcm-colors-style-data
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: plasma-framework (>> 5.22),
-            plasma-workspace (>= 4:5.13),
-            qml-module-org-kde-activities,
-            qml-module-org-kde-kwindowsystem,
+Recommends: qml-module-org-kde-kwindowsystem,
             qml-module-qtquick-dialogs,
 Breaks: baloo-kf5 (<< 5.5),
         kactivities,
@@ -210,14 +81,9 @@ Breaks: baloo-kf5 (<< 5.5),
         kdeplasma-addons-data (<< 4:5.6~),
         plasma-widget-kimpanel,
         ${kde-l10n:all},
-Replaces: baloo-kf5 (<< 5.5),
-          kactivities,
-          kde-config-touchpad (<< 4:5),
-          kde-workspace-bin,
+Replaces: kde-workspace-bin,
           kde-workspace-data,
           kdeplasma-addons-data (<< 4:5.6~),
-          plasma-widget-kimpanel,
-          ${kde-l10n:all},
 Description: Tools and widgets for the desktop data files
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -231,29 +97,7 @@ Description: Tools and widgets for the desktop data files
  .
  This package contains the data files
 
-Package: plasma-desktop-dev
-Section: devel
-Architecture: any
-Depends: libkfontinst5 (= ${binary:Version}),
-         libkfontinstui5 (= ${binary:Version}),
-         plasma-desktop (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends},
-Breaks: kde-config-touchpad (<< 4:5)
-Replaces: kde-config-touchpad (<< 4:5)
-Description: Tools and widgets for the desktop
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
- .
- This package is part of the KDE Plasma.
-
-
-Package: kcm-color-style
+Package: lxqt-kcm-colors-style
 Architecture: any
 Depends: kde-cli-tools (>= 4:5.13),
          ${misc:Depends},
@@ -265,4 +109,5 @@ Description: Color and Style KCMs
  For usage out of Plasma.
  .
  This package is part of the KDE Plasma.
+
 

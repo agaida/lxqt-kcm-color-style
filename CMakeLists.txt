@@ -155,7 +155,6 @@ add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
 
 add_subdirectory(doc)
-add_subdirectory(toolboxes)
 add_subdirectory(kcms)
 install(FILES org.kde.plasmashell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES plasma-desktop.categories DESTINATION ${KDE_INSTALL_CONFDIR})
