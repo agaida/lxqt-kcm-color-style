@@ -150,7 +150,6 @@ configure_file(config-appstream.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-appst
 configure_file(config-X11.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-X11.h)
 configure_file(config-runtime.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-runtime.h)
 
-plasma_install_package(desktoppackage org.kde.plasma.desktop shells shell)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
