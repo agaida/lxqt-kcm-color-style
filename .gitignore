@@ -1,0 +1,11 @@
+debian/*.log
+debian/*.substvars
+debian/debhelper-build-stamp
+debian/files
+
+debian/.debhelper/
+debian/lxqt-kcm-colors-style/
+debian/lxqt-kcm-colors-style-data/
+debian/tmp/
+
+obj-x86_64-linux-gnu/
