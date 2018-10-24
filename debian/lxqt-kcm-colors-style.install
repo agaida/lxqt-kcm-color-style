@@ -1,0 +1,6 @@
+etc/xdg/colorschemes.knsrc
+
+usr/bin/kcolorschemeeditor
+usr/share/applications
+usr/lib/x86_64-linux-gnu/qt5/plugins/kcm_colors.so
+usr/lib/x86_64-linux-gnu/qt5/plugins/kcm_style.so

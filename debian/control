@@ -1,8 +1,7 @@
-Source: plasma-desktop
-Section: kde
+Source: lxqt-kcm-colors-style
+Section: lxqt
 Priority: optional
-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Maximiliano Curia <maxy@debian.org>
+Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: breeze-dev (>= 4:5.13~),
                cmake (>= 3.0~),
                debhelper (>= 11~),
@@ -64,50 +63,36 @@ Build-Depends: breeze-dev (>= 4:5.13~),
                xserver-xorg-input-synaptics-dev,
                xvfb,
 Standards-Version: 4.2.1
-Homepage: https://projects.kde.org/projects/kde/workspace/plasma-desktop
-Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-desktop
-Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-desktop.git
+Homepage: https://github.com/agaida/lxqt-kcm-colors-style
+Vcs-Browser: https://github.com/agaida/lxqt-kcm-colors-style
+Vcs-Git: https://github.com/agaida/lxqt-kcm-colors-style
+
+
+Package: lxqt-kcm-colors-style
+Architecture: any
+Depends: kde-cli-tools (>= 4:5.13),
+         ${misc:Depends}, 
+         ${shlibs:Depends}   
+Breaks: plasma-desktop, plasma-desktop-data
+Replaces: plasma-desktop,    
+          plasma-desktop-data    
+Description: Color and Style KCMs
+ For usage out of Plasma.
+ .
+ This package is part of the LXQt.
+
 
 Package: lxqt-kcm-colors-style-data
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: qml-module-org-kde-kwindowsystem,
             qml-module-qtquick-dialogs,
-Breaks: baloo-kf5 (<< 5.5),
-        kactivities,
-        kde-config-touchpad (<< 4:5),
-        kde-workspace-bin,
-        kde-workspace-data,
-        kdeplasma-addons-data (<< 4:5.6~),
-        plasma-widget-kimpanel,
-        ${kde-l10n:all},
-Replaces: kde-workspace-bin,
-          kde-workspace-data,
-          kdeplasma-addons-data (<< 4:5.6~),
+Breaks:  kdeplasma-addons-data (<< 4:5.6~),
+Replaces: kdeplasma-addons-data (<< 4:5.6~),
 Description: Tools and widgets for the desktop data files
- Plasma Desktop offers a beautiful looking desktop
- that takes complete advantage of modern computing technology.
- Through the use of visual effects and scalable graphics,
- the desktop experience is not only smooth but also pleasant
- to the eye. The looks of Plasma Desktop not only provide beauty,
- they are also used to support and improve your computer
- activities effectively, without being distracting.
- .
- This package is part of the KDE Plasma.
- .
- This package contains the data files
-
-Package: lxqt-kcm-colors-style
-Architecture: any
-Depends: kde-cli-tools (>= 4:5.13),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: plasma-desktop, plasma-desktop-data
-Replaces: plasma-desktop, 
-          plasma-desktop-data
-Description: Color and Style KCMs
  For usage out of Plasma.
  .
- This package is part of the KDE Plasma.
-
+ This package is part of the LXQt.
+ .
+ This package contains the data files
 
